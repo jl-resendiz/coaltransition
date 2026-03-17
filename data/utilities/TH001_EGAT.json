@@ -1,0 +1,499 @@
+{
+  "id": "TH001",
+  "name": "EGAT",
+  "full_name": "Electricity Generating Authority of Thailand",
+  "country_code": "TH",
+  "last_updated": "2026-01-14",
+
+  "identification": {
+    "ownership": "State-owned",
+    "ownership_details": "100% Thai Government via Ministry of Finance",
+    "listed": false,
+    "stock_ticker": null,
+    "website": "https://www.egat.co.th",
+    "fiscal_year_end": "December 31"
+  },
+
+  "capacity": {
+    "reporting_date": "2024-12-31",
+    "total_mw": 16235,
+    "by_fuel": {
+      "coal": {
+        "value_mw": 2220,
+        "notes": "Mae Moh lignite complex - Units 4-7 replacement (655 MW), Unit 14 (600 MW), Units 8-13 (~965 MW operating)",
+        "source": "EGAT Annual Report 2024"
+      },
+      "gas": {
+        "value_mw": 9552,
+        "notes": "Combined cycle 8,400 MW (Bang Pakong CC, South Bangkok, North Bangkok, Chana) + conventional gas thermal (Bang Pakong Units 3-4) 1,152 MW = 9,552 MW",
+        "source": "EGAT Statistical Data Oct 2025"
+      },
+      "oil": {
+        "value_mw": 319,
+        "notes": "Diesel 4 MW + Krabi heavy fuel oil 315 MW = 319 MW",
+        "source": "EGAT Statistical Data Oct 2025"
+      },
+      "hydro": {
+        "value_mw": 2972,
+        "notes": "Large hydroelectric including Bhumibol (779 MW), Srinagarind (720 MW), Sirikit (500 MW)",
+        "source": "EGAT Annual Report 2024"
+      },
+      "solar": {
+        "value_mw": 79,
+        "notes": "Includes Sirindhorn (45 MW) and Ubolratana (24 MW) floating solar",
+        "source": "EGAT Annual Report 2024"
+      },
+      "wind": {
+        "value_mw": 27,
+        "source": "EGAT Annual Report 2024"
+      },
+      "pumped_storage": {
+        "value_mw": 1000,
+        "notes": "Lam Ta Khong - Thailand's only pumped storage facility",
+        "source": "EGAT Annual Report 2024"
+      },
+      "small_hydro": {
+        "value_mw": 66,
+        "source": "EGAT Annual Report 2024"
+      },
+      "geothermal": {
+        "value_mw": 0,
+        "source": "EGAT Annual Report 2024"
+      },
+      "other_re": {
+        "value_mw": 0,
+        "source": "EGAT Annual Report 2024"
+      }
+    },
+    "ipp_coal_exposure": {
+      "blcp_mw": 1434,
+      "blcp_note": "Map Ta Phut BLCP - 50% Banpu, 50% EGCO - PPA ~25 years from 1997",
+      "gheco_one_mw": 660,
+      "gheco_one_note": "Supercritical coal - GPSC/Glow - PPA to ~2033",
+      "total_ipp_coal_mw": 2094
+    },
+    "total_coal_exposure_mw": 4314,
+    "total_coal_exposure_note": "EGAT-owned (2,220 MW) + IPP PPAs (2,094 MW)",
+    "re_share_pct": 25.1,
+    "re_share_notes": "Renewables 4,144 MW of 16,235 MW total (hydro + small hydro + solar + wind + pumped storage)",
+    "capacity_type": "gross",
+    "source": "EGAT Annual Report 2024"
+  },
+
+  "generation": {
+    "reporting_year": "FY2024",
+    "total_gwh": 66745,
+    "own_generation_gwh": 66745,
+    "system_total_gwh": 196335,
+    "system_total_notes": "Total EGAT system dispatch including purchases from IPPs (18,159 MW), SPPs (8,979 MW), and imports (6,205 MW). System total capacity: 49,578 MW. Previous value of 196,335 GWh was system total, misattributed as EGAT own generation.",
+    "by_fuel": {
+      "coal_gwh": 14600,
+      "coal_pct": 21.9,
+      "gas_gwh": 44600,
+      "gas_pct": 66.8,
+      "renewables_gwh": 4700,
+      "renewables_pct": 7.0,
+      "other_gwh": 2845,
+      "other_pct": 4.3,
+      "notes": "Estimated own-generation breakdown based on EGAT capacity (16,235 MW) and fuel-specific capacity factors. Coal: Mae Moh 2,220 MW x 0.75 CF. Gas: 9,552 MW x 0.53 CF. Renewables: hydro + pumped + solar + wind at seasonal CFs."
+    },
+    "peak_demand_mw": 36700,
+    "peak_demand_date": "2024-04-29",
+    "peak_demand_note": "Thailand system all-time record",
+    "source": "EGAT Statistical Data Oct 2025; EGAT Sustainability Report 2024"
+  },
+
+  "financial": {
+    "reporting_year": "FY2024",
+    "currency": "THB",
+    "fx_to_usd": 34.5,
+    "income_statement": {
+      "revenue": {
+        "value_local": 719648,
+        "value_usd": 20859,
+        "unit": "millions",
+        "source": "EGAT Annual Report 2024"
+      },
+      "ebitda": {
+        "value_local": 145938,
+        "value_usd": 4230,
+        "unit": "millions",
+        "notes": "Estimated: EBIT + D&A",
+        "source": "EGAT Annual Report 2024"
+      },
+      "ebit": {
+        "value_local": 90462,
+        "value_usd": 2622,
+        "unit": "millions",
+        "source": "EGAT Annual Report 2024"
+      },
+      "interest_expense": {
+        "value_local": 46950,
+        "value_usd": 1361,
+        "unit": "millions",
+        "source": "EGAT Annual Report 2024"
+      },
+      "net_income": {
+        "value_local": 49611,
+        "value_usd": 1438,
+        "unit": "millions",
+        "source": "EGAT Annual Report 2024"
+      }
+    },
+    "balance_sheet": {
+      "total_assets": {
+        "value_local": 1357645,
+        "value_usd": 39352,
+        "unit": "millions",
+        "source": "EGAT Annual Report 2024"
+      },
+      "total_debt": {
+        "value_local": 276000,
+        "value_usd": 8000,
+        "unit": "millions",
+        "notes": "Total interest-bearing debt (estimated)",
+        "source": "EGAT Annual Report 2024"
+      },
+      "total_equity": {
+        "value_local": 594323,
+        "value_usd": 17228,
+        "unit": "millions",
+        "source": "EGAT Annual Report 2024"
+      },
+      "current_assets": {
+        "value_local": 317961,
+        "value_usd": 9216,
+        "unit": "millions",
+        "source": "EGAT Annual Report 2024"
+      },
+      "current_liabilities": {
+        "value_local": 200254,
+        "value_usd": 5804,
+        "unit": "millions",
+        "source": "EGAT Annual Report 2024"
+      }
+    },
+    "cash_flow": {
+      "operating_cash_flow": {
+        "value_local": 160824,
+        "value_usd": 4662,
+        "unit": "millions",
+        "source": "EGAT Annual Report 2024"
+      },
+      "capex": {
+        "value_local": 28867,
+        "value_usd": 837,
+        "unit": "millions",
+        "source": "EGAT Annual Report 2024"
+      }
+    },
+    "credit_rating": {
+      "rating": "BBB+",
+      "agency": "Fitch",
+      "outlook": "Stable",
+      "date": "2023-01-30",
+      "notes": "Equivalent to Thailand sovereign rating; Moody's Baa1",
+      "source": "Fitch Ratings"
+    },
+    "market_cap": {
+      "value_local": null,
+      "value_usd": null,
+      "notes": "Not listed - state enterprise",
+      "source": ""
+    }
+  },
+
+  "emissions": {
+    "reporting_year": 2024,
+    "scope1": {
+      "value_tco2": 34875864,
+      "value_mtco2": 34.88,
+      "notes": "Total Scope 1 per ISO 14064-1:2018, AR6 GWP: combustion from generation + transportation fleet + lignite mining at Mae Moh (fugitive CH4, diesel) + FGD limestone decomposition CO2 + SF6 from HV switchgear. Combustion-only CO2 approximately 33.5 Mt; total including non-CO2 GHGs = 34.88 Mt.",
+      "source": "EGAT Sustainability Report 2024"
+    },
+    "scope2": {
+      "value_tco2": 10000,
+      "value_mtco2": 0.01,
+      "notes": "Indirect emissions from purchased electricity",
+      "source": "EGAT Sustainability Report 2024"
+    },
+    "scope1_2_total": {
+      "value_tco2": 34885460,
+      "value_mtco2": 34.89,
+      "notes": "Scope 1 (34,875,864) + Scope 2 (9,596) = 34,885,460 tCO2e"
+    },
+    "scope3": {
+      "value_tco2": 62000000,
+      "value_mtco2": 62.0,
+      "share_of_total_pct": 65,
+      "notes": "Value chain emissions - approximately 65% of total",
+      "source": "EGAT Sustainability Report 2024"
+    },
+    "total_all_scopes": {
+      "value_tco2": 95800000,
+      "value_mtco2": 95.8
+    },
+    "intensity": {
+      "value_tco2_mwh": 0.523,
+      "value_kgco2_kwh": 0.523,
+      "notes": "Scope 1+2 (34.89 MtCO2e) / own generation (66,745 GWh) = 0.5227 tCO2e/MWh. EGAT's own reported intensity. Previous value of 0.425 was calculated using total system generation (196,335 GWh), not own generation.",
+      "source": "EGAT Sustainability Report 2024"
+    },
+    "intensity_trend": {
+      "direction": "increasing",
+      "notes": "WBA assessment: emissions intensity increased 2017-2022; coal production increased 2020-2022",
+      "source": "World Benchmarking Alliance"
+    },
+    "cdp_score": null,
+    "cdp_status": "Does not report",
+    "cdp_notes": "EGAT does not appear in CDP disclosure database"
+  },
+
+  "transition": {
+    "net_zero": {
+      "target_year": 2050,
+      "scope": "Scope 1 & 2 (Carbon Neutrality)",
+      "all_scopes_year": 2065,
+      "all_scopes_note": "Aligned with Thailand NDC; may be accelerated to 2050 per NDC 3.0",
+      "interim_targets": [
+        {"year": 2030, "target": "30% reduction from 2020 baseline (Scope 1 & 2)", "absolute_mtco2": 10}
+      ],
+      "source": "EGAT Sustainability Report 2024"
+    },
+    "sbti": {
+      "validated": false,
+      "committed": false,
+      "validation_date": null,
+      "target_type": null,
+      "notes": "Targets are NOT science-based validated",
+      "source": "https://sciencebasedtargets.org/companies-taking-action"
+    },
+    "wba_rating": {
+      "act_rating": "2.9E-",
+      "act_note": "Among lowest ratings in utilities sector",
+      "just_transition_score": 0.0,
+      "just_transition_max": 20.0,
+      "trend_score": "Negative (-)",
+      "trend_note": "Performance expected to deteriorate"
+    },
+    "coal_policy": {
+      "no_new_coal": false,
+      "no_new_coal_note": "No formal 'no new coal' commitment documented",
+      "coal_exit_date": 2050,
+      "coal_exit_details": "Mae Moh closure target; retirement schedules extended not accelerated",
+      "retirement_schedule": "Mae Moh Units 9-10 (2025), Units 8/11 (2031 extended), Units 12-13 (2048 extended), full closure 2050",
+      "source": "EGAT press releases, August 2025 decision"
+    },
+    "re_targets": {
+      "target_pct": 30,
+      "target_year": 2027,
+      "target_capacity_gw": null,
+      "floating_solar_target_mw": 2725,
+      "floating_solar_target_year": 2037,
+      "pumped_storage_pipeline_mw": 2160,
+      "source": "EGAT Sustainability Report 2024"
+    },
+    "capex_allocation": {
+      "clean_capex_share_pct": null,
+      "clean_capex_definition": "Not separately disclosed",
+      "notes": "Clean vs fossil CAPEX breakdown not available",
+      "source": ""
+    },
+    "green_finance": {
+      "green_bonds_issued": false,
+      "sustainability_linked_bonds_issued": true,
+      "slb_amount_thb_mn": 2000,
+      "slb_amount_usd_mn": 58,
+      "slb_tenor_years": 5,
+      "slb_date": "2025-09",
+      "slb_note": "Thailand's first state enterprise sustainability-linked bond; <0.3% of total assets",
+      "source": "EGAT press releases"
+    },
+    "strategy": {
+      "name": "Triple S Strategy",
+      "sources_transformation": "Target 51% renewable share by 2037; 2.7 GW floating solar by 2037",
+      "sink_co_creation": "One-million-rai reforestation; CCS target of 8 MtCO2 capture by 2045",
+      "support_mechanisms": "EV infrastructure, RECs issuance, energy efficiency programs"
+    }
+  },
+
+  "coal_plants": {
+    "status": "operating",
+    "notes": "Mae Moh lignite complex - Thailand's single largest CO2 emitter; operations extended to 2050",
+    "plants": [
+      {
+        "name": "Mae Moh Units 4-7 Replacement",
+        "capacity_mw": 655,
+        "fuel": "Lignite",
+        "technology": "Ultra-supercritical",
+        "commissioned": 2019,
+        "age_years": 5,
+        "retirement_date": "2050+",
+        "notes": "Newest units - likely to operate to 2050+"
+      },
+      {
+        "name": "Mae Moh Unit 14",
+        "capacity_mw": 600,
+        "fuel": "Lignite",
+        "technology": "Subcritical",
+        "commissioned": 2019,
+        "age_years": 5,
+        "retirement_date": "Not specified"
+      },
+      {
+        "name": "Mae Moh Units 12-13",
+        "capacity_mw": 600,
+        "fuel": "Lignite",
+        "technology": "Subcritical",
+        "commissioned": 1995,
+        "age_years": 30,
+        "retirement_date": "2048",
+        "notes": "Extended from 2026 in August 2025 decision"
+      },
+      {
+        "name": "Mae Moh Units 8, 11",
+        "capacity_mw": 600,
+        "fuel": "Lignite",
+        "technology": "Subcritical",
+        "commissioned": 1990,
+        "age_years": 35,
+        "retirement_date": "2031",
+        "notes": "Extended from 2025 in August 2025 decision"
+      },
+      {
+        "name": "Mae Moh Units 9-10",
+        "capacity_mw": 600,
+        "fuel": "Lignite",
+        "technology": "Subcritical",
+        "commissioned": 1990,
+        "age_years": 35,
+        "retirement_date": "2025",
+        "notes": "Scheduled for retirement"
+      }
+    ],
+    "mae_moh_mine": {
+      "location": "Lampang Province, Thailand",
+      "production_tons_annual": 13700000,
+      "production_tons_daily": 40000,
+      "site_area_km2": 135,
+      "mine_closure_date": 2051,
+      "plant_closure_date": 2050
+    },
+    "source": "EGAT Annual Report 2024, Global Energy Monitor"
+  },
+
+  "credit_metrics_b5": {
+    "reporting_year": "FY2024",
+    "metrics": {
+      "debt_to_ebitda": {
+        "value": 1.89,
+        "calculation": "276000 / 145938",
+        "threshold": 4.0,
+        "pass_if": "< 4.0x",
+        "pass": true,
+        "assessment": "strong"
+      },
+      "interest_coverage": {
+        "value": 3.11,
+        "calculation": "145938 / 46950",
+        "threshold": 2.5,
+        "pass_if": "> 2.5x",
+        "pass": true,
+        "assessment": "adequate"
+      },
+      "ffo_to_debt_pct": {
+        "value": 58.27,
+        "calculation": "160824 / 276000 * 100",
+        "threshold": 20,
+        "pass_if": "> 20%",
+        "pass": true,
+        "assessment": "strong"
+      },
+      "current_ratio": {
+        "value": 1.59,
+        "calculation": "317961 / 200254",
+        "threshold": 1.0,
+        "pass_if": "> 1.0x",
+        "pass": true,
+        "assessment": "adequate"
+      },
+      "debt_to_capital_pct": {
+        "value": 31.71,
+        "calculation": "276000 / (276000 + 594323) * 100",
+        "threshold": 60,
+        "pass_if": "< 60%",
+        "pass": true,
+        "assessment": "strong"
+      }
+    },
+    "b5_pass_count": 5,
+    "b5_overall_pass": true,
+    "notes": "All 5/5 metrics pass. Strong financial position with low leverage and robust cash flows. Government backing provides implicit guarantee.",
+    "source": "Calculated from EGAT Annual Report 2024"
+  },
+
+  "corporate_structure": {
+    "subsidiaries": [
+      {
+        "name": "RATCH Group",
+        "ownership_pct": 45,
+        "capacity_mw": 10815,
+        "listed": true,
+        "exchange": "SET"
+      },
+      {
+        "name": "EGCO",
+        "ownership_pct": 25.41,
+        "capacity_mw": 7262,
+        "listed": true,
+        "exchange": "SET"
+      }
+    ],
+    "establishment_date": "1969-05-01",
+    "legal_basis": "Electricity Generating Authority of Thailand Act",
+    "supervision": {
+      "policy": "Ministry of Energy",
+      "oversight": "Ministry of Finance"
+    }
+  },
+
+  "data_gaps": [
+    {
+      "field": "clean_capex_pct",
+      "status": "unavailable",
+      "reason": "Clean vs fossil CAPEX breakdown not separately disclosed"
+    },
+    {
+      "field": "cdp_score",
+      "status": "unavailable",
+      "reason": "EGAT does not report to CDP"
+    },
+    {
+      "field": "generation_by_plant",
+      "status": "unavailable",
+      "reason": "Detailed generation breakdown by individual plant not disclosed"
+    }
+  ],
+
+  "data_sources": {
+    "annual_report": "EGAT Annual Report 2024",
+    "sustainability_report": "EGAT Sustainability Report 2024",
+    "other": [
+      "World Benchmarking Alliance - Electric Utilities Benchmark",
+      "Global Energy Monitor - Global Coal Plant Tracker",
+      "Fitch Ratings",
+      "Thailand Ministry of Energy - Power Development Plan"
+    ]
+  },
+
+  "verification_checklist": {
+    "coal_capacity_confirmed": true,
+    "coal_capacity_note": "2,220 MW EGAT-owned + 2,094 MW IPP PPAs = 4,314 MW total exposure",
+    "capacity_sums_verified": true,
+    "financial_same_year": true,
+    "sources_documented": true,
+    "credit_metrics_calculated": true,
+    "sbti_status_verified": true,
+    "sbti_verification_note": "Confirmed NOT in SBTi database as of Jan 2026"
+  }
+}

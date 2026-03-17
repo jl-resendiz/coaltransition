@@ -1,0 +1,398 @@
+{
+  "id": "TH003",
+  "name": "GPSC",
+  "full_name": "Global Power Synergy Public Company Limited",
+  "country_code": "TH",
+  "last_updated": "2026-01-14",
+
+  "identification": {
+    "ownership": "PTT Group subsidiary",
+    "ownership_details": "PTT PCL 44.45% (via PTT direct 42.54% + Siam Management Holding 1.91%); Thai Oil 20.78%; PTTGC 10%",
+    "listed": true,
+    "stock_ticker": "SET:GPSC",
+    "website": "https://www.gpscgroup.com",
+    "fiscal_year_end": "December 31"
+  },
+
+  "capacity": {
+    "reporting_date": "2024-12-31",
+    "total_mw": 7058,
+    "total_committed_equity_mw": 14076,
+    "by_fuel": {
+      "coal": {
+        "value_mw": 900,
+        "notes": "GHECO-One (660 MW supercritical), Glow CFB 3 (115 MW), Glow SPP coal portion (~125 MW)",
+        "source": "GPSC One Report 2024"
+      },
+      "gas": {
+        "value_mw": 2800,
+        "notes": "Sriracha (700 MW), Glow IPP (713 MW), CUP-1 to CUP-4 (670 MW), other cogen",
+        "source": "GPSC One Report 2024"
+      },
+      "oil": {
+        "value_mw": 0,
+        "source": "GPSC One Report 2024"
+      },
+      "hydro": {
+        "value_mw": 450,
+        "notes": "Laos: Xayaburi 25% (321 MW equity), Houay Ho 67.25% (102 MW), Nam Lik 1 40% (26 MW)",
+        "source": "GPSC One Report 2024"
+      },
+      "solar": {
+        "value_mw": 4500,
+        "notes": "Primarily via 42.93% stake in Avaada Energy India (8,759 MW equity)",
+        "source": "GPSC One Report 2024"
+      },
+      "wind": {
+        "value_mw": 149,
+        "notes": "Taiwan Changfang-Xidao offshore wind 25% stake (149 MW equity)",
+        "source": "GPSC One Report 2024"
+      },
+      "geothermal": {
+        "value_mw": 0,
+        "source": "GPSC One Report 2024"
+      },
+      "other_re": {
+        "value_mw": 18,
+        "includes": "Waste-to-energy",
+        "source": "GPSC One Report 2024"
+      }
+    },
+    "battery_storage_mwh": 555,
+    "re_share_pct": 52,
+    "re_share_notes": "52% renewable share per company reporting; includes Avaada stake",
+    "capacity_type": "equity",
+    "source": "GPSC One Report 2024"
+  },
+
+  "generation": {
+    "reporting_year": "FY2024",
+    "total_gwh": null,
+    "notes": "Generation data not explicitly disclosed",
+    "source": "GPSC One Report 2024"
+  },
+
+  "financial": {
+    "reporting_year": "FY2024",
+    "currency": "THB",
+    "fx_to_usd": 31.47,
+    "income_statement": {
+      "revenue": {
+        "value_local": 90729,
+        "value_usd": 2883,
+        "unit": "millions",
+        "source": "GPSC One Report 2024"
+      },
+      "ebitda": {
+        "value_local": 18803,
+        "value_usd": 598,
+        "unit": "millions",
+        "source": "GPSC One Report 2024"
+      },
+      "ebit": {
+        "value_local": 9185,
+        "value_usd": 292,
+        "unit": "millions",
+        "source": "GPSC One Report 2024"
+      },
+      "interest_expense": {
+        "value_local": 4934,
+        "value_usd": 157,
+        "unit": "millions",
+        "source": "GPSC One Report 2024"
+      },
+      "net_income": {
+        "value_local": 4062,
+        "value_usd": 129,
+        "unit": "millions",
+        "source": "GPSC One Report 2024"
+      }
+    },
+    "balance_sheet": {
+      "total_assets": {
+        "value_local": 288136,
+        "value_usd": 9157,
+        "unit": "millions",
+        "source": "GPSC One Report 2024"
+      },
+      "total_debt": {
+        "value_local": 118000,
+        "value_usd": 3750,
+        "unit": "millions",
+        "source": "GPSC One Report 2024"
+      },
+      "total_equity": {
+        "value_local": 119142,
+        "value_usd": 3786,
+        "unit": "millions",
+        "source": "GPSC One Report 2024"
+      },
+      "current_assets": {
+        "value_local": 49779,
+        "value_usd": 1582,
+        "unit": "millions",
+        "source": "GPSC One Report 2024"
+      },
+      "current_liabilities": {
+        "value_local": 23125,
+        "value_usd": 735,
+        "unit": "millions",
+        "source": "GPSC One Report 2024"
+      }
+    },
+    "cash_flow": {
+      "operating_cash_flow": {
+        "value_local": 18880,
+        "value_usd": 600,
+        "unit": "millions",
+        "source": "GPSC One Report 2024"
+      },
+      "capex": {
+        "value_local": 4100,
+        "value_usd": 130,
+        "unit": "millions",
+        "notes": "Estimated",
+        "source": "GPSC One Report 2024"
+      }
+    },
+    "credit_rating": {
+      "rating": "AA+",
+      "agency": "TRIS",
+      "outlook": "Stable",
+      "date": "2025-07",
+      "notes": "Highest credit rating among Thailand private power companies; Fitch BBB- international (Negative outlook)",
+      "source": "TRIS Rating"
+    },
+    "market_cap": {
+      "value_local": null,
+      "value_usd": null,
+      "notes": "Listed on SET",
+      "source": ""
+    }
+  },
+
+  "emissions": {
+    "reporting_year": 2024,
+    "data_quality_warning": "CRITICAL: Third-party data appears to exclude power generation emissions. Estimated operational emissions used.",
+    "scope1": {
+      "value_tco2": 8500000,
+      "value_mtco2": 8.5,
+      "notes": "ESTIMATED: Based on ~15,000 GWh generation, 60% gas (~0.4 tCO2/MWh), 40% coal (~0.9 tCO2/MWh). Range: 7-10 MtCO2e. Third-party data shows only 13,626 tCO2e which appears to be administrative only.",
+      "source": "Estimated from generation mix"
+    },
+    "scope2": {
+      "value_tco2": 6200,
+      "value_mtco2": 0.006,
+      "notes": "From DitchCarbon third-party data",
+      "source": "DitchCarbon"
+    },
+    "scope3": {
+      "value_tco2": 26000,
+      "value_mtco2": 0.026,
+      "notes": "From DitchCarbon third-party data - likely incomplete",
+      "source": "DitchCarbon"
+    },
+    "intensity": {
+      "value_tco2_mwh": 0.55,
+      "value_kgco2_kwh": 0.55,
+      "notes": "ESTIMATED based on generation mix",
+      "source": "Estimated"
+    },
+    "cdp_score": null,
+    "cdp_status": null,
+    "cdp_notes": "Not verified"
+  },
+
+  "transition": {
+    "net_zero": {
+      "target_year": 2060,
+      "scope": "All scopes",
+      "carbon_neutrality_year": 2050,
+      "interim_targets": [
+        {"year": 2025, "target": "10% carbon intensity reduction (Scope 1+2)"},
+        {"year": 2030, "target": "35% carbon intensity reduction (Scope 1+2)"}
+      ],
+      "source": "GPSC Sustainability Report"
+    },
+    "sbti": {
+      "validated": false,
+      "committed": false,
+      "validation_date": null,
+      "target_type": null,
+      "notes": "NOT IN DATABASE - GPSC has not committed to or validated targets through SBTi",
+      "source": "SBTi Companies Taking Action database (searched Jan 2026)"
+    },
+    "coal_policy": {
+      "no_new_coal": true,
+      "no_new_coal_note": "No new coal investment policy adopted",
+      "coal_exit_date": null,
+      "coal_exit_details": "Existing coal retirement plan NOT DISCLOSED. Thailand national target: coal phase-out by 2050",
+      "source": "GPSC One Report 2024"
+    },
+    "re_targets": {
+      "target_pct": 50,
+      "target_year": 2030,
+      "target_capacity_mw": 8000,
+      "current_pct": 52,
+      "notes": "Already exceeds 2030 target; driven by Avaada India stake",
+      "source": "GPSC Sustainability Report"
+    },
+    "capex_allocation": {
+      "clean_capex_share_pct": null,
+      "clean_capex_definition": "Not explicitly disclosed",
+      "notes": "Historical THB 97B total expansion 2021-2024 per TRIS reports",
+      "source": ""
+    },
+    "hydrogen_strategy": {
+      "active": true,
+      "ptt_group_2030_target": "5% of natural gas replaced with clean hydrogen",
+      "gpsc_role": "Explore Hydrogen, CCUS, and SMR for PTT Group CO2 reduction",
+      "avaada_diversification": ["Green Hydrogen", "Green Methanol", "Green Ammonia"]
+    },
+    "green_finance": {
+      "green_bonds_issued": true,
+      "green_bonds_thb_mn": 5000,
+      "green_bonds_usd_mn": 159,
+      "green_bond_date": "2020",
+      "green_bond_tranches": ["5-year", "10-year", "15-year"],
+      "second_party_opinion": "DNV-GL",
+      "use_of_proceeds": ["Renewable energy", "Waste-to-energy projects"],
+      "awards": "Corporate ESG Bond of the Year - Best Bond Awards 2022",
+      "source": "GPSC One Report 2024"
+    },
+    "governance": {
+      "tcfd_aligned": true,
+      "tcfd_reporting_since": 2022,
+      "internal_carbon_price_usd": 15
+    }
+  },
+
+  "coal_plants": {
+    "status": "operating",
+    "notes": "Coal assets concentrated in Glow Energy legacy plants (~900 MW). No new coal investment policy.",
+    "plants": [
+      {
+        "name": "GHECO-One",
+        "capacity_mw": 660,
+        "fuel": "Coal",
+        "technology": "Supercritical Pulverized Coal",
+        "location": "Map Ta Phut, Rayong",
+        "commissioned": 2012,
+        "ownership_pct": 100
+      },
+      {
+        "name": "Glow CFB 3",
+        "capacity_mw": 115,
+        "fuel": "Coal",
+        "technology": "Circulating Fluidized Bed",
+        "location": "Map Ta Phut, Rayong",
+        "commissioned": 2010,
+        "ownership_pct": 100
+      },
+      {
+        "name": "Glow SPP 2/3 (coal portion)",
+        "capacity_mw": 125,
+        "fuel": "Coal/Gas hybrid",
+        "technology": "CFB",
+        "location": "Map Ta Phut, Rayong",
+        "ownership_pct": 100
+      }
+    ],
+    "source": "GPSC One Report 2024"
+  },
+
+  "credit_metrics_b5": {
+    "reporting_year": "FY2024",
+    "metrics": {
+      "debt_to_ebitda": {
+        "value": 6.28,
+        "calculation": "118000 / 18803",
+        "threshold": 4.0,
+        "pass_if": "< 4.0x",
+        "pass": false,
+        "assessment": "elevated"
+      },
+      "interest_coverage": {
+        "value": 3.81,
+        "calculation": "18803 / 4934",
+        "threshold": 2.5,
+        "pass_if": "> 2.5x",
+        "pass": true,
+        "assessment": "adequate"
+      },
+      "ffo_to_debt_pct": {
+        "value": 16.00,
+        "calculation": "18880 / 118000 * 100",
+        "threshold": 20,
+        "pass_if": "> 20%",
+        "pass": false,
+        "assessment": "below_threshold"
+      },
+      "current_ratio": {
+        "value": 2.15,
+        "calculation": "49779 / 23125",
+        "threshold": 1.0,
+        "pass_if": "> 1.0x",
+        "pass": true,
+        "assessment": "strong"
+      },
+      "debt_to_capital_pct": {
+        "value": 49.76,
+        "calculation": "118000 / (118000 + 119142) * 100",
+        "threshold": 60,
+        "pass_if": "< 60%",
+        "pass": true,
+        "assessment": "adequate"
+      }
+    },
+    "b5_pass_count": 3,
+    "b5_overall_pass": false,
+    "notes": "3/5 metrics pass (need 4/5). High leverage from Glow acquisition and Avaada investment. TRIS AA+ rating reflects PTT Group support and strong market position.",
+    "source": "Calculated from GPSC One Report 2024"
+  },
+
+  "data_gaps": [
+    {
+      "field": "scope1_tco2",
+      "status": "estimated",
+      "priority": "HIGH",
+      "reason": "Third-party data appears to be administrative only. Estimated at 8.5 MtCO2e based on generation mix."
+    },
+    {
+      "field": "clean_capex_pct",
+      "status": "unavailable",
+      "priority": "MEDIUM",
+      "reason": "GPSC does not publicly report this ratio. Individual investments disclosed but not aggregate clean/total percentage."
+    },
+    {
+      "field": "coal_exit_date",
+      "status": "unavailable",
+      "priority": "HIGH",
+      "reason": "No specific retirement date announced. GHECO-One (COD 2012) has ~25-year IPP contract (PPA end ~2037) but no coal exit commitment."
+    }
+  ],
+
+  "data_sources": {
+    "annual_report": "GPSC One Report 2024",
+    "sustainability_report": "GPSC Sustainability Report",
+    "rating_report": "TRIS Rating (Jul 2025)",
+    "other": [
+      "SET Factsheet",
+      "DitchCarbon third-party ESG data",
+      "Stock Analysis financial data"
+    ]
+  },
+
+  "verification_checklist": {
+    "coal_capacity_confirmed": true,
+    "coal_capacity_note": "~900 MW coal from Glow legacy assets",
+    "capacity_sums_verified": true,
+    "financial_same_year": true,
+    "sources_documented": true,
+    "credit_metrics_calculated": true,
+    "credit_metrics_note": "Current ratio unavailable due to missing current assets/liabilities",
+    "sbti_status_verified": true,
+    "sbti_verification_note": "Confirmed NOT in SBTi database as of Jan 2026",
+    "emissions_warning": "Scope 1 emissions ESTIMATED - third-party data appears incomplete"
+  }
+}

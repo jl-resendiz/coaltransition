@@ -1,0 +1,343 @@
+{
+  "country_code": "VN",
+  "country_name": "Vietnam",
+  "last_updated": "2026-01-15",
+
+  "carbon_pricing": {
+    "current_price_usd_tco2": 0,
+    "price_low_usd_tco2": 5,
+    "price_high_usd_tco2": 29,
+    "carbon_tax_usd_tco2": null,
+    "ets_price_usd_tco2": 0,
+    "ets_price_projected_usd_tco2": {
+      "2028_low": 5,
+      "2028_high": 15,
+      "2029_low": 8,
+      "2029_high": 25,
+      "2030_low": 11,
+      "2030_high": 29,
+      "world_bank_recommended_2030": 29,
+      "world_bank_recommended_2040": 90
+    },
+    "effective_date": "2025-08-01",
+    "trading_start_expected": "2025-Q4 or 2026-Q1",
+    "first_allowance_allocation": "2025-12-31",
+    "pilot_phase_end": "2028-12-31",
+    "full_ets_operation": "2029",
+    "coverage_pct": 45,
+    "coverage_threshold_tco2e": 3000,
+    "status": "pilot",
+    "scheme_name": "Vietnam ETS Pilot",
+    "covered_sectors": [
+      "thermal_power",
+      "iron_steel",
+      "cement"
+    ],
+    "covered_entities": 150,
+    "facilities_ghg_inventory": 2166,
+    "offset_limit_pct": 30,
+    "offset_eligible_sources": ["CDM", "Japan JCM", "Article 6"],
+    "allowance_allocation": "100_percent_free_through_2028",
+    "banking_permitted": true,
+    "borrowing_permitted": true,
+    "price_floor": null,
+    "price_ceiling": null,
+    "effective_carbon_price_pilot_phase": 0.0,
+    "implicit_carbon_price_coal_tax_usd": 0.50,
+    "environmental_protection_tax_coal": {
+      "rate_vnd_tonne": "15000-30000",
+      "rate_usd_tonne": "0.60-1.20",
+      "implied_usd_tco2": "0.25-0.50",
+      "notes": "Too low to incentivize decarbonization per World Bank/IFC"
+    },
+    "notes": "CRITICAL: Pilot ETS launched June 2025 allocates 100% FREE allowances through 2028, meaning effective carbon price is $0/tCO2e during pilot phase. Thermal power plants explicitly included covering ~150 facilities. Full ETS with auctioning begins 2029. Environmental Protection Tax on coal (~$0.25-0.50/tCO2e) is too low to matter. For B2 calculation: use $0 through 2028.",
+    "source": "ICAP; S&P Global (June 2025); IFC Vietnam CCDR 2022; Law on Environmental Protection 2020 (Article 139); Decree 119/2025/ND-CP; verified January 2026",
+    "verification_confidence": "HIGH",
+    "voluntary_market": {
+      "cdm_projects": 274,
+      "verra_vcs_projects": 43,
+      "gold_standard_projects": 45,
+      "fcpf_forest_credit_price_usd": 5.0,
+      "domestic_credit_price_usd": 5.0
+    },
+    "regulatory_framework": {
+      "law_72_2020": "Environmental Protection Law establishing ETS mandate",
+      "decree_06_2022": "Core GHG emissions and carbon market regulation",
+      "decision_13_2024": "Lists 2,166 facilities for mandatory GHG inventory",
+      "decree_119_2025": "Pilot ETS rules and implementation framework"
+    },
+    "asean_comparison": {
+      "singapore_usd_tco2": 18,
+      "singapore_2026_usd_tco2": 33,
+      "singapore_2030_usd_tco2": "36-60",
+      "indonesia_usd_tco2": 4,
+      "thailand_usd_tco2": 5.60,
+      "malaysia_2026_projected_usd_tco2": "10-34"
+    },
+    "notes": "Pilot ETS launched August 2025 under Decree 119/2025/ND-CP. 100% FREE ALLOCATION during pilot phase (2025-2028) means effective $0 carbon price for EVN. First trading expected late 2025/early 2026. Auctioning begins 2029. For B2 calculation: use $0 for 2025-2028; use $11-29 range for 2030 scenarios. Vietnam middle of ASEAN pack - behind Singapore ($18) and Indonesia ($4) but ahead of Malaysia/Thailand ETS.",
+    "source": "Decree 119/2025/ND-CP; Decision 232/QD-TTg; ICAP; S&P Global; World Bank CCDR Vietnam; JETP RMP"
+  },
+
+  "lcoe_benchmarks": {
+    "solar_pv_utility": {
+      "value_low": 53,
+      "value_high": 105,
+      "value_mid": 79,
+      "projection_2030_low": 29,
+      "projection_2030_high": 52,
+      "unit": "USD/MWh"
+    },
+    "solar_plus_storage": {
+      "value_low": 106,
+      "value_high": 227,
+      "value_mid": 167,
+      "storage_duration_hours": 4,
+      "projection_2030_low": 55,
+      "projection_2030_high": 114,
+      "unit": "USD/MWh"
+    },
+    "onshore_wind": {
+      "value_low": 65,
+      "value_high": 154,
+      "value_mid": 110,
+      "projection_2030_low": 39,
+      "projection_2030_high": 99,
+      "unit": "USD/MWh"
+    },
+    "offshore_wind": {
+      "value_low": 121,
+      "value_high": 218,
+      "value_mid": 170,
+      "projection_2030_low": 85,
+      "projection_2030_high": 139,
+      "unit": "USD/MWh"
+    },
+    "gas_ccgt": {
+      "value_low": 84,
+      "value_high": 104,
+      "value_mid": 94,
+      "projection_2030_low": 84,
+      "projection_2030_high": 102,
+      "unit": "USD/MWh"
+    },
+    "coal": {
+      "value_low": 74,
+      "value_high": 94,
+      "value_mid": 84,
+      "projection_2030_low": 66,
+      "projection_2030_high": 96,
+      "unit": "USD/MWh"
+    },
+    "coal_existing_variable": {
+      "value_low": 50,
+      "value_high": 80,
+      "value_mid": 65,
+      "notes": "Short-run marginal cost of existing coal fleet",
+      "unit": "USD/MWh"
+    },
+    "reporting_year": 2023,
+    "wacc_renewables_pct": 6.0,
+    "wacc_thermal_pct": 7.5,
+    "notes": "LCOE from BloombergNEF Vietnam techno-economic analysis (Oct 2023). Wide ranges reflect project risks, permitting challenges, grid integration costs. Solar+storage at $167/MWh NOT yet competitive with coal at $84/MWh - unlike Indonesia/India.",
+    "source": "BloombergNEF Vietnam Analysis 2023; IRENA Renewable Power Generation Costs 2024; Ember; Wood Mackenzie"
+  },
+
+  "fuel_costs": {
+    "gas_usd_mmbtu": {
+      "jkm_spot": 11.0,
+      "jkm_range_low": 10.5,
+      "jkm_range_high": 14.0,
+      "domestic_historical": 5.5,
+      "as_of_date": "2025-11"
+    },
+    "coal_usd_tonne": {
+      "ici3_indonesia_gar5000": 61.34,
+      "ici2_indonesia_gar5800": 80.55,
+      "indonesian_hba": 97.81,
+      "newcastle_australia": 138.0,
+      "as_of_date": "2026-01"
+    },
+    "domestic_coal_availability": {
+      "annual_production_mt": 39,
+      "imports_2024_mt": 12.6,
+      "imports_2025_target_mt": 14.5,
+      "total_demand_2025_mt": 95,
+      "notes": "Significant supply gap; Vietnam is 5th largest coal importer globally"
+    },
+    "carbon_intensity_gas_tco2_mwh": 0.42,
+    "carbon_intensity_coal_tco2_mwh": 0.95,
+    "source": "JKM (Platts); Indonesia Coal Index; Vinacomin; IPCC; BloombergNEF"
+  },
+
+  "national_targets": {
+    "net_zero_target_year": 2050,
+    "net_zero_status": "conditional",
+    "net_zero_condition": "international_financial_technical_support",
+    "net_zero_legal_basis": "Decision 896/QD-TTg",
+    "re_capacity_target_gw": {
+      "solar_2030_low": 46.5,
+      "solar_2030_high": 73,
+      "onshore_wind_2030_low": 26,
+      "onshore_wind_2030_high": 38,
+      "offshore_wind_2030_low": 0,
+      "offshore_wind_2030_high": 17,
+      "total_re_2030_low": 105,
+      "total_re_2030_high": 163
+    },
+    "re_capacity_target_year": 2030,
+    "re_share_target_pct": 47,
+    "re_share_target_pct_domestic": 32,
+    "re_share_target_type": "generation",
+    "coal_phase_out_year": 2050,
+    "coal_capacity_cap_gw": 31,
+    "new_coal_cutoff": "2030-12-31",
+    "current_re_share_pct": 43,
+    "current_re_share_pct_excl_hydro": 12,
+    "current_re_share_type": "generation",
+    "peak_emissions_year": 2030,
+    "emissions_cap_2030_mtco2": {
+      "low": 170,
+      "high": 190,
+      "baseline_bau": 240
+    },
+    "battery_storage_target_mw": {
+      "low": 10000,
+      "high": 16300,
+      "target_year": 2030
+    },
+    "nuclear_target_gw": {
+      "by_2035": 6.4,
+      "by_2050": 14.0
+    },
+    "ndc_unconditional_pct_below_bau": 15.8,
+    "ndc_conditional_pct_below_bau": 43.5,
+    "notes": "PDP8 revised April 2025 (Decision 768/QD-TTg). 47% RE share (JETP) vs 32% domestic baseline - 15 ppt gap. Net-zero 2050 conditional on international support. No new coal after 2030.",
+    "source": "Power Development Plan 8 (revised April 2025); JETP Resource Mobilization Plan; Decision 896/QD-TTg; Vietnam NDC 2022"
+  },
+
+  "jetp_commitments": {
+    "total_funding_billion_usd": 15.5,
+    "mobilized_usd_billion": 7.0,
+    "disbursed_usd_billion": 0,
+    "disbursement_pct": 0,
+    "projects_identified": 24,
+    "projects_screened": 17,
+    "peak_emissions_year": 2030,
+    "emissions_cap_mtco2": 190,
+    "re_share_pct": 47,
+    "coal_capacity_cap_gw": 30.2,
+    "binding_status": false,
+    "us_withdrawal_date": "2025-03",
+    "us_withdrawal_impact_usd_billion": 3.0,
+    "notes": "Disbursement remains at 0% as of early 2025. US withdrew March 2025 ($3B impact). 24 projects identified but no loans released. Implementation significantly delayed.",
+    "source": "JETP Political Declaration; JETP Resource Mobilization Plan; Climate Action Tracker"
+  },
+
+  "grid_context": {
+    "grid_emission_factor_tco2_mwh": 0.659,
+    "grid_emission_factor_type": "weighted_average",
+    "emission_factor_year": "2023",
+    "emission_factor_trend": {
+      "2021": 0.722,
+      "2022": 0.677,
+      "2023": 0.659,
+      "2024_preliminary": 0.681
+    },
+    "electricity_market_structure": "Single-buyer; EVN controls ~60% generation, 100% transmission, majority distribution",
+    "independent_dispatch": "NSMO (National Power System and Market Operation LLC) established August 2024",
+    "wholesale_market_status": "pilot",
+    "dppa_status": "enabled",
+    "dppa_legal_basis": "Decree 57/2025/ND-CP",
+    "coal_share_generation_pct": 49,
+    "coal_share_generation_pct_peak": 56.5,
+    "coal_share_capacity_pct": 32.5,
+    "hydro_share_generation_pct": 30,
+    "hydro_share_capacity_pct": 28.7,
+    "solar_capacity_gw": 18.8,
+    "wind_capacity_gw": 4.1,
+    "coal_capacity_gw": 26.8,
+    "total_capacity_gw": 82.4,
+    "total_capacity_gw_2025": 90,
+    "total_generation_twh": 307,
+    "peak_demand_gw": 49.5,
+    "reserve_margin_pct": {
+      "north": 3.5,
+      "national": 8
+    },
+    "capacity_date": "2024",
+    "curtailment": {
+      "affected_plants": 220,
+      "overloaded_transmission_points": 20,
+      "curtailment_range_pct_low": 10,
+      "curtailment_range_pct_high": 30,
+      "worst_affected": ["Ninh Thuan", "Binh Thuan"]
+    },
+    "notes": "Grid EF 0.659 tCO2/MWh (2023 official). Coal share peaks at 56.5% in Q1 dry season. Significant RE curtailment 10-30%. Northern region critically low reserve margin (3.5%).",
+    "source": "EVN; MoNRE Dispatch 1726/BDKH-PTCBT; MOIT; Ember"
+  },
+
+  "currency": {
+    "code": "VND",
+    "fx_to_usd": 26085,
+    "fx_source": "State Bank of Vietnam",
+    "fx_date": "2026-01-15",
+    "trading_band_pct": 5
+  },
+
+  "data_quality": {
+    "high_confidence": [
+      "carbon_pricing.current_price_usd_tco2",
+      "carbon_pricing.status",
+      "carbon_pricing.effective_date",
+      "carbon_pricing.regulatory_framework",
+      "national_targets.net_zero_target_year",
+      "grid_context.grid_emission_factor_tco2_mwh",
+      "grid_context.total_capacity_gw",
+      "grid_context.coal_share_generation_pct"
+    ],
+    "medium_confidence": [
+      "carbon_pricing.ets_price_projected_usd_tco2",
+      "lcoe_benchmarks.solar_pv_utility.value_mid",
+      "lcoe_benchmarks.solar_plus_storage.value_mid",
+      "fuel_costs.gas_usd_mmbtu",
+      "fuel_costs.coal_usd_tonne",
+      "jetp_commitments.mobilized_usd_billion"
+    ],
+    "low_confidence": [
+      "carbon_pricing.trading_start_expected",
+      "grid_context.reserve_margin_pct",
+      "lcoe_benchmarks.offshore_wind.value_mid"
+    ],
+    "data_gaps": [
+      "EVN 2024 Annual Report (not yet published)",
+      "JETP disbursement details",
+      "Regional LCOE breakdown"
+    ],
+    "data_resolved": [
+      {
+        "field": "carbon_pricing.current_price_usd_tco2",
+        "value": 0,
+        "resolved_date": "2026-01-15",
+        "notes": "Free allocation during pilot phase = $0 effective price"
+      },
+      {
+        "field": "carbon_pricing.ets_price_projected_usd_tco2",
+        "value": "$5-29/tCO2 by 2030",
+        "resolved_date": "2026-01-15",
+        "notes": "Range from $5-15 (2028) to $11-29 (2030); World Bank recommends $29"
+      },
+      {
+        "field": "carbon_pricing.regulatory_framework",
+        "value": "Complete",
+        "resolved_date": "2026-01-15",
+        "notes": "Law 72/2020, Decree 06/2022, Decision 13/2024, Decree 119/2025"
+      }
+    ],
+    "conflicting_sources": {
+      "grid_emission_factor": "Official 2023 (0.659) lower than commonly cited 0.7-0.8 due to methodology update",
+      "coal_generation_share": "48-50% annual vs 56.5% Q1 seasonal peak",
+      "solar_capacity": "18.8-19.8 GW depending on rooftop accounting"
+    },
+    "notes": "Vietnam ETS in pilot phase with FREE ALLOCATION = $0 effective carbon price for 2025-2028. For B2 calculation: current_price_usd_tco2 = 0 means EVN will PASS B2 (no carbon cost exposure). For 2030 scenario analysis use $11-29 range. Solar+storage LCOE ($167/MWh) significantly higher than coal ($84/MWh) - B3 shows renewables NOT yet competitive unlike Indonesia/India."
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-03-17T15:13:48.365874",
+  "utility_id": "IN007",
+  "utility_name": "NHPC",
+  "country_code": "IN",
+  "benchmarks": {
+    "b1_stranded_asset_risk": {
+      "passed": true,
+      "score": 0.0,
+      "details": {
+        "coal_mw": 0,
+        "at_risk_share_pct": 0
+      },
+      "notes": "No coal capacity",
+      "data_available": true
+    },
+    "b2_carbon_cost_exposure": {
+      "passed": true,
+      "score": 0.0,
+      "details": {
+        "scope1_tco2": 4130.0,
+        "ebitda_usd": 778000000.0,
+        "carbon_price_usd_tco2": 0.0,
+        "cce_low_pct": 0.0,
+        "cce_medium_pct": 0.0,
+        "cce_high_pct": 0.0,
+        "threshold_pct": 20
+      },
+      "notes": "CCE at medium carbon price: 0.0% (threshold: <20%)",
+      "data_available": true
+    },
+    "b3_lcoe_crossover": {
+      "passed": true,
+      "score": 0.0,
+      "details": {
+        "thermal_mw": 0,
+        "displaced_share_pct": 0
+      },
+      "notes": "No thermal capacity",
+      "data_available": true
+    },
+    "b4_transition_alignment": {
+      "passed": true,
+      "score": 1.0,
+      "details": {
+        "sbti_validated": false,
+        "sbti_committed": false,
+        "net_zero_year": null,
+        "re_share_pct": 100.0,
+        "clean_capex_pct": 100.0,
+        "re_target_pct": null
+      },
+      "notes": "Clean CAPEX 100%",
+      "data_available": true
+    },
+    "b5_balance_sheet_stress": {
+      "passed": false,
+      "score": 0.2,
+      "details": {
+        "metrics": {
+          "debt_to_ebitda": 5.98,
+          "interest_coverage": 2.36,
+          "ffo_to_debt_pct": 12.7,
+          "current_ratio": 0.99,
+          "debt_to_capital_pct": 49.9
+        },
+        "checks": {
+          "debt_to_ebitda": false,
+          "interest_coverage": false,
+          "ffo_to_debt": false,
+          "current_ratio": false,
+          "debt_to_capital": true
+        },
+        "metrics_available": 5,
+        "metrics_passed": 1,
+        "metrics_failed": 4,
+        "thresholds": {
+          "debt_to_ebitda": "< 4.0x",
+          "interest_coverage": "> 2.5x",
+          "ffo_to_debt_pct": "> 20%",
+          "current_ratio": "> 1.0x",
+          "debt_to_capital_pct": "< 60%"
+        }
+      },
+      "notes": "1/5 metrics pass (need at least 4/5)",
+      "data_available": true
+    }
+  },
+  "summary": {
+    "pass_count": 4,
+    "tier": "Medium-high",
+    "benchmarks_passed": [
+      "B1",
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "benchmarks_failed": [
+      "B5"
+    ]
+  }
+}

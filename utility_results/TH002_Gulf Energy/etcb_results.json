@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-03-17T15:13:48.380920",
+  "utility_id": "TH002",
+  "utility_name": "Gulf Energy",
+  "country_code": "TH",
+  "benchmarks": {
+    "b1_stranded_asset_risk": {
+      "passed": true,
+      "score": 0.0,
+      "details": {
+        "coal_mw": 0,
+        "at_risk_share_pct": 0
+      },
+      "notes": "No coal capacity",
+      "data_available": true
+    },
+    "b2_carbon_cost_exposure": {
+      "passed": true,
+      "score": 0.0,
+      "details": {
+        "scope1_tco2": 13304395.0,
+        "ebitda_usd": 1132000000.0,
+        "carbon_price_usd_tco2": 0.0,
+        "cce_low_pct": 17.6,
+        "cce_medium_pct": 0.0,
+        "cce_high_pct": 88.1,
+        "threshold_pct": 20
+      },
+      "notes": "CCE at medium carbon price: 0.0% (threshold: <20%)",
+      "data_available": true
+    },
+    "b3_lcoe_crossover": {
+      "passed": true,
+      "score": 0.0,
+      "details": {
+        "thermal_mw": 14388.0,
+        "displaced_mw": 0.0,
+        "displaced_share_pct": 0.0,
+        "solar_plus_storage_lcoe": 79.0,
+        "carbon_price_usd_tco2": 0.0,
+        "fuel_analysis": {
+          "gas": {
+            "capacity_mw": 14388.0,
+            "base_cost_usd_mwh": 35.0,
+            "carbon_cost_usd_mwh": 0.0,
+            "total_cost_usd_mwh": 35.0,
+            "displaced": false
+          }
+        },
+        "threshold_pct": 30
+      },
+      "notes": "Displaced thermal: 0.0% (threshold: <30%)",
+      "data_available": true
+    },
+    "b4_transition_alignment": {
+      "passed": true,
+      "score": 0.75,
+      "details": {
+        "sbti_validated": false,
+        "sbti_committed": false,
+        "net_zero_year": 2050.0,
+        "re_share_pct": 7.0,
+        "clean_capex_pct": 75.0,
+        "re_target_pct": 40.0
+      },
+      "notes": "Net-zero by 2050; Clean CAPEX 75%",
+      "data_available": true
+    },
+    "b5_balance_sheet_stress": {
+      "passed": false,
+      "score": 0.2,
+      "details": {
+        "metrics": {
+          "debt_to_ebitda": 7.9,
+          "interest_coverage": 3.41,
+          "ffo_to_debt_pct": 6.28,
+          "current_ratio": 1.0,
+          "debt_to_capital_pct": 67.21
+        },
+        "checks": {
+          "debt_to_ebitda": false,
+          "interest_coverage": true,
+          "ffo_to_debt": false,
+          "current_ratio": false,
+          "debt_to_capital": false
+        },
+        "metrics_available": 5,
+        "metrics_passed": 1,
+        "metrics_failed": 4,
+        "thresholds": {
+          "debt_to_ebitda": "< 4.0x",
+          "interest_coverage": "> 2.5x",
+          "ffo_to_debt_pct": "> 20%",
+          "current_ratio": "> 1.0x",
+          "debt_to_capital_pct": "< 60%"
+        }
+      },
+      "notes": "1/5 metrics pass (need at least 4/5)",
+      "data_available": true
+    }
+  },
+  "summary": {
+    "pass_count": 4,
+    "tier": "Medium-high",
+    "benchmarks_passed": [
+      "B1",
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "benchmarks_failed": [
+      "B5"
+    ]
+  }
+}

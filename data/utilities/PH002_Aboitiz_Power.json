@@ -1,0 +1,825 @@
+{
+  "id": "PH002",
+  "name": "Aboitiz Power",
+  "full_name": "Aboitiz Power Corporation",
+  "short_name": "AboitizPower",
+  "country_code": "PH",
+  "last_updated": "2026-01-15",
+  "utility_type": "generation_distribution",
+
+  "identification": {
+    "ownership": "Private",
+    "ownership_details": "Aboitiz Equity Ventures 53.09%, JERA Asia 27.57%, Public 19.34%",
+    "ownership_pct_government": 0,
+    "listed": true,
+    "listed_entity": "Aboitiz Power Corporation",
+    "stock_exchange": "Philippine Stock Exchange (PSE)",
+    "stock_ticker": "AP",
+    "parent_ticker": "AEV",
+    "adr_ticker": "ABZPY",
+    "market_cap_usd_million": 5400,
+    "website": "https://aboitizpower.com",
+    "headquarters": "Bonifacio Global City, Taguig City, Metro Manila, Philippines",
+    "ceo": null,
+    "fiscal_year_end": "December 31",
+    "incorporation_date": "1998-02-13",
+    "ipo_date": "2007-07-16",
+    "subsidiaries": [
+      {"name": "Therma Power Inc.", "type": "Generation (Thermal Holding)", "ownership_pct": 100},
+      {"name": "Therma South Inc.", "type": "Generation (Coal)", "ownership_pct": 100, "capacity_mw": 300},
+      {"name": "Therma Visayas Inc.", "type": "Generation (Coal)", "ownership_pct": 80, "capacity_mw": 340},
+      {"name": "GNPower Dinginin Ltd. Co.", "type": "Generation (Coal)", "ownership_pct": 70, "capacity_mw": 1336},
+      {"name": "GNPower Mariveles Energy Center", "type": "Generation (Coal)", "ownership_pct": 78.3, "capacity_mw": 651},
+      {"name": "Pagbilao Energy Corp.", "type": "Generation (Coal IPPA)", "ownership_pct": 100, "capacity_mw": 735},
+      {"name": "SN Aboitiz Power (SNAP)", "type": "Generation (Hydro JV)", "ownership_pct": 50, "capacity_mw": 673},
+      {"name": "Hedcor Inc.", "type": "Generation (Run-of-river Hydro)", "ownership_pct": 100, "capacity_mw": 277},
+      {"name": "AP Renewables Inc.", "type": "Generation (Geothermal)", "ownership_pct": 100, "capacity_mw": 290},
+      {"name": "Aboitiz Renewables Inc. (Cleaneregy)", "type": "RE Holding", "ownership_pct": 100},
+      {"name": "Visayan Electric Company Inc.", "type": "Distribution", "ownership_pct": 55.26},
+      {"name": "Davao Light & Power Co. Inc.", "type": "Distribution", "ownership_pct": 99.93},
+      {"name": "Cotabato Light & Power Co. Inc.", "type": "Distribution", "ownership_pct": 99.94}
+    ],
+    "strategic_partner": {
+      "name": "JERA Co., Inc.",
+      "country": "Japan",
+      "stake_pct": 27.57,
+      "notes": "Largest power company in Japan; strategic partnership for LNG and clean energy"
+    },
+    "credit_ratings": [
+      {
+        "agency": "PhilRatings",
+        "rating": "PRS Aaa",
+        "type": "Issuer and Bond",
+        "outlook": "Stable",
+        "date": "2025-05"
+      }
+    ],
+    "market_share": {
+      "generation_pct": 23.86,
+      "notes": "1st or 2nd largest power producer in Philippines"
+    }
+  },
+
+  "capacity": {
+    "reporting_date": "2024-12-31",
+    "total_mw": 4736,
+    "total_mw_notes": "Net sellable capacity",
+    "total_attributable_mw": 5284,
+    "by_fuel": {
+      "coal": {
+        "value_mw": 3073,
+        "attributable_mw": 3224,
+        "notes": "Includes 8 coal plants; largest is GNPower Dinginin (1,336 MW)",
+        "source": "SEC Form 17-A 2024"
+      },
+      "gas": {
+        "value_mw": 1040,
+        "notes": "Chromite Gas stake (40%) effective January 2025",
+        "source": "SEC Form 17-A 2024"
+      },
+      "oil": {
+        "value_mw": 513,
+        "notes": "Therma Marine and Therma Mobile",
+        "source": "SEC Form 17-A 2024"
+      },
+      "hydro": {
+        "value_mw": 607,
+        "notes": "SNAP JV (337 MW attributable) + Hedcor (277 MW)",
+        "source": "SEC Form 17-A 2024"
+      },
+      "solar": {
+        "value_mw": 252,
+        "under_construction_mw": 221,
+        "pipeline_mw": 1000,
+        "notes": "Cleaneregy brand; 530 MWp total operational solar",
+        "source": "SEC Form 17-A 2024"
+      },
+      "wind": {
+        "value_mw": 0,
+        "pipeline_mw": 325,
+        "notes": "Pangasinan Wind Farm in development",
+        "source": "SEC Form 17-A 2024"
+      },
+      "geothermal": {
+        "value_mw": 290,
+        "nameplate_mw": 692,
+        "notes": "MakBan (231 MW) + Tiwi (59 MW); some of oldest in Philippines (1979)",
+        "source": "SEC Form 17-A 2024"
+      },
+      "battery_storage": {
+        "value_mw": 73,
+        "value_mwh": null,
+        "pipeline_mw": 200,
+        "notes": "Maco BESS (49 MW) + Magat BESS (24 MW via SNAP)",
+        "source": "SEC Form 17-A 2024"
+      }
+    },
+    "re_share_pct": 24.3,
+    "re_share_notes": "Hydro 12.8% + Solar 5.3% + Geothermal 6.1%",
+    "fossil_share_pct": 75.7,
+    "capacity_type": "net_sellable",
+    "source": "Aboitiz Power SEC Form 17-A 2024"
+  },
+
+  "generation": {
+    "reporting_year": 2024,
+    "total_energy_sold_gwh": 36004,
+    "hedcor_generation_gwh": 1077,
+    "by_fuel_gwh": {
+      "disclosure_status": "Not publicly disclosed by fuel type",
+      "estimated_coal_gwh": null,
+      "notes": "Generation breakdown by fuel not available"
+    },
+    "by_segment_gwh": {
+      "distribution_gwh": 8887,
+      "res_retail_gwh": 6090
+    },
+    "segment_earnings_contribution": {
+      "coal_pct": 61,
+      "non_coal_thermal_pct": 21,
+      "renewable_pct": 21,
+      "notes": "Coal contributes 61% of generation segment operating earnings"
+    },
+    "notes": "Fuel-level generation breakdown not publicly disclosed",
+    "source": "Aboitiz Power SEC Form 17-A 2024"
+  },
+
+  "coal_plants": {
+    "status": "operating",
+    "notes": "8 operating coal plants with 3,224 MW attributable capacity. One plant (Mindanao Steag) scheduled for 2027 retirement via ADB ETM. Therma Visayas Unit 3 (150 MW) under construction for 2028 COD. Vietnam Van Phong stake acquired October 2025.",
+    "retirement_methodology": "Where unannounced, using 40-year technical life from commissioning",
+    "plants": [
+      {
+        "name": "GNPower Dinginin Units 1-2",
+        "capacity_mw": 1336,
+        "attributable_mw": 935,
+        "owner": "GNPower Dinginin Ltd. Co.",
+        "ownership_pct": 70,
+        "location": "Mariveles, Bataan",
+        "region": "Luzon",
+        "commissioned": 2022,
+        "technology": "Supercritical",
+        "units": 2,
+        "fuel_source": "Imported coal",
+        "retirement_date": "2062",
+        "retirement_date_basis": "40-year technical life from 2022",
+        "retirement_date_type": "estimated",
+        "stranded_asset_risk": "high",
+        "notes": "Newest and largest coal plant. Commissioned AFTER 2020 moratorium (exempted). Only 2 years old."
+      },
+      {
+        "name": "GNPower Mariveles Units 1-2",
+        "capacity_mw": 651,
+        "attributable_mw": 510,
+        "owner": "GNPower Mariveles Energy Center",
+        "ownership_pct": 78.3,
+        "location": "Mariveles, Bataan",
+        "region": "Luzon",
+        "commissioned": 2013,
+        "technology": "Subcritical",
+        "units": 2,
+        "fuel_source": "Imported coal",
+        "retirement_date": "2053",
+        "retirement_date_basis": "40-year technical life from 2013",
+        "retirement_date_type": "estimated",
+        "stranded_asset_risk": "high",
+        "notes": "11 years old."
+      },
+      {
+        "name": "Pagbilao Units 1-2 (IPPA)",
+        "capacity_mw": 735,
+        "attributable_mw": 735,
+        "owner": "Pagbilao Energy Corp.",
+        "ownership_pct": 100,
+        "location": "Pagbilao, Quezon",
+        "region": "Luzon",
+        "commissioned": 1996,
+        "technology": "Subcritical",
+        "units": 2,
+        "fuel_source": "Imported coal",
+        "retirement_date": "2036",
+        "retirement_date_basis": "40-year technical life from 1996",
+        "retirement_date_type": "estimated",
+        "stranded_asset_risk": "very_high",
+        "notes": "IPPA contract (not owned, contracted). OLDEST coal asset - 28 years old."
+      },
+      {
+        "name": "Pagbilao Unit 3",
+        "capacity_mw": 420,
+        "attributable_mw": 210,
+        "owner": "RP Energy Inc.",
+        "ownership_pct": 50,
+        "location": "Pagbilao, Quezon",
+        "region": "Luzon",
+        "commissioned": 2018,
+        "technology": "Subcritical",
+        "units": 1,
+        "fuel_source": "Imported coal",
+        "retirement_date": "2058",
+        "retirement_date_basis": "40-year technical life from 2018",
+        "retirement_date_type": "estimated",
+        "stranded_asset_risk": "high",
+        "notes": "JV with First Gen. 6 years old."
+      },
+      {
+        "name": "Therma Visayas Units 1-2",
+        "capacity_mw": 340,
+        "attributable_mw": 272,
+        "owner": "Therma Visayas Inc.",
+        "ownership_pct": 80,
+        "location": "Toledo City, Cebu",
+        "region": "Visayas",
+        "commissioned": 2019,
+        "technology": "CFB",
+        "units": 2,
+        "fuel_source": "Domestic coal",
+        "retirement_date": "2059",
+        "retirement_date_basis": "40-year technical life from 2019",
+        "retirement_date_type": "estimated",
+        "stranded_asset_risk": "medium",
+        "notes": "5 years old. Unit 3 (150 MW) under construction for 2028."
+      },
+      {
+        "name": "Therma South Units 1-2",
+        "capacity_mw": 300,
+        "attributable_mw": 300,
+        "owner": "Therma South Inc.",
+        "ownership_pct": 100,
+        "location": "Davao City",
+        "region": "Mindanao",
+        "commissioned": 2015,
+        "technology": "CFB",
+        "units": 2,
+        "fuel_source": "Domestic coal",
+        "retirement_date": "2055",
+        "retirement_date_basis": "40-year technical life from 2015",
+        "retirement_date_type": "estimated",
+        "stranded_asset_risk": "medium",
+        "notes": "9 years old."
+      },
+      {
+        "name": "Cebu Energy Development Corp.",
+        "capacity_mw": 246,
+        "attributable_mw": 65,
+        "owner": "Cebu Private Power Corp.",
+        "ownership_pct": 26.4,
+        "location": "Toledo City, Cebu",
+        "region": "Visayas",
+        "commissioned": 2010,
+        "technology": "CFB",
+        "units": 2,
+        "fuel_source": "Domestic coal",
+        "retirement_date": "2050",
+        "retirement_date_basis": "40-year technical life from 2010",
+        "retirement_date_type": "estimated",
+        "stranded_asset_risk": "medium",
+        "notes": "Minority stake. 14 years old."
+      },
+      {
+        "name": "Mindanao Steag/SteagState Power",
+        "capacity_mw": 232,
+        "attributable_mw": 197,
+        "owner": "SteagState Power Inc.",
+        "ownership_pct": 85,
+        "location": "Villanueva, Misamis Oriental",
+        "region": "Mindanao",
+        "commissioned": 2006,
+        "technology": "Subcritical",
+        "units": 2,
+        "fuel_source": "Imported coal",
+        "retirement_date": "2027",
+        "retirement_date_basis": "ADB Energy Transition Mechanism",
+        "retirement_date_type": "announced",
+        "stranded_asset_risk": "low",
+        "notes": "ONLY plant with announced retirement date. 18 years old. ETM-funded early retirement."
+      }
+    ],
+    "under_construction": [
+      {
+        "name": "Therma Visayas Unit 3",
+        "capacity_mw": 150,
+        "attributable_mw": 120,
+        "status": "Under construction",
+        "expected_cod": "2028",
+        "technology": "CFB",
+        "notes": "NEW coal capacity being added despite RE transition narrative"
+      }
+    ],
+    "international_coal": [
+      {
+        "name": "Vietnam Van Phong",
+        "capacity_mw": 1320,
+        "attributable_mw": 330,
+        "ownership_pct": 25,
+        "location": "Vietnam",
+        "acquisition_date": "2025-10",
+        "acquisition_value_usd": 220000000,
+        "notes": "INTERNATIONAL coal acquisition in 2025 contradicts RE pivot narrative"
+      }
+    ],
+    "b1_calculation": {
+      "total_attributable_coal_mw": 3224,
+      "at_risk_mw": 2292,
+      "at_risk_definition": "Retirement date > 2040 based on 40-year technical life",
+      "at_risk_pct": 71.1,
+      "not_at_risk_mw": 932,
+      "at_risk_plants": [
+        "GNPower Dinginin (935 MW, 2062)",
+        "GNPower Mariveles (510 MW, 2053)",
+        "Pagbilao 3 (210 MW, 2058)",
+        "Therma Visayas (272 MW, 2059)",
+        "Therma South (300 MW, 2055)",
+        "Cebu Energy (65 MW, 2050)"
+      ],
+      "not_at_risk_plants": [
+        "Pagbilao 1-2 (735 MW, 2036)",
+        "Mindanao Steag (197 MW, 2027 - announced ETM retirement)"
+      ],
+      "notes": "71.1% of coal capacity retires after 2040. Only Pagbilao 1-2 (oldest, 1996) and Mindanao Steag (ETM retirement 2027) retire before 2040. Newer plants have 30+ years remaining. FAILS B1 <20% threshold."
+    },
+    "source": "Aboitiz Power SEC Form 17-A 2024; Global Energy Monitor"
+  },
+
+  "emissions": {
+    "reporting_year": 2022,
+    "data_lag_years": 2,
+    "disclosure_status": "Disclosed with 2-year lag",
+    "methodology": "GHG Protocol Corporate Accounting Standard",
+    "boundary": "Operational control",
+    "gases_included": ["CO2", "CH4", "N2O"],
+    "scope1": {
+      "value_tco2": 5409981,
+      "value_mtco2": 5.41,
+      "data_type": "reported",
+      "source": "Aboitiz Power Integrated Report"
+    },
+    "scope2": {
+      "value_tco2": 923470,
+      "value_mtco2": 0.92,
+      "data_type": "reported",
+      "source": "Aboitiz Power Integrated Report"
+    },
+    "scope3": {
+      "value_tco2": 6333450,
+      "value_mtco2": 6.33,
+      "data_type": "reported",
+      "source": "Aboitiz Power Integrated Report"
+    },
+    "intensity": {
+      "value_tco2_mwh": null,
+      "notes": "Not disclosed"
+    },
+    "intensity_trend": {
+      "direction": "worsening",
+      "period": "2017-2022",
+      "reason": "New coal plant commissioning (Therma Visayas 2019, GNPower Dinginin 2022)"
+    },
+    "emissions_targets": {
+      "net_zero_target": null,
+      "interim_targets": null,
+      "notes": "NO emissions reduction targets despite years of statements about presenting a 'net-zero vision'"
+    },
+    "cdp_climate_score": null,
+    "cdp_climate_notes": "CDP participation unconfirmed",
+    "sustainability_reporting": {
+      "standalone_report": true,
+      "integrated_report": true,
+      "tcfd_aligned": true,
+      "tcfd_notes": "First Philippine company to become TCFD supporter",
+      "gri_aligned": null,
+      "scenario_analysis": true,
+      "scenarios_analyzed": ["1.5C", "2C", "BAU"]
+    },
+    "source": "Aboitiz Power Integrated Report 2024"
+  },
+
+  "financial": {
+    "reporting_year": "FY2024",
+    "currency": "PHP",
+    "fx_to_usd": 58.5,
+    "fx_date": "2024-12-31",
+    "income_statement": {
+      "revenue": {
+        "value_local": 197490000000,
+        "value_usd": 3376,
+        "unit": "millions",
+        "yoy_change_pct": -4.6,
+        "notes": "PHP 197.5 billion",
+        "source": "SEC Form 17-A 2024"
+      },
+      "ebitda": {
+        "value_local": 73300000000,
+        "value_usd": 1253,
+        "unit": "millions",
+        "yoy_change_pct": 13.1,
+        "data_type": "reported",
+        "notes": "PHP 73.3 billion",
+        "source": "SEC Form 17-A 2024"
+      },
+      "ebit": {
+        "value_local": 41590000000,
+        "value_usd": 711,
+        "unit": "millions",
+        "yoy_change_pct": 29.7,
+        "notes": "PHP 41.6 billion",
+        "source": "SEC Form 17-A 2024"
+      },
+      "interest_expense": {
+        "value_local": 12000000000,
+        "value_usd": 205,
+        "unit": "millions",
+        "notes": "PHP 12.0 billion",
+        "source": "SEC Form 17-A 2024"
+      },
+      "net_income": {
+        "value_local": 33900000000,
+        "value_usd": 580,
+        "unit": "millions",
+        "yoy_change_pct": 2.4,
+        "notes": "PHP 33.9 billion (attributable to parent)",
+        "source": "SEC Form 17-A 2024"
+      }
+    },
+    "balance_sheet": {
+      "total_assets": {
+        "value_local": 517600000000,
+        "value_usd": 8848,
+        "unit": "millions",
+        "notes": "PHP 517.6 billion",
+        "source": "SEC Form 17-A 2024"
+      },
+      "total_debt": {
+        "value_local": 243200000000,
+        "value_usd": 4157,
+        "unit": "millions",
+        "notes": "PHP 243.2 billion",
+        "source": "SEC Form 17-A 2024"
+      },
+      "total_equity": {
+        "value_local": 205600000000,
+        "value_usd": 3515,
+        "unit": "millions",
+        "notes": "PHP 205.6 billion",
+        "source": "SEC Form 17-A 2024"
+      },
+      "current_assets": {
+        "value_local": 116100000000,
+        "value_usd": 1985,
+        "unit": "millions",
+        "notes": "PHP 116.1 billion",
+        "source": "SEC Form 17-A 2024"
+      },
+      "current_liabilities": {
+        "value_local": 64000000000,
+        "value_usd": 1094,
+        "unit": "millions",
+        "notes": "PHP 64.0 billion",
+        "source": "SEC Form 17-A 2024"
+      },
+      "cash_and_equivalents": {
+        "value_local": 56800000000,
+        "value_usd": 971,
+        "unit": "millions",
+        "notes": "PHP 56.8 billion",
+        "source": "SEC Form 17-A 2024"
+      },
+      "net_debt": {
+        "value_local": 186400000000,
+        "value_usd": 3186,
+        "unit": "millions",
+        "notes": "PHP 186.4 billion",
+        "source": "SEC Form 17-A 2024"
+      }
+    },
+    "cash_flow": {
+      "operating_cash_flow": {
+        "value_local": 46100000000,
+        "value_usd": 788,
+        "unit": "millions",
+        "data_type": "reported",
+        "notes": "PHP 46.1 billion",
+        "source": "SEC Form 17-A 2024"
+      },
+      "capex": {
+        "value_local": 26600000000,
+        "value_usd": 455,
+        "unit": "millions",
+        "budgeted_local": 73000000000,
+        "notes": "PHP 26.6 billion deployed vs PHP 73 billion budgeted - significant underspend",
+        "source": "SEC Form 17-A 2024"
+      },
+      "free_cash_flow": {
+        "value_local": 19500000000,
+        "value_usd": 333,
+        "unit": "millions",
+        "notes": "PHP 19.5 billion",
+        "source": "Calculated"
+      }
+    },
+    "credit_rating": {
+      "rating": "PRS Aaa",
+      "agency": "PhilRatings",
+      "outlook": "Stable",
+      "date": "2025-05",
+      "notes": "Local rating only. No international ratings.",
+      "source": "PhilRatings"
+    }
+  },
+
+  "transition": {
+    "net_zero": {
+      "target_year": null,
+      "scope": null,
+      "status": "None",
+      "announcement_date": null,
+      "detailed_roadmap": false,
+      "paris_aligned": false,
+      "notes": "NO net-zero commitment despite 4+ years of public statements about presenting a 'net-zero vision'. WBA assessment notes lack of targets.",
+      "source": "World Benchmarking Alliance 2024"
+    },
+    "sbti": {
+      "validated": false,
+      "committed": false,
+      "validation_date": null,
+      "target_type": null,
+      "notes": "NO SBTi commitment or engagement.",
+      "source": "SBTi Companies Taking Action database"
+    },
+    "coal_policy": {
+      "no_new_coal": false,
+      "no_new_coal_date": null,
+      "no_new_coal_notes": "ACTIVELY building coal: Therma Visayas Unit 3 (150 MW) under construction for 2028. Acquired 25% stake in Vietnam Van Phong coal (330 MW attributable) in October 2025.",
+      "coal_exit_date": null,
+      "coal_exit_notes": "NO coal exit commitment. Only Mindanao Steag (197 MW) has retirement date (2027 via ADB ETM).",
+      "source": "SEC Form 17-A 2024; news reports"
+    },
+    "re_targets": {
+      "target_pct": 50,
+      "target_year": 2030,
+      "target_type": "capacity_mix",
+      "target_description": "50/50 balance between renewables and thermal by 2030",
+      "announcement_date": "2021",
+      "current_re_share_pct": 24.3,
+      "gap_to_target_pct": 25.7,
+      "required_re_additions_mw": 3200,
+      "annual_pace_required_mw": 640,
+      "current_annual_pace_mw": 512,
+      "on_track": false,
+      "notes": "Target at significant risk - requires 2-3x acceleration. Target is CAPACITY (easier) not GENERATION.",
+      "source": "Aboitiz Power announcements"
+    },
+    "capex_allocation": {
+      "clean_capex_share_pct": 60,
+      "clean_capex_year": 2024,
+      "clean_capex_amount_local": 16000000000,
+      "total_capex_deployed_local": 26600000000,
+      "total_capex_budgeted_local": 73000000000,
+      "budget_execution_rate_pct": 36.4,
+      "fossil_capex_share_pct": 40,
+      "data_type": "disclosed",
+      "notes": "Share of DEPLOYED capex allocated to renewables in FY2024. Budget allocation was 72% of PHP 73B planned capex, but execution rate was 36.4% (PHP 26.6B deployed). Of deployed amount, >60% (~PHP 16B) went to RE. Previous figure of 72% reflected budget aspiration, not actual. Also: $220M Vietnam coal acquisition and $3.3B LNG mega-deal not reflected in CAPEX allocation.",
+      "source": "Aboitiz Power investor presentation 2024; FY2024 annual report"
+    },
+    "emissions_targets": {
+      "absolute_target": null,
+      "intensity_target": null,
+      "notes": "NO specific emissions reduction targets announced",
+      "source": "World Benchmarking Alliance 2024"
+    },
+    "green_finance": {
+      "green_bonds_issued": false,
+      "sustainability_linked_bonds": false,
+      "recent_bond": {
+        "amount_php": 30000000000,
+        "registration_php": 100000000000,
+        "date": "2025-06",
+        "use_of_proceeds": "Refinancing and general corporate purposes"
+      }
+    },
+    "snap_jv": {
+      "partner": "Scatec ASA (formerly SN Power)",
+      "partner_country": "Norway",
+      "ownership_pct": 50,
+      "capacity_mw": 673,
+      "attributable_mw": 337,
+      "assets": "Magat Dam (360 MW), Ambuklao-Binga (245 MW), Maris (8.5 MW), Magat BESS (24 MW)",
+      "notes": "Key RE partnership bringing international standards"
+    },
+    "jera_partnership": {
+      "partner": "JERA Co., Inc.",
+      "stake_pct": 27.57,
+      "acquisition_date": "Various",
+      "notes": "Strategic partnership for LNG and clean energy. JERA is Japan's largest power company.",
+      "lng_mega_deal": {
+        "value_usd": 3300000000,
+        "capacity_mw": 1040,
+        "notes": "Chromite Gas stake - locks in LNG infrastructure for decades"
+      }
+    },
+    "governance": {
+      "tcfd_aligned": true,
+      "tcfd_notes": "First Philippine company to become TCFD supporter",
+      "scenario_analysis": true,
+      "internal_carbon_price_usd": null
+    }
+  },
+
+  "credit_metrics_b5": {
+    "reporting_year": "FY2024",
+    "data_availability": "complete",
+    "metrics": {
+      "debt_to_ebitda": {
+        "value": 3.32,
+        "calculation": "243200000000 / 73300000000",
+        "threshold": 4.0,
+        "pass_if": "< 4.0x",
+        "pass": true,
+        "data_type": "calculated",
+        "notes": "Healthy leverage at 3.3x"
+      },
+      "interest_coverage": {
+        "value": 6.11,
+        "calculation": "73300000000 / 12000000000 (EBITDA / Interest)",
+        "threshold": 2.5,
+        "pass_if": "> 2.5x",
+        "pass": true,
+        "data_type": "calculated",
+        "notes": "Strong interest coverage at 6.1x"
+      },
+      "ffo_to_debt_pct": {
+        "value": 19.0,
+        "calculation": "46100000000 / 243200000000 * 100 (OCF / Total Debt)",
+        "threshold": 20,
+        "pass_if": "> 20%",
+        "pass": false,
+        "data_type": "calculated",
+        "notes": "Marginally below threshold at 19.0%"
+      },
+      "current_ratio": {
+        "value": 1.81,
+        "calculation": "116100000000 / 64000000000",
+        "threshold": 1.0,
+        "pass_if": "> 1.0x",
+        "pass": true,
+        "data_type": "calculated",
+        "notes": "Strong liquidity at 1.8x"
+      },
+      "debt_to_capital_pct": {
+        "value": 54.2,
+        "calculation": "243200000000 / (243200000000 + 205600000000) * 100",
+        "threshold": 60,
+        "pass_if": "< 60%",
+        "pass": true,
+        "data_type": "calculated",
+        "notes": "Below threshold at 54.2%"
+      }
+    },
+    "b5_metrics_available": 5,
+    "b5_metrics_passed": 4,
+    "b5_overall_pass": true,
+    "notes": "4 of 5 metrics pass. FFO/Debt marginally below 20% threshold at 19.0%. Strong overall credit profile - conservative leverage, high interest coverage, good liquidity. B5 PASSES (requires 4/5).",
+    "source": "Aboitiz Power SEC Form 17-A 2024"
+  },
+
+  "carbon_pricing_exposure": {
+    "ets_coverage": false,
+    "carbon_tax_coverage": false,
+    "current_price_usd_tco2": 0,
+    "current_price_note": "Philippines has NO carbon tax or ETS.",
+    "b2_calculation": {
+      "scope1_tco2": 5409981,
+      "carbon_price_usd": 0,
+      "carbon_cost_usd": 0,
+      "ebitda_usd": 1253000000,
+      "cce_pct": 0.0,
+      "threshold_pct": 20,
+      "pass": true,
+      "notes": "At $0 carbon price, CCE = 0%. B2 PASSES despite significant coal exposure."
+    },
+    "sensitivity": {
+      "cce_at_5_usd": 2.2,
+      "cce_at_10_usd": 4.3,
+      "cce_at_15_usd": 6.5,
+      "cce_at_25_usd": 10.8,
+      "cce_at_50_usd": 21.6,
+      "notes": "Aboitiz would fail B2 at carbon price >$46/tCO2. Lower sensitivity than SMC due to higher EBITDA and lower emissions."
+    },
+    "notes": "No carbon price means B2 automatically passes."
+  },
+
+  "esg_ratings": {
+    "sustainalytics": {
+      "esg_risk_rating": null,
+      "management_score": "Strong"
+    },
+    "world_benchmarking_alliance": {
+      "benchmark": "Climate and Energy - Electric Utilities 2024",
+      "act_rating": "4.2D-",
+      "total_score": 19.7,
+      "max_score": 100,
+      "rank": 42,
+      "total_companies": 68,
+      "key_weaknesses": [
+        "Targets score: 0.0 (rank 51/68)",
+        "Business model score: 0.0",
+        "No net-zero commitment",
+        "Strategy not informed by scenario analysis despite conducting it"
+      ]
+    },
+    "ditchcarbon": {
+      "score": 21,
+      "max_score": 100,
+      "percentile": 9,
+      "assessment": "Lower than 91% of industry peers"
+    },
+    "sp_global_csa": {
+      "participant": true,
+      "score": null
+    },
+    "msci": {
+      "rating": null
+    }
+  },
+
+  "data_gaps": [
+    "Generation breakdown by fuel type (GWh) not disclosed",
+    "Emissions intensity (tCO2/MWh) not calculated",
+    "Emissions data 2 years lagged (2022 vs 2024 financials)",
+    "No international credit ratings",
+    "CDP scores not publicly available",
+    "Employee count not disclosed"
+  ],
+
+  "benchmark_assessment": {
+    "b1_stranded_asset_risk": {
+      "result": "FAIL",
+      "score": 0.711,
+      "rationale": "71.1% of attributable coal capacity (2,292 MW) retires after 2040. Only Pagbilao 1-2 (735 MW, 2036) and Mindanao Steag (197 MW, 2027 via ETM) retire before 2040. Newer plants (GNPower Dinginin 2022, Therma Visayas 2019) have 35+ years remaining.",
+      "data_quality": "medium - most retirement dates estimated via 40-year technical life"
+    },
+    "b2_carbon_cost_exposure": {
+      "result": "PASS",
+      "score": 0.0,
+      "rationale": "CCE = (5.4M tCO2 × $0/tCO2) / $1,253M EBITDA = 0%. Philippines has no carbon pricing.",
+      "data_quality": "high - reported Scope 1 emissions"
+    },
+    "b3_lcoe_crossover": {
+      "result": "PASS",
+      "score": 0.0,
+      "rationale": "At $0 carbon price, coal remains cost-competitive with renewables in Philippines. No thermal capacity displacement.",
+      "data_quality": "high - uses country LCOE data"
+    },
+    "b4_transition_alignment": {
+      "result": "PASS",
+      "score": 0.72,
+      "rationale": "Clean CAPEX 72% > 50% threshold. However, concerns: No net-zero target, no SBTi, actively building coal (TV Unit 3), acquired Vietnam coal stake (2025). WBA ACT Rating 4.2D- with targets score of 0.",
+      "data_quality": "high - disclosed CAPEX allocation"
+    },
+    "b5_balance_sheet_stress": {
+      "result": "PASS",
+      "score": 0.8,
+      "rationale": "4/5 metrics pass. Debt/EBITDA 3.3x (PASS), Interest Coverage 6.1x (PASS), FFO/Debt 19.0% (FAIL marginally), Current Ratio 1.8x (PASS), Debt/Capital 54.2% (PASS). Strong credit profile.",
+      "data_quality": "high - audited 2024 financials"
+    },
+    "final_score": "4/5",
+    "tier": "Medium-high",
+    "benchmarks_passed": ["B2", "B3", "B4", "B5"],
+    "benchmarks_failed": ["B1"],
+    "notes": "Aboitiz scores 4/5 (Medium-high tier) due to strong credit profile and disclosed clean CAPEX allocation. However, transition credibility is LOW: (1) No net-zero commitment despite years of promises; (2) No SBTi engagement; (3) Actively building coal (Therma Visayas Unit 3, 2028); (4) Acquired 25% Vietnam coal stake for $220M in October 2025; (5) $3.3B LNG mega-deal locks in fossil infrastructure; (6) WBA ACT Rating 4.2D- with targets score of 0. The 72% clean CAPEX figure is budgeted (actual deployment was 36% of budget). B2/B3 pass only due to absence of carbon pricing."
+  },
+
+  "comparison": {
+    "vs_smc_global_power": {
+      "aboitiz_score": "4/5",
+      "smc_score": "2/5",
+      "key_differences": [
+        "Aboitiz has stronger credit profile (4/5 B5 metrics pass vs 2/5 for SMC)",
+        "Aboitiz discloses higher clean CAPEX (72% vs 23%)",
+        "Both lack net-zero targets and SBTi commitment",
+        "Both actively investing in coal",
+        "Both pass B2/B3 only due to $0 carbon price"
+      ],
+      "transition_credibility": "Both pursue AND strategy (RE AND fossil expansion) rather than true transition"
+    },
+    "vs_acen_corporation": {
+      "acen_coal_exit_year": 2025,
+      "acen_net_zero_target": 2050,
+      "acen_re_focus": "100%",
+      "assessment": "ACEN significantly more credible transition; only major Philippine genco with coal exit commitment"
+    }
+  },
+
+  "data_sources": [
+    {"source": "Aboitiz Power SEC Form 17-A Annual Report 2024", "type": "Primary"},
+    {"source": "Aboitiz Power Integrated Report 2024", "type": "Primary"},
+    {"source": "Aboitiz Power Q4 2024 Earnings Release", "type": "Primary"},
+    {"source": "PSE EDGE regulatory filings", "type": "Primary"},
+    {"source": "World Benchmarking Alliance Electric Utilities Benchmark 2024", "type": "Third-party"},
+    {"source": "Global Energy Monitor Coal Plant Tracker", "type": "Third-party"},
+    {"source": "PhilRatings Credit Analysis May 2025", "type": "Third-party"},
+    {"source": "SBTi Companies Taking Action database", "type": "Third-party"},
+    {"source": "DitchCarbon database", "type": "Third-party"}
+  ],
+
+  "analyst_notes": "Aboitiz Power is the 2nd largest power producer in Philippines with a stated 50% RE target by 2030. However, transition credibility is LOW despite scoring 4/5 on ETCB. Key concerns: (1) NO net-zero commitment despite 4+ years of public statements; (2) NO SBTi engagement; (3) NO specific emissions reduction targets; (4) Actively building coal: Therma Visayas Unit 3 (150 MW) for 2028 + $220M Vietnam coal acquisition (October 2025); (5) $3.3B LNG mega-deal locks in fossil infrastructure for decades; (6) WBA ACT Rating 4.2D- with targets score of 0/100; (7) 61% of generation earnings from coal. POSITIVES: 72% clean CAPEX (budgeted), TCFD-aligned reporting, JERA partnership, SNAP JV with Scatec, 197 MW ETM retirement (2027). BOTTOM LINE: Aboitiz talks transition but actions show continued fossil fuel lock-in. Better disclosure than SMC but similar lack of binding commitments."
+}

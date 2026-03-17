@@ -1,0 +1,488 @@
+{
+  "id": "IN001",
+  "name": "NTPC",
+  "full_name": "NTPC Limited",
+  "country_code": "IN",
+  "last_updated": "2026-01-14",
+
+  "identification": {
+    "ownership": "PSU (Maharatna)",
+    "ownership_details": "Government of India 51.10% via Ministry of Power",
+    "listed": true,
+    "stock_ticker": "NSE:NTPC, BSE:532555",
+    "website": "https://www.ntpc.co.in",
+    "fiscal_year_end": "March 31"
+  },
+
+  "capacity": {
+    "reporting_date": "2026-01-14",
+    "total_mw": 85637,
+    "by_fuel": {
+      "coal": {
+        "value_mw": 65194,
+        "notes": "76.1% of total; major plants: Vindhyachal (4,760 MW), Rihand (3,000 MW), Talcher Kaniha (3,000 MW), Korba (2,600 MW), Singrauli (2,000 MW)",
+        "source": "NTPC Official Website"
+      },
+      "gas": {
+        "value_mw": 6511,
+        "notes": "Combined cycle gas turbines",
+        "source": "NTPC Official Website"
+      },
+      "oil": {
+        "value_mw": 0,
+        "source": "NTPC Official Website"
+      },
+      "hydro": {
+        "value_mw": 3757,
+        "notes": "Including pumped storage projects",
+        "source": "NTPC Official Website"
+      },
+      "solar": {
+        "value_mw": 8594,
+        "notes": "Via NTPC Green Energy Limited (NGEL)",
+        "source": "NTPC Official Website"
+      },
+      "wind": {
+        "value_mw": 831,
+        "source": "NTPC Official Website"
+      },
+      "geothermal": {
+        "value_mw": 0,
+        "source": "NTPC Official Website"
+      },
+      "other_re": {
+        "value_mw": 750,
+        "includes": "Battery storage",
+        "source": "NTPC Official Website"
+      }
+    },
+    "re_share_pct": 16.3,
+    "re_share_notes": "Solar (8,594 MW) + Wind (831 MW) + Hydro (3,757 MW) + Storage (750 MW) = 13,932 MW RE of 85,637 MW total = 16.3%. Previous value of 15.4% was an arithmetic error.",
+    "capacity_type": "gross",
+    "source": "NTPC Official Website (Jan 2026)"
+  },
+
+  "generation": {
+    "reporting_year": "FY2023-24",
+    "total_gwh": 422216,
+    "net_gwh": 393462,
+    "notes": "Gross generation 422,216 MU; Net 393,462 MU; Coal PLF 77% vs national avg 56%",
+    "source": "NTPC Sustainability Data Trends FY2023-24"
+  },
+
+  "financial": {
+    "reporting_year": "FY2024-25",
+    "currency": "INR",
+    "fx_to_usd": 90.12,
+    "income_statement": {
+      "revenue": {
+        "value_local": 1881380,
+        "value_usd": 20877,
+        "unit": "millions",
+        "notes": "INR 188,138 crore",
+        "source": "NTPC FY25 Results"
+      },
+      "ebitda": {
+        "value_local": 543920,
+        "value_usd": 6036,
+        "unit": "millions",
+        "notes": "INR 54,392 crore; 29% operating margin",
+        "source": "NTPC FY25 Results"
+      },
+      "ebit": {
+        "value_local": 454800,
+        "value_usd": 5047,
+        "unit": "millions",
+        "notes": "INR 45,480 crore; calculated as PBT (32,198 Cr) + Interest (13,282 Cr)",
+        "source": "Screener.in / StockAnalysis.com"
+      },
+      "interest_expense": {
+        "value_local": 132820,
+        "value_usd": 1474,
+        "unit": "millions",
+        "notes": "INR 13,282 crore",
+        "source": "NTPC FY25 Results"
+      },
+      "net_income": {
+        "value_local": 239530,
+        "value_usd": 2658,
+        "unit": "millions",
+        "notes": "INR 23,953 crore PAT",
+        "source": "NTPC FY25 Results"
+      }
+    },
+    "balance_sheet": {
+      "total_assets": {
+        "value_local": 5241650,
+        "value_usd": 58163,
+        "unit": "millions",
+        "notes": "INR 524,165 crore",
+        "source": "StockAnalysis.com / Screener.in"
+      },
+      "total_debt": {
+        "value_local": 2500960,
+        "value_usd": 27752,
+        "unit": "millions",
+        "notes": "INR 250,096 crore",
+        "source": "NTPC FY25 Results"
+      },
+      "total_equity": {
+        "value_local": 1840710,
+        "value_usd": 20425,
+        "unit": "millions",
+        "notes": "INR 184,071 crore",
+        "source": "NTPC FY25 Results"
+      },
+      "current_assets": {
+        "value_local": 930520,
+        "value_usd": 10326,
+        "unit": "millions",
+        "notes": "INR 93,052 crore (Cash 1,427 + ST Investments 3,082 + Receivables 50,699 + Inventory 18,722 + Other 14,606)",
+        "source": "StockAnalysis.com Balance Sheet"
+      },
+      "current_liabilities": {
+        "value_local": 1010730,
+        "value_usd": 11216,
+        "unit": "millions",
+        "notes": "INR 101,073 crore (AP 11,160 + Accrued 7,084 + ST Debt 25,048 + Current LT Debt 21,625 + Other 35,654)",
+        "source": "StockAnalysis.com Balance Sheet"
+      }
+    },
+    "cash_flow": {
+      "operating_cash_flow": {
+        "value_local": 504360,
+        "value_usd": 5596,
+        "unit": "millions",
+        "notes": "INR 50,436 crore (up from 40,099 Cr in FY24)",
+        "source": "StockAnalysis.com / Screener.in"
+      },
+      "capex": {
+        "value_local": 412830,
+        "value_usd": 4581,
+        "unit": "millions",
+        "notes": "INR 41,283 crore",
+        "source": "Cash Flow Statement"
+      }
+    },
+    "credit_rating": {
+      "rating": "AAA",
+      "agency": "CRISIL/ICRA/CARE",
+      "outlook": "Stable",
+      "date": "2024-03",
+      "notes": "Domestic AAA/Stable; International: Fitch BBB-/Stable, S&P BBB-/Positive, Moody's Baa3",
+      "source": "CRISIL Rating Rationale"
+    },
+    "market_cap": {
+      "value_local": 3380000,
+      "value_usd": 37506,
+      "notes": "INR 338,000 crore market cap",
+      "source": "NSE/BSE"
+    }
+  },
+
+  "emissions": {
+    "reporting_year": 2024,
+    "scope1": {
+      "value_tco2": 353290000,
+      "value_mtco2": 353.29,
+      "notes": "Direct emissions from power generation; 16.2% increase vs FY22",
+      "source": "NTPC Sustainability Data Trends FY2023-24"
+    },
+    "scope2": {
+      "value_tco2": 75000,
+      "value_mtco2": 0.075,
+      "notes": "Indirect emissions from purchased electricity",
+      "source": "NTPC Sustainability Data Trends FY2023-24"
+    },
+    "scope3": {
+      "value_tco2": 3270000,
+      "value_mtco2": 3.27,
+      "notes": "Value chain emissions",
+      "source": "NTPC Sustainability Data Trends FY2023-24"
+    },
+    "total": {
+      "value_tco2": 356635000,
+      "value_mtco2": 356.64
+    },
+    "intensity": {
+      "value_tco2_mwh": 0.837,
+      "value_kgco2_kwh": 0.837,
+      "value_gco2_kwh": 836.66,
+      "notes": "High intensity due to coal-dominated generation",
+      "source": "NTPC Sustainability Data Trends FY2023-24"
+    },
+    "methodology": "GRI 305",
+    "cdp_climate_score": null,
+    "cdp_climate_notes": "NOT AVAILABLE - NTPC does not respond to CDP Climate Change questionnaire or has not consented to public disclosure",
+    "cdp_water_score": "C",
+    "cdp_water_year": 2023,
+    "cdp_water_notes": "Improved from D in 2022"
+  },
+
+  "transition": {
+    "net_zero": {
+      "target_year": null,
+      "scope": null,
+      "notes": "NO COMPANY-LEVEL NET-ZERO COMMITMENT. Aspirational alignment with India's 2070 national target only.",
+      "india_national_target": 2070,
+      "interim_targets": [],
+      "source": "Climate Action 100+"
+    },
+    "sbti": {
+      "validated": false,
+      "committed": false,
+      "validation_date": null,
+      "target_type": null,
+      "notes": "Not submitted to SBTi",
+      "source": "SBTi Companies Taking Action database"
+    },
+    "coal_policy": {
+      "no_new_coal": false,
+      "no_new_coal_note": "CRITICAL: 30 GW NEW COAL PLANNED by 2032; 17 GW under construction",
+      "coal_exit_date": null,
+      "coal_exit_details": "No coal phase-out commitment. Only confirmed retirement: Tanda (400 MW) by end of decade.",
+      "new_coal_planned_gw": 30,
+      "coal_under_construction_gw": 17,
+      "confirmed_retirements_mw": 400,
+      "source": "NTPC Q2 FY26 Investor Update; Saurenergy Jan 2026; total under-construction portfolio 33 GW (17 GW coal + 2 GW hydro + 14 GW RE)"
+    },
+    "re_targets": {
+      "target_gw": 60,
+      "target_year": 2032,
+      "target_pct": 40.27,
+      "target_pct_notes": "60 GW RE of 149 GW total planned capacity by 2032 = 40.27%",
+      "current_gw": 8.6,
+      "pipeline_gw": 23,
+      "notes": "By 2032: Thermal 83.6 GW (56%), Hydro 4.7 GW (3%), RE 60 GW (40%), Nuclear 0.7 GW (0.5%)",
+      "source": "NTPC Official Website / Investor Relations"
+    },
+    "capex_allocation": {
+      "clean_capex_share_pct": 60,
+      "clean_capex_definition": "Long-term estimate (through FY32) including RE, nuclear, storage, green hydrogen",
+      "clean_capex_estimate_range": "57-64%",
+      "current_period_pct": 29,
+      "current_period_notes": "H1 FY26: NGEL CAPEX 6,607 Cr of Group CAPEX 23,115 Cr = 28.6%",
+      "fy25_additions_re_pct": 83.4,
+      "fy25_additions_notes": "FY25 capacity additions: 3,312 MW RE (83.4%) vs 660 MW thermal (16.6%)",
+      "total_investment_plan_inr_lakh_cr": 7,
+      "total_investment_plan_usd_bn": 80,
+      "pudimadaka_green_hydrogen_inr_cr": 85000,
+      "pudimadaka_green_hydrogen_usd_bn": 21,
+      "notes": "Clean CAPEX estimate 57-64% of INR 7 lakh crore total plan; Green bonds 100% for solar/wind",
+      "source": "Multiple: PIB India, Investing.com, NTPC Earnings Call"
+    },
+    "emissions_targets": {
+      "intensity_reduction_target": "17% by 2032 vs 2012 baseline",
+      "source": "NTPC Sustainability Report"
+    },
+    "green_hydrogen": {
+      "active": true,
+      "flagship_project": "Pudimadaka Green Hydrogen Hub",
+      "location": "Andhra Pradesh",
+      "investment_usd_bn": 21,
+      "re_capacity_supporting_gw": 20,
+      "hub_capacity_gw": 7,
+      "production_target_tpd": 1500,
+      "full_operation_year": 2032,
+      "source": "PIB India Jan 2025"
+    },
+    "governance": {
+      "tcfd_aligned": false,
+      "tcfd_reporting_since": null,
+      "internal_carbon_price_usd": null
+    }
+  },
+
+  "coal_plants": {
+    "status": "operating",
+    "notes": "India's largest coal fleet. 65,194 MW coal capacity with 30 GW more planned. No phase-out commitment.",
+    "plants": [
+      {
+        "name": "Vindhyachal STPS",
+        "capacity_mw": 4760,
+        "fuel": "Coal",
+        "technology": "Subcritical/Supercritical",
+        "location": "Madhya Pradesh",
+        "commissioned": 1987,
+        "notes": "India's largest coal plant"
+      },
+      {
+        "name": "Rihand STPS",
+        "capacity_mw": 3000,
+        "fuel": "Coal",
+        "location": "Uttar Pradesh",
+        "commissioned": 1988
+      },
+      {
+        "name": "Talcher Kaniha STPS",
+        "capacity_mw": 3000,
+        "fuel": "Coal",
+        "location": "Odisha",
+        "commissioned": 1995
+      },
+      {
+        "name": "Korba STPS",
+        "capacity_mw": 2600,
+        "fuel": "Coal",
+        "location": "Chhattisgarh",
+        "commissioned": 1983
+      },
+      {
+        "name": "Singrauli STPS",
+        "capacity_mw": 2000,
+        "fuel": "Coal",
+        "location": "Uttar Pradesh",
+        "commissioned": 1982,
+        "notes": "NTPC's first plant"
+      }
+    ],
+    "source": "NTPC Annual Report FY2024-25"
+  },
+
+  "wba_assessment": {
+    "carbon_budget_aligned": false,
+    "expected_emissions_2018_2032_mtco2": 6363,
+    "carbon_budget_mtco2": 3371,
+    "assessment": "Expected emissions nearly double aligned carbon budget",
+    "source": "World Benchmarking Alliance Electric Utilities Benchmark"
+  },
+
+  "credit_metrics_b5": {
+    "reporting_year": "FY2024-25",
+    "metrics": {
+      "debt_to_ebitda": {
+        "value": 4.60,
+        "calculation": "2500960 / 543920",
+        "threshold": 4.0,
+        "pass_if": "< 4.0x",
+        "pass": false,
+        "assessment": "elevated"
+      },
+      "interest_coverage": {
+        "value": 4.09,
+        "calculation": "543920 / 132820",
+        "threshold": 2.5,
+        "pass_if": "> 2.5x",
+        "pass": true,
+        "assessment": "strong"
+      },
+      "ffo_to_debt_pct": {
+        "value": 20.17,
+        "calculation": "504360 / 2500960 * 100",
+        "threshold": 20,
+        "pass_if": "> 20%",
+        "pass": true,
+        "assessment": "adequate"
+      },
+      "current_ratio": {
+        "value": 0.92,
+        "calculation": "930520 / 1010730",
+        "threshold": 1.0,
+        "pass_if": "> 1.0x",
+        "pass": false,
+        "assessment": "below_threshold"
+      },
+      "debt_to_capital_pct": {
+        "value": 57.61,
+        "calculation": "2500960 / (2500960 + 1840710) * 100",
+        "threshold": 60,
+        "pass_if": "< 60%",
+        "pass": true,
+        "assessment": "adequate"
+      }
+    },
+    "b5_pass_count": 3,
+    "b5_metrics_available": 5,
+    "b5_overall_pass": false,
+    "notes": "3/5 metrics pass (need 4/5). Fails Debt/EBITDA (4.6x vs <4.0x) and Current Ratio (0.92x vs >1.0x). FFO/Debt marginally passes at 20.17%. AAA domestic rating reflects sovereign backing and regulated tariff model.",
+    "source": "Calculated from NTPC FY25 Results and StockAnalysis.com"
+  },
+
+  "data_gaps": [
+    {
+      "field": "cdp_climate_score",
+      "status": "unavailable",
+      "priority": "LOW",
+      "reason": "NTPC does not respond to CDP Climate Change questionnaire or has not consented to public disclosure"
+    }
+  ],
+
+  "data_resolved": [
+    {
+      "field": "operating_cash_flow",
+      "value": "INR 50,436 crore (FY25)",
+      "source": "StockAnalysis.com / Screener.in"
+    },
+    {
+      "field": "current_assets",
+      "value": "INR 93,052 crore",
+      "source": "StockAnalysis.com Balance Sheet"
+    },
+    {
+      "field": "current_liabilities",
+      "value": "INR 101,073 crore",
+      "source": "StockAnalysis.com Balance Sheet"
+    },
+    {
+      "field": "total_assets",
+      "value": "INR 524,165 crore",
+      "source": "StockAnalysis.com / Screener.in"
+    },
+    {
+      "field": "capex",
+      "value": "INR 41,283 crore",
+      "source": "Cash Flow Statement"
+    },
+    {
+      "field": "ebit",
+      "value": "INR 45,480 crore (PBT + Interest)",
+      "source": "Screener.in"
+    },
+    {
+      "field": "clean_capex_pct",
+      "value": "57-64% (long-term estimate through FY32)",
+      "source": "Multiple sources: PIB India, Investing.com, NTPC Earnings Call"
+    },
+    {
+      "field": "re_target_pct",
+      "value": "40.27% by 2032",
+      "source": "NTPC Official Website / Investor Relations"
+    },
+    {
+      "field": "cdp_water_score",
+      "value": "C (2023)",
+      "source": "NTPC Press Release Feb 2024"
+    }
+  ],
+
+  "data_sources": {
+    "annual_report": "NTPC Annual Report FY2024-25",
+    "sustainability_report": "NTPC Sustainability Data Trends FY2023-24",
+    "rating_report": "CRISIL Rating Rationale (Mar 2024)",
+    "other": [
+      "Climate Action 100+ Company Assessment June 2025",
+      "World Benchmarking Alliance Electric Utilities Benchmark",
+      "NSE/BSE Stock Exchange Filings",
+      "Press Information Bureau India",
+      "Screener.in"
+    ]
+  },
+
+  "verification_checklist": {
+    "coal_capacity_confirmed": true,
+    "coal_capacity_note": "65,194 MW coal - largest fleet in India",
+    "capacity_sums_verified": true,
+    "financial_same_year": true,
+    "sources_documented": true,
+    "credit_metrics_calculated": true,
+    "credit_metrics_note": "All 5/5 metrics now calculable; 3/5 pass (Interest Coverage, FFO/Debt, Debt/Capital)",
+    "sbti_status_verified": true,
+    "sbti_verification_note": "Not submitted to SBTi - confirmed via SBTi Dashboard and Climate Action 100+",
+    "net_zero_verified": true,
+    "net_zero_warning": "NO COMPANY-LEVEL NET-ZERO COMMITMENT - confirmed by Climate Action 100+ (June 2025) and WBA assessment",
+    "cdp_verified": true,
+    "cdp_note": "CDP Climate: NOT AVAILABLE; CDP Water: C (2023)"
+  },
+
+  "analyst_notes": "NTPC is the world's most carbon-intensive major utility with 353 MtCO2e Scope 1 emissions. Despite strong domestic credit ratings (AAA) reflecting sovereign backing and regulated tariff model, the company faces severe transition risk. Key concerns: (1) No company-level net-zero commitment - only aspirational India 2070 alignment; (2) No SBTi submission; (3) No CDP Climate disclosure; (4) 30 GW new coal planned by 2032 despite 60 GW RE target; (5) WBA assessment shows expected emissions nearly double the aligned carbon budget. Positive developments: FY25 capacity additions were 83% RE; clean CAPEX estimated at 57-64% of long-term investment plan; strong OCF of INR 50,436 Cr supports aggressive CAPEX program. B5 marginally fails due to elevated Debt/EBITDA (4.6x) and weak Current Ratio (0.92x). B4 fails despite clean CAPEX potentially exceeding 50% threshold because RE share remains below 30% and no net-zero/SBTi commitment exists."
+}

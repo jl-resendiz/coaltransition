@@ -1,0 +1,531 @@
+{
+  "id": "IN010",
+  "name": "Torrent Power",
+  "full_name": "Torrent Power Limited",
+  "country_code": "IN",
+  "last_updated": "2026-01-15",
+
+  "identification": {
+    "ownership": "Private (Torrent Group/Mehta family)",
+    "ownership_type": "family_controlled",
+    "promoter_holding_pct": 51.09,
+    "listed": true,
+    "stock_ticker": "NSE:TORNTPOWER, BSE:532779",
+    "isin": "INE813H01021",
+    "cin": "L31200GJ2004PLC044068",
+    "website": "https://www.torrentpower.com",
+    "fiscal_year_end": "March 31",
+    "registered_office": "Samanvay, 600 Tapovan, Ambawadi, Ahmedabad 380015, Gujarat",
+    "primary_geography": "Gujarat",
+    "key_executives": {
+      "chairman": "Samir Mehta",
+      "managing_director": "Jinal Mehta"
+    }
+  },
+
+  "capacity": {
+    "reporting_date": "2025-03-31",
+    "total_mw": 4838,
+    "by_fuel": {
+      "coal": {"value_mw": 362, "notes": "AMGEN/Sabarmati legacy plant (since 1934); 81% PLF FY25"},
+      "lignite": {"value_mw": 0},
+      "gas": {"value_mw": 2730, "notes": "SUGEN 1147.5 MW + UNOSUGEN 382.5 MW + DGEN 1200 MW"},
+      "oil": {"value_mw": 0},
+      "hydro": {"value_mw": 0},
+      "solar": {"value_mw": 825, "notes": "Gujarat 583 + Maharashtra 144 + Telangana 58"},
+      "wind": {"value_mw": 921, "notes": "Gujarat 615 + Karnataka 120 + Maharashtra 126 + Others"},
+      "nuclear": {"value_mw": 0},
+      "other_re": {"value_mw": 0}
+    },
+    "thermal_mw": 3092,
+    "thermal_share_pct": 64,
+    "re_mw": 1746,
+    "re_share_pct": 36,
+    "under_construction_mw": 4814,
+    "under_construction_details": {
+      "re_mw": 3154,
+      "wind_mw": 1660,
+      "solar_mw": 1494,
+      "thermal_mw": 1600,
+      "projects": [
+        {"name": "Solar/Wind/Hybrid Gujarat", "capacity_mw": 5000, "mou_with": "Gujarat Government", "location": "Dwarka District"},
+        {"name": "New Coal TPP", "capacity_mw": 1600, "location": "Madhya Pradesh", "ppa_years": 25, "tariff_inr_kwh": 5.83}
+      ]
+    },
+    "target_2030_mw": {
+      "renewables_gw": 10,
+      "thermal_gw": 8
+    },
+    "source": "Torrent Power Investor Presentation 2025, Annual Report FY25"
+  },
+
+  "generation": {
+    "reporting_year": "FY2024-25",
+    "total_gwh": 10444,
+    "by_fuel_gwh": {
+      "gas": 4783,
+      "coal": 2569,
+      "wind": 1936,
+      "solar": 1156
+    },
+    "generation_mix_pct": {
+      "gas": 46,
+      "coal": 25,
+      "wind": 19,
+      "solar": 11
+    },
+    "plf_cuf_fy25": {
+      "gas_pct": 20,
+      "coal_pct": 81,
+      "wind_pct": 24,
+      "solar_pct": 16
+    },
+    "distribution_mu": 32263,
+    "notes": "~10,444 GWh total generation FY25; Gas PLF dropped to 5% in Q4 due to high LNG spot prices; Coal maintained 81% PLF; Distribution 32,263 MU across licensed and franchisee areas",
+    "source": "Torrent Power Investor Presentation Q4 FY25, PLF calculations"
+  },
+
+  "distribution": {
+    "total_customers": 4130000,
+    "licensed_areas": ["Ahmedabad/Gandhinagar", "Surat", "Dahej SEZ", "Dholera SIR", "DNH & DD"],
+    "franchisee_areas": ["Bhiwandi", "SMK", "Agra"],
+    "distribution_loss_highlights": {
+      "ahmedabad_gandhinagar_pct": 3.33,
+      "surat_pct": 2.81,
+      "dahej_sez_pct": 0.5,
+      "notes": "Distribution losses among lowest globally"
+    },
+    "revenue_share_pct": 89,
+    "source": "Torrent Power FY25"
+  },
+
+  "financial": {
+    "reporting_year": "FY2024-25",
+    "currency": "INR",
+    "fx_to_usd": 84.0,
+    "audited": true,
+    "income_statement": {
+      "revenue": {
+        "value_local": 288620,
+        "value_usd": 3436,
+        "unit": "millions",
+        "notes": "INR 28,862 crore FY25; +6% YoY",
+        "source": "Torrent Power FY25"
+      },
+      "ebitda": {
+        "value_local": 52310,
+        "value_usd": 623,
+        "unit": "millions",
+        "notes": "INR 5,231 crore FY25; +19% YoY; margin 18.56%",
+        "source": "Torrent Power FY25"
+      },
+      "ebit": {
+        "value_local": null,
+        "value_usd": null,
+        "unit": "millions",
+        "notes": "Not explicitly provided",
+        "source": ""
+      },
+      "interest_expense": {
+        "value_local": 10450,
+        "value_usd": 124,
+        "unit": "millions",
+        "notes": "INR 1,045 crore FY25; +10.8% YoY from 943 Cr; Q4 FY25 lowest at 236 Cr due to deleveraging post-QIP",
+        "source": "Torrent Power Consolidated P&L FY25"
+      },
+      "net_income": {
+        "value_local": 30586,
+        "value_usd": 364,
+        "unit": "millions",
+        "notes": "INR 3,058.61 crore FY25; +61% YoY",
+        "source": "Torrent Power FY25"
+      }
+    },
+    "balance_sheet": {
+      "total_assets": {
+        "value_local": 365730,
+        "value_usd": 4354,
+        "unit": "millions",
+        "notes": "INR 36,573 crore FY25",
+        "source": "Torrent Power FY25"
+      },
+      "total_debt": {
+        "value_local": 88400,
+        "value_usd": 1052,
+        "unit": "millions",
+        "notes": "INR 8,840 crore FY25",
+        "source": "Torrent Power FY25"
+      },
+      "net_debt": {
+        "value_local": 76530,
+        "value_usd": 911,
+        "unit": "millions",
+        "notes": "INR 7,653 crore FY25",
+        "source": "Torrent Power FY25"
+      },
+      "total_equity": {
+        "value_local": 182160,
+        "value_usd": 2169,
+        "unit": "millions",
+        "notes": "INR 18,216 crore shareholders' equity",
+        "source": "Torrent Power FY25"
+      },
+      "current_assets": {
+        "value_local": 86201,
+        "value_usd": 1026,
+        "unit": "millions",
+        "notes": "INR 8,620.1 crore FY25 (Receivables 6,353 + Cash 289 + Securities 873 + Inventory 726 + Other 379); +1.3% YoY",
+        "source": "Torrent Power Consolidated Balance Sheet FY25"
+      },
+      "current_liabilities": {
+        "value_local": 75895,
+        "value_usd": 904,
+        "unit": "millions",
+        "notes": "INR 7,589.5 crore FY25 (Other CL 3,601 + Payables 1,824 + Current LT Debt 1,177 + Accrued 579 + ST Borrowings 250); -2.9% YoY",
+        "source": "Torrent Power Consolidated Balance Sheet FY25"
+      }
+    },
+    "cash_flow": {
+      "operating_cash_flow": {
+        "value_local": 48050,
+        "value_usd": 572,
+        "unit": "millions",
+        "notes": "INR 4,805 crore FY25; +12.8% YoY from 4,258 Cr; 5-year trend: FY21 2,988 → FY25 4,805 Cr (+60%)",
+        "source": "Torrent Power Consolidated Cash Flow Statement FY25"
+      },
+      "capex": {
+        "value_local": 36500,
+        "value_usd": 435,
+        "unit": "millions",
+        "notes": "INR ~3,650 crore FY25 (cash flow from investing); Planned: RE INR 57,000 Cr + Thermal INR 60,000-65,000 Cr through 2030",
+        "source": "Torrent Power Cash Flow Statement FY25"
+      }
+    },
+    "credit_rating": {
+      "rating": "AA+",
+      "agency": "CRISIL/India Ratings",
+      "outlook": "Stable",
+      "date": "2025-02-06",
+      "notes": "CRISIL AA+/Stable; India Ratings IND AA+/Stable; A1+ short-term",
+      "source": "Rating Reports February 2025"
+    },
+    "key_ratios": {
+      "net_debt_to_equity": 0.40,
+      "net_debt_to_ebitda": 1.41,
+      "ebitda_margin_pct": 18.56,
+      "source": "Torrent Power FY25"
+    },
+    "market_cap": {
+      "value_local": 704000,
+      "value_usd": 8381,
+      "unit": "millions",
+      "notes": "INR ~70,400 crore (Jan 2026)",
+      "source": "NSE"
+    }
+  },
+
+  "emissions": {
+    "reporting_year": 2025,
+    "scope1": {
+      "value_tco2": 4860000,
+      "value_mtco2": 4.86,
+      "notes": "-7.43% YoY from 5.25 MtCO2",
+      "source": "Torrent Power BRSR FY25"
+    },
+    "scope2": {
+      "value_tco2": 1320000,
+      "value_mtco2": 1.32,
+      "notes": "-13.16% YoY from 1.52 MtCO2",
+      "source": "Torrent Power BRSR FY25"
+    },
+    "scope3": {
+      "value_tco2": null,
+      "value_mtco2": null,
+      "notes": "Not reported",
+      "source": ""
+    },
+    "total": {
+      "value_tco2": 6180000,
+      "value_mtco2": 6.18,
+      "notes": "-8.71% YoY from 6.77 MtCO2; 56% from gas generation"
+    },
+    "intensity": {
+      "value_tco2_per_musd": 1439.77,
+      "notes": "Emissions intensity per million USD revenue",
+      "source": "Calculated"
+    },
+    "methodology": "GHG Protocol",
+    "verification": false,
+    "cdp_score": null,
+    "cdp_notes": "Not submitted to CDP"
+  },
+
+  "transition": {
+    "net_zero": {
+      "target_year": null,
+      "scope": null,
+      "notes": "NO NET-ZERO TARGET ANNOUNCED in official disclosures; one secondary source mentions 2050 aspiration but unconfirmed",
+      "source": "Torrent Power disclosures"
+    },
+    "sbti": {
+      "validated": false,
+      "committed": false,
+      "notes": "Not participating in SBTi",
+      "source": "SBTi Database"
+    },
+    "tpi_assessment": {
+      "management_quality_level": 1,
+      "management_quality_max": 5,
+      "description": "Level 1 - Acknowledging Climate Change as a Business Issue (lowest level)",
+      "source": "Transition Pathway Initiative"
+    },
+    "ditchcarbon_score": {
+      "score": 13,
+      "max": 100,
+      "percentile_below": 59,
+      "notes": "Below 59% of assessed companies",
+      "source": "DitchCarbon"
+    },
+    "interim_targets": {
+      "re_capacity_2030_gw": 10,
+      "thermal_capacity_2030_gw": 8,
+      "source": "Torrent Power strategy"
+    },
+    "coal_policy": {
+      "no_new_coal": false,
+      "coal_exit_date": null,
+      "coal_exit_details": "ACTIVELY BUILDING 1,600 MW NEW COAL in Madhya Pradesh",
+      "new_coal_planned_mw": 1600,
+      "new_coal_investment_inr_crore": 22000,
+      "source": "Torrent Power expansion plans"
+    },
+    "re_targets": {
+      "current_re_share_pct": 36,
+      "target_re_capacity_gw": 10,
+      "target_year": 2030,
+      "re_investment_inr_crore": 57000,
+      "notes": "5 GW solar/wind/hybrid MoU with Gujarat Government (Dwarka District)",
+      "source": "Torrent Power strategy"
+    },
+    "capex_allocation": {
+      "clean_capex_share_pct": null,
+      "planned_re_capex_inr_crore": 57000,
+      "planned_thermal_capex_inr_crore": 62500,
+      "total_green_pledge_inr_crore": 64000,
+      "notes": "Thermal capex (60-65k Cr) exceeds RE capex (57k Cr) through 2030 - net thermal expansion",
+      "source": "Torrent Power investor presentation"
+    },
+    "other_initiatives": {
+      "pumped_storage_hydro_gw": "5-8 GW planned",
+      "pumped_storage_investment_inr_crore": "25,000-35,000",
+      "green_hydrogen": "72 tonnes/year plant commissioned in Gorakhpur",
+      "green_ammonia_ktpa": 100,
+      "green_ammonia_investment_inr_crore": 7200
+    },
+    "governance": {
+      "tcfd_aligned": null,
+      "brsr_disclosure": true,
+      "board_climate_oversight": false,
+      "climate_in_executive_compensation": false,
+      "quantitative_ghg_targets": false,
+      "sustainability_report_standalone": false
+    }
+  },
+
+  "coal_plants": {
+    "status": "operational_and_expanding",
+    "notes": "362 MW operational legacy coal + 1,600 MW NEW COAL under development",
+    "plants": [
+      {
+        "name": "AMGEN/Sabarmati",
+        "type": "coal",
+        "capacity_mw": 362,
+        "location": "Ahmedabad, Gujarat",
+        "operational_since": 1934,
+        "stations": "C/D/E/F",
+        "fy25_plf_pct": 81,
+        "fuel_supplier": "SECL",
+        "notes": "Legacy plant, one of India's oldest"
+      }
+    ],
+    "under_construction": [
+      {
+        "name": "Madhya Pradesh TPP",
+        "type": "coal",
+        "capacity_mw": 1600,
+        "location": "Madhya Pradesh",
+        "investment_inr_crore": 22000,
+        "ppa_tenure_years": 25,
+        "tariff_inr_kwh": 5.83,
+        "notes": "NEW COAL CAPACITY - contrary to global energy transition trends"
+      }
+    ]
+  },
+
+  "gas_plants": {
+    "total_mw": 2730,
+    "plants": [
+      {
+        "name": "SUGEN",
+        "capacity_mw": 1147.5,
+        "units": 3,
+        "location": "Surat, Gujarat",
+        "cod": "2009-08",
+        "fuel": "Domestic gas and LNG"
+      },
+      {
+        "name": "UNOSUGEN",
+        "capacity_mw": 382.5,
+        "units": 1,
+        "location": "Surat, Gujarat",
+        "cod": "2013-04",
+        "fuel": "Domestic gas and LNG"
+      },
+      {
+        "name": "DGEN",
+        "capacity_mw": 1200,
+        "units": 3,
+        "location": "Dahej, Gujarat",
+        "cod": "2014-11",
+        "fuel": "Imported LNG",
+        "lng_contract": "1 MTPA with Petronet"
+      }
+    ]
+  },
+
+  "esg_ratings": {
+    "tpi_management_quality": "Level 1/5 (lowest)",
+    "ditchcarbon_score": "13/100",
+    "sustainalytics_rating": null,
+    "msci_rating": null,
+    "notes": "TPI Level 1 indicates only basic acknowledgement of climate as business issue; no quantitative GHG targets, no board climate oversight, no climate-linked executive compensation",
+    "source": "TPI, DitchCarbon"
+  },
+
+  "credit_metrics_b5": {
+    "reporting_year": "FY2024-25",
+    "metrics": {
+      "debt_to_ebitda": {
+        "value": 1.69,
+        "calculation": "88400 / 52310",
+        "threshold": 4.0,
+        "pass_if": "< 4.0x",
+        "pass": true,
+        "assessment": "strong",
+        "notes": "Debt 8,840 Cr / EBITDA 5,231 Cr = 1.69x - very strong; improved from 2.25x FY24 post-QIP deleveraging"
+      },
+      "interest_coverage": {
+        "value": 5.01,
+        "calculation": "52310 / 10450",
+        "threshold": 2.5,
+        "pass_if": "> 2.5x",
+        "pass": true,
+        "assessment": "strong",
+        "notes": "EBITDA 5,231 Cr / Interest 1,045 Cr = 5.01x; CRISIL FY24 adjusted 5.18x"
+      },
+      "ffo_to_debt_pct": {
+        "value": 54.4,
+        "calculation": "48050 / 88400 * 100",
+        "threshold": 20,
+        "pass_if": "> 20%",
+        "pass": true,
+        "assessment": "very_strong",
+        "notes": "OCF 4,805 Cr / Debt 8,840 Cr = 54.4% - exceptional; +17.8pp YoY from 36.6%"
+      },
+      "current_ratio": {
+        "value": 1.14,
+        "calculation": "86201 / 75895",
+        "threshold": 1.0,
+        "pass_if": "> 1.0x",
+        "pass": true,
+        "assessment": "adequate",
+        "notes": "CA 8,620 Cr / CL 7,590 Cr = 1.14x; improved from 1.09x FY24; standalone 1.36x"
+      },
+      "debt_to_capital_pct": {
+        "value": 32.7,
+        "calculation": "88400 / (88400 + 182160) * 100",
+        "threshold": 60,
+        "pass_if": "< 60%",
+        "pass": true,
+        "assessment": "very_strong",
+        "notes": "Debt 8,840 Cr / (Debt + Equity 27,056 Cr) = 32.7% - very strong; Net D/E 0.40x down from 0.80x post-QIP"
+      }
+    },
+    "b5_pass_count": 5,
+    "b5_metrics_available": 5,
+    "b5_overall_pass": true,
+    "notes": "5/5 metrics PASS. Exceptionally strong credit profile post-₹3,500 Cr QIP equity raise (Feb 2024). FFO/Debt 54.4% and D/EBITDA 1.69x among strongest in India utility sector. Current ratio 1.14x adequate. CRISIL/India Ratings AA+/Stable confirmed Feb 2025. Expected leverage increase to 3.0x FY26 due to ₹22,000-25,000 Cr capex plan.",
+    "source": "Calculated from Torrent Power FY25 Consolidated Financial Statements, CRISIL Feb 2025"
+  },
+
+  "data_gaps": [
+    {
+      "field": "scope3_emissions",
+      "benchmark": "General",
+      "severity": "Medium",
+      "notes": "Scope 3 NOT disclosed per BRSR; company has no SBTi targets or net-zero commitments requiring Scope 3"
+    }
+  ],
+
+  "data_resolved": [
+    {
+      "field": "interest_expense",
+      "value": "INR 1,045 crore",
+      "resolved_date": "2026-01-15",
+      "source": "Torrent Power Consolidated P&L FY25"
+    },
+    {
+      "field": "operating_cash_flow",
+      "value": "INR 4,805 crore",
+      "resolved_date": "2026-01-15",
+      "source": "Torrent Power Consolidated Cash Flow Statement FY25"
+    },
+    {
+      "field": "current_assets",
+      "value": "INR 8,620.1 crore",
+      "resolved_date": "2026-01-15",
+      "source": "Torrent Power Consolidated Balance Sheet FY25"
+    },
+    {
+      "field": "current_liabilities",
+      "value": "INR 7,589.5 crore",
+      "resolved_date": "2026-01-15",
+      "source": "Torrent Power Consolidated Balance Sheet FY25"
+    },
+    {
+      "field": "total_generation_gwh",
+      "value": "~10,444 GWh",
+      "resolved_date": "2026-01-15",
+      "source": "Calculated from PLF/CUF data"
+    }
+  ],
+
+  "data_sources": {
+    "annual_report": "Torrent Power Annual Report FY2024-25",
+    "investor_presentation": "Torrent Power Investor Presentation 2025",
+    "quarterly_results": "Torrent Power Q4 FY2024-25 Results",
+    "rating_reports": "CRISIL Rating Report February 2025, India Ratings February 2025",
+    "tpi": "Transition Pathway Initiative Assessment",
+    "regulatory_filings": "NSE/BSE Regulatory Filings",
+    "company_website": "torrentpower.com"
+  },
+
+  "verification_checklist": {
+    "coal_capacity_confirmed": true,
+    "coal_capacity_note": "362 MW operational + 1,600 MW NEW COAL under development",
+    "capacity_sums_verified": true,
+    "capacity_sums_note": "Gas 2730 + Coal 362 + Solar 825 + Wind 921 = 4,838 MW",
+    "financial_same_year": true,
+    "sources_documented": true,
+    "credit_metrics_calculated": true,
+    "credit_metrics_note": "5/5 B5 metrics calculated: D/EBITDA 1.69x, ICR 5.01x, FFO/Debt 54.4%, CR 1.14x, D/Cap 32.7% - ALL PASS",
+    "sbti_status_verified": true,
+    "sbti_verification_note": "Not participating in SBTi",
+    "net_zero_verified": true,
+    "net_zero_note": "NO net-zero target announced; 2050 aspiration unconfirmed",
+    "b5_data_complete": true,
+    "b5_data_note": "Complete: Interest 1,045 Cr, OCF 4,805 Cr, CA 8,620 Cr, CL 7,590 Cr all sourced from audited FY25"
+  },
+
+  "analyst_notes": "Torrent Power is a private, family-controlled Gujarat-focused utility with integrated generation and distribution business. Key characteristics: (1) Gas-dominated generation (46% of FY25 output, 56% capacity) with moderate coal (25% generation, 7.5% capacity); (2) Strong distribution franchise with world-class loss levels (2.81-3.33%); (3) AA+ credit rating with exceptionally strong financials post-₹3,500 Cr QIP. B5 CREDIT ANALYSIS (FY25 complete): D/EBITDA 1.69x (threshold <4.0x) ✓, Interest Coverage 5.01x (threshold >2.5x) ✓, FFO/Debt 54.4% (threshold >20%) ✓, Current Ratio 1.14x (threshold >1.0x) ✓, Debt/Capital 32.7% (threshold <60%) ✓. All 5/5 metrics PASS - among strongest credit profiles in India utility sector. CRITICAL CONCERN: Company is ACTIVELY BUILDING 1,600 MW NEW COAL in Madhya Pradesh (INR 22,000 Cr investment) while simultaneously targeting 10 GW renewables. Thermal capex (INR 60-65k Cr) EXCEEDS RE capex (INR 57k Cr) through 2030. TPI Level 1/5 (lowest) and DitchCarbon 13/100 indicate minimal climate governance. No net-zero target, no SBTi commitment, no board climate oversight. Scope 3 not disclosed. ETCB outcomes: B1 FAIL (100% coal at-risk under methodology), B2 PASS (CCE 6.9% at medium carbon price - gas-dominated), B3 PASS (no LCOE crossover), B4 FAIL (no net-zero, no SBTi, building coal, RE share only 36%), B5 PASS (5/5 metrics). Final score: 3/5 Medium tier. KEY PARADOX: Strongest credit profile in India sample but worst transition governance (TPI Level 1/5). Exemplifies tension between financial stability and climate transition credibility."
+}

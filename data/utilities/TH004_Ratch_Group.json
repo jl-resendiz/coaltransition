@@ -1,0 +1,416 @@
+{
+  "id": "TH004",
+  "name": "RATCH Group",
+  "full_name": "RATCH Group Public Company Limited",
+  "country_code": "TH",
+  "last_updated": "2026-01-14",
+
+  "identification": {
+    "ownership": "EGAT subsidiary (listed)",
+    "ownership_details": "EGAT holds 45.0% directly; EGAT Saving & Credit Co., Ltd. holds 6.246%; total EGAT-related ~51.2%",
+    "listed": true,
+    "stock_ticker": "SET:RATCH",
+    "website": "https://www.ratch.co.th",
+    "fiscal_year_end": "December 31"
+  },
+
+  "capacity": {
+    "reporting_date": "2024-12-31",
+    "total_mw": 8297,
+    "total_committed_equity_mw": 10848,
+    "by_fuel": {
+      "coal": {
+        "value_mw": 742,
+        "notes": "Paiton plant Indonesia (2,045 MW gross, 36.26% stake); PPAs to 2042; acquired May 2024 from Engie for USD 591M",
+        "source": "RATCH Factsheet Q1/2025"
+      },
+      "gas": {
+        "value_mw": 5780,
+        "notes": "Ratchaburi complex (3,645 MW), Hin Kong (785 MW equity), Australian peaking plants (Kemerton 310 MW, Townsville 242 MW, Snapper Point 154 MW)",
+        "source": "RATCH Factsheet Q1/2025"
+      },
+      "oil": {
+        "value_mw": 0,
+        "source": "RATCH Factsheet Q1/2025"
+      },
+      "hydro": {
+        "value_mw": 290,
+        "notes": "Nam Ngum 2 Laos (154 MW equity, 25% of 615 MW), Xe-Pian Xe-Namnoy Laos (103 MW equity, 25% of 410 MW)",
+        "source": "RATCH Factsheet Q1/2025"
+      },
+      "solar": {
+        "value_mw": 55,
+        "notes": "Collinsville Solar Farm Australia (42.5 MW), Thai rooftop projects",
+        "source": "RATCH Factsheet Q1/2025"
+      },
+      "wind": {
+        "value_mw": 850,
+        "notes": "Lincoln Gap (212 MW), Mount Emerald (180.5 MW), Collector (227 MW), Yandin (150 MW equity, 70% of 214 MW)",
+        "source": "RATCH Factsheet Q1/2025"
+      },
+      "geothermal": {
+        "value_mw": 0,
+        "source": "RATCH Factsheet Q1/2025"
+      },
+      "other_re": {
+        "value_mw": 0,
+        "source": "RATCH Factsheet Q1/2025"
+      }
+    },
+    "re_share_pct": 27.5,
+    "re_share_notes": "Hydro (290 MW) + Solar (55 MW) + Wind (850 MW) = 1,195 MW RE of 8,297 MW total",
+    "capacity_type": "equity",
+    "source": "RATCH Factsheet Q1/2025"
+  },
+
+  "generation": {
+    "reporting_year": "FY2023",
+    "total_gwh": 47500,
+    "total_gwh_notes": "Estimated from emissions intensity calculation (7.4 MtCO2e / 0.156 tCO2/MWh)",
+    "renewable_gwh": 4231,
+    "renewable_gwh_notes": "4,230,811 MWh from Sustainability Report 2023",
+    "notes": "Only renewable generation explicitly disclosed; total estimated from emissions",
+    "source": "RATCH Sustainability Report 2023"
+  },
+
+  "financial": {
+    "reporting_year": "FY2024",
+    "currency": "THB",
+    "fx_to_usd": 34.48,
+    "income_statement": {
+      "revenue": {
+        "value_local": 42203,
+        "value_usd": 1224,
+        "unit": "millions",
+        "source": "RATCH FY2024 Financial Statements"
+      },
+      "ebitda": {
+        "value_local": 15906,
+        "value_usd": 461,
+        "unit": "millions",
+        "source": "RATCH FY2024 Financial Statements"
+      },
+      "ebit": {
+        "value_local": null,
+        "value_usd": null,
+        "unit": "millions",
+        "source": "RATCH FY2024 Financial Statements"
+      },
+      "interest_expense": {
+        "value_local": 4443,
+        "value_usd": 129,
+        "unit": "millions",
+        "source": "RATCH FY2024 Financial Statements"
+      },
+      "net_income": {
+        "value_local": 6127,
+        "value_usd": 178,
+        "unit": "millions",
+        "source": "RATCH FY2024 Financial Statements"
+      }
+    },
+    "balance_sheet": {
+      "total_assets": {
+        "value_local": 214337,
+        "value_usd": 6217,
+        "unit": "millions",
+        "source": "RATCH FY2024 Financial Statements"
+      },
+      "total_debt": {
+        "value_local": 86420,
+        "value_usd": 2507,
+        "unit": "millions",
+        "source": "RATCH FY2024 Financial Statements"
+      },
+      "total_equity": {
+        "value_local": 106374,
+        "value_usd": 3086,
+        "unit": "millions",
+        "source": "RATCH FY2024 Financial Statements"
+      },
+      "current_assets": {
+        "value_local": 41618,
+        "value_usd": 1207,
+        "unit": "millions",
+        "source": "RATCH FY2024 Financial Statements"
+      },
+      "current_liabilities": {
+        "value_local": 33127,
+        "value_usd": 961,
+        "unit": "millions",
+        "source": "RATCH FY2024 Financial Statements"
+      }
+    },
+    "cash_flow": {
+      "operating_cash_flow": {
+        "value_local": 8143,
+        "value_usd": 236,
+        "unit": "millions",
+        "source": "RATCH FY2024 Financial Statements"
+      },
+      "capex": {
+        "value_local": null,
+        "value_usd": null,
+        "unit": "millions",
+        "notes": "Not explicitly disclosed",
+        "source": "RATCH FY2024 Financial Statements"
+      }
+    },
+    "credit_rating": {
+      "rating": "AA+",
+      "agency": "TRIS",
+      "outlook": "Stable",
+      "date": "2024",
+      "notes": "One-notch uplift from standalone aa reflecting EGAT strategic importance; S&P BBB-/Stable; Moody's Baa1/Negative",
+      "source": "TRIS Rating"
+    },
+    "market_cap": {
+      "value_local": null,
+      "value_usd": null,
+      "notes": "Listed on SET",
+      "source": ""
+    }
+  },
+
+  "emissions": {
+    "reporting_year": 2022,
+    "data_quality_warning": "CRITICAL: Scope 1/2 breakdown not publicly disclosed. Total GHG only available.",
+    "scope1": {
+      "value_tco2": 6500000,
+      "value_mtco2": 6.5,
+      "notes": "ESTIMATED: Derived from total GHG 7.4 MtCO2e. Assuming ~88% is Scope 1 based on generation mix (gas 72.5% of thermal).",
+      "source": "Estimated from Thanachart Securities Research"
+    },
+    "scope2": {
+      "value_tco2": 50000,
+      "value_mtco2": 0.05,
+      "notes": "ESTIMATED: Typical Scope 2 for IPP operations",
+      "source": "Estimated"
+    },
+    "scope3": {
+      "value_tco2": 850000,
+      "value_mtco2": 0.85,
+      "notes": "ESTIMATED: Balance of total GHG 7.4 MtCO2e",
+      "source": "Estimated"
+    },
+    "total_ghg": {
+      "value_tco2": 7400000,
+      "value_mtco2": 7.4,
+      "notes": "Total GHG emissions reported",
+      "source": "Thanachart Securities Research"
+    },
+    "intensity": {
+      "value_tco2_mwh": 0.156,
+      "value_kgco2_kwh": 0.156,
+      "notes": "Calculated from 7.4 MtCO2e / ~47,500 GWh estimated generation",
+      "target_2030": "15% reduction from 2023 baseline",
+      "source": "Calculated; target from Climate Strategy page"
+    },
+    "cdp_score": null,
+    "cdp_status": null,
+    "cdp_notes": "Not verified"
+  },
+
+  "transition": {
+    "net_zero": {
+      "target_year": null,
+      "scope": null,
+      "carbon_neutrality_year": 2050,
+      "carbon_neutrality_notes": "Carbon neutrality target (not net-zero) permits greater reliance on offsets",
+      "interim_targets": [
+        {"year": 2030, "target": "15% GHG intensity reduction from 2023 baseline"}
+      ],
+      "source": "RATCH Climate Strategy page"
+    },
+    "sbti": {
+      "validated": false,
+      "committed": false,
+      "validation_date": null,
+      "target_type": null,
+      "notes": "NOT IN DATABASE - RATCH has not committed to or validated targets through SBTi",
+      "source": "SBTi Companies Taking Action database (searched Jan 2026)"
+    },
+    "coal_policy": {
+      "no_new_coal": false,
+      "no_new_coal_note": "Policy avoids NEW coal investments but permits acquisition of EXISTING coal assets",
+      "coal_exit_date": null,
+      "coal_exit_details": "CRITICAL: Acquired Paiton coal plant (742 MW equity) in May 2024 with PPAs to 2042. No coal exit commitment.",
+      "source": "RATCH press releases, Company website"
+    },
+    "re_targets": {
+      "target_pct": 30,
+      "target_year": 2030,
+      "target_pct_2035": 40,
+      "current_pct": 27.5,
+      "notes": "30% RE by 2030, 40% by 2035; currently at 27.5%",
+      "source": "RATCH Climate Strategy page"
+    },
+    "capex_allocation": {
+      "clean_capex_share_pct": null,
+      "clean_capex_definition": "Not explicitly disclosed",
+      "annual_capex_budget_thb_bn": 10,
+      "notes": "Annual investment budget THB 10B (2024); THB 4B green debentures issued 2024 for renewables. Fossil/renewable allocation not broken down.",
+      "source": "RATCH company news release"
+    },
+    "carbon_offsets": {
+      "target_pct": 1,
+      "target_notes": "1% of total emissions via forest carbon credits",
+      "source": "RATCH Climate Strategy page"
+    },
+    "green_finance": {
+      "green_bonds_issued": true,
+      "green_bonds_thb_mn": 4000,
+      "green_bonds_usd_mn": 116,
+      "green_bond_date": "2024",
+      "use_of_proceeds": ["Renewable energy projects"],
+      "source": "RATCH FY2024 Financial Statements"
+    },
+    "governance": {
+      "tcfd_aligned": true,
+      "tcfd_reporting_since": null,
+      "internal_carbon_price_usd": null
+    }
+  },
+
+  "coal_plants": {
+    "status": "operating",
+    "notes": "CRITICAL ESG CONCERN: Acquired Paiton coal plant in May 2024. Stock de-rated by investors due to ESG concerns over coal expansion.",
+    "plants": [
+      {
+        "name": "Paiton Thermal Power Plant",
+        "capacity_mw": 742,
+        "gross_capacity_mw": 2045,
+        "fuel": "Coal",
+        "technology": "Subcritical",
+        "location": "East Java, Indonesia",
+        "commissioned": 1999,
+        "ownership_pct": 36.26,
+        "acquisition_date": "2024-05",
+        "acquisition_value_usd_mn": 591,
+        "ppa_expiry": 2042,
+        "notes": "Acquired from Engie; raises significant ESG concerns"
+      }
+    ],
+    "source": "RATCH press releases, Factsheet Q1/2025"
+  },
+
+  "credit_metrics_b5": {
+    "reporting_year": "FY2024",
+    "metrics": {
+      "debt_to_ebitda": {
+        "value": 5.43,
+        "calculation": "86420 / 15906",
+        "threshold": 4.0,
+        "pass_if": "< 4.0x",
+        "pass": false,
+        "assessment": "elevated"
+      },
+      "interest_coverage": {
+        "value": 3.58,
+        "calculation": "15906 / 4443",
+        "threshold": 2.5,
+        "pass_if": "> 2.5x",
+        "pass": true,
+        "assessment": "adequate"
+      },
+      "ffo_to_debt_pct": {
+        "value": 9.42,
+        "calculation": "8143 / 86420 * 100",
+        "threshold": 20,
+        "pass_if": "> 20%",
+        "pass": false,
+        "assessment": "below_threshold"
+      },
+      "current_ratio": {
+        "value": 1.26,
+        "calculation": "41618 / 33127",
+        "threshold": 1.0,
+        "pass_if": "> 1.0x",
+        "pass": true,
+        "assessment": "adequate"
+      },
+      "debt_to_capital_pct": {
+        "value": 44.84,
+        "calculation": "86420 / (86420 + 106374) * 100",
+        "threshold": 60,
+        "pass_if": "< 60%",
+        "pass": true,
+        "assessment": "adequate"
+      }
+    },
+    "b5_pass_count": 3,
+    "b5_overall_pass": false,
+    "notes": "3/5 metrics pass (need 4/5). Elevated leverage post-Paiton acquisition. Moody's negative outlook reflects leverage concerns. TRIS AA+ rating includes one-notch uplift for EGAT strategic importance.",
+    "source": "Calculated from RATCH FY2024 Financial Statements"
+  },
+
+  "data_gaps": [
+    {
+      "field": "scope1_tco2",
+      "status": "estimated",
+      "priority": "HIGH",
+      "reason": "Scope 1/2 breakdown not publicly disclosed. RATCH states it calculates internally but doesn't publish. Estimated from total GHG 7.4 MtCO2e."
+    },
+    {
+      "field": "clean_capex_pct",
+      "status": "unavailable",
+      "priority": "MEDIUM",
+      "reason": "Annual budget THB 10B disclosed but fossil/renewable allocation not broken down."
+    },
+    {
+      "field": "total_generation_gwh",
+      "status": "estimated",
+      "priority": "LOW",
+      "reason": "Only renewable generation (4,231 GWh) explicitly disclosed. Total (~47,500 GWh) estimated from emissions intensity."
+    }
+  ],
+  "data_resolved": [
+    {
+      "field": "renewable_generation_gwh",
+      "value": 4231,
+      "source": "Sustainability Report 2023"
+    },
+    {
+      "field": "emissions_intensity",
+      "value": "0.156 tCO2/MWh",
+      "source": "Calculated from total GHG / estimated generation"
+    },
+    {
+      "field": "annual_capex_budget",
+      "value": "THB 10 billion",
+      "source": "Company news release"
+    },
+    {
+      "field": "ghg_intensity_target",
+      "value": "15% reduction by 2030 from 2023 baseline",
+      "source": "Climate Strategy page"
+    }
+  ],
+
+  "data_sources": {
+    "annual_report": "RATCH FY2024 Financial Statements",
+    "sustainability_report": "RATCH Sustainability Report 2023",
+    "rating_report": "TRIS Rating (2024)",
+    "other": [
+      "RATCH Factsheet Q1/2025",
+      "RATCH Company Website - Climate Strategy",
+      "RATCH Australia Corporation",
+      "Thanachart Securities Research",
+      "SBTi Companies Taking Action database"
+    ]
+  },
+
+  "verification_checklist": {
+    "coal_capacity_confirmed": true,
+    "coal_capacity_note": "742 MW equity from Paiton Indonesia (36.26% of 2,045 MW)",
+    "capacity_sums_verified": true,
+    "financial_same_year": true,
+    "sources_documented": true,
+    "credit_metrics_calculated": true,
+    "sbti_status_verified": true,
+    "sbti_verification_note": "Confirmed NOT in SBTi database as of Jan 2026",
+    "emissions_warning": "Scope 1 emissions ESTIMATED - only total GHG disclosed"
+  },
+
+  "analyst_notes": "RATCH Group presents contradictory transition signals: meaningful renewable progress in Australia alongside active coal expansion via the 2024 Paiton acquisition. The absence of SBTi commitment and limited emissions transparency are significant gaps for ESG benchmarking. Credit profile remains investment-grade but Moody's negative outlook reflects leverage concerns post-acquisition."
+}

@@ -1,0 +1,15 @@
+# ETCB Results: Aboitiz Power
+
+**Score: 4/5 - Medium-high Tier**
+
+Generated: 2026-03-17 15:13
+
+## Benchmark Results
+
+| Benchmark | Result | Details |
+|-----------|--------|--------|
+| B1 Stranded Asset | FAIL | At-risk coal: 77.3% (threshold: <20%) |
+| B2 Carbon Cost | PASS | CCE at medium carbon price: 0.0% (threshold: <20%) |
+| B3 LCOE Crossover | PASS | Displaced thermal: 0.0% (threshold: <30%) |
+| B4 Transition | PASS | Clean CAPEX 60% |
+| B5 Balance Sheet | PASS | 4/5 metrics pass (need at least 4/5) |

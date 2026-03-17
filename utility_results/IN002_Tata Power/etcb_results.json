@@ -1,0 +1,119 @@
+{
+  "generated_at": "2026-03-17T15:13:48.360594",
+  "utility_id": "IN002",
+  "utility_name": "Tata Power",
+  "country_code": "IN",
+  "benchmarks": {
+    "b1_stranded_asset_risk": {
+      "passed": false,
+      "score": 1.0,
+      "details": {
+        "coal_mw": 7800.0,
+        "at_risk_mw": 7800.0,
+        "at_risk_share_pct": 100.0,
+        "threshold_pct": 20
+      },
+      "notes": "At-risk coal: 100.0% (threshold: <20%)",
+      "data_available": true
+    },
+    "b2_carbon_cost_exposure": {
+      "passed": true,
+      "score": 0.0,
+      "details": {
+        "scope1_tco2": 41352681.0,
+        "ebitda_usd": 1722000000.0,
+        "carbon_price_usd_tco2": 0.0,
+        "cce_low_pct": 36.0,
+        "cce_medium_pct": 0.0,
+        "cce_high_pct": 180.1,
+        "threshold_pct": 20
+      },
+      "notes": "CCE at medium carbon price: 0.0% (threshold: <20%)",
+      "data_available": true
+    },
+    "b3_lcoe_crossover": {
+      "passed": true,
+      "score": 0.0,
+      "details": {
+        "thermal_mw": 7908.0,
+        "displaced_mw": 0.0,
+        "displaced_share_pct": 0.0,
+        "solar_plus_storage_lcoe": 42.0,
+        "carbon_price_usd_tco2": 0.0,
+        "fuel_analysis": {
+          "coal": {
+            "capacity_mw": 7800.0,
+            "base_cost_usd_mwh": 20.0,
+            "carbon_cost_usd_mwh": 0.0,
+            "total_cost_usd_mwh": 20.0,
+            "displaced": false
+          },
+          "gas": {
+            "capacity_mw": 108.0,
+            "base_cost_usd_mwh": 35.0,
+            "carbon_cost_usd_mwh": 0.0,
+            "total_cost_usd_mwh": 35.0,
+            "displaced": false
+          }
+        },
+        "threshold_pct": 30
+      },
+      "notes": "Displaced thermal: 0.0% (threshold: <30%)",
+      "data_available": true
+    },
+    "b4_transition_alignment": {
+      "passed": true,
+      "score": 1.0,
+      "details": {
+        "sbti_validated": true
+      },
+      "notes": "SBTi targets validated",
+      "data_available": true
+    },
+    "b5_balance_sheet_stress": {
+      "passed": false,
+      "score": 0.6,
+      "details": {
+        "metrics": {
+          "debt_to_ebitda": 4.34,
+          "interest_coverage": 2.8,
+          "ffo_to_debt_pct": 20.17,
+          "current_ratio": 0.66,
+          "debt_to_capital_pct": 59.5
+        },
+        "checks": {
+          "debt_to_ebitda": false,
+          "interest_coverage": true,
+          "ffo_to_debt": true,
+          "current_ratio": false,
+          "debt_to_capital": true
+        },
+        "metrics_available": 5,
+        "metrics_passed": 3,
+        "metrics_failed": 2,
+        "thresholds": {
+          "debt_to_ebitda": "< 4.0x",
+          "interest_coverage": "> 2.5x",
+          "ffo_to_debt_pct": "> 20%",
+          "current_ratio": "> 1.0x",
+          "debt_to_capital_pct": "< 60%"
+        }
+      },
+      "notes": "3/5 metrics pass (need at least 4/5)",
+      "data_available": true
+    }
+  },
+  "summary": {
+    "pass_count": 3,
+    "tier": "Medium",
+    "benchmarks_passed": [
+      "B2",
+      "B3",
+      "B4"
+    ],
+    "benchmarks_failed": [
+      "B1",
+      "B5"
+    ]
+  }
+}

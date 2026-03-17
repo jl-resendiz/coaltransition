@@ -1,0 +1,517 @@
+{
+  "id": "IN008",
+  "name": "NLC India",
+  "full_name": "NLC India Limited (formerly Neyveli Lignite Corporation)",
+  "country_code": "IN",
+  "last_updated": "2026-01-14",
+
+  "identification": {
+    "ownership": "PSU (Government of India 72.20%)",
+    "ownership_details": "Schedule A Central PSE with Navratna status; GoI institutions hold additional 4.31%",
+    "listed": true,
+    "stock_ticker": "NSE:NLCINDIA, BSE:513683",
+    "isin": "INE589A01014",
+    "cin": "L93090TN1956GOI003507",
+    "website": "https://www.nlcindia.in",
+    "fiscal_year_end": "March 31",
+    "registered_office": "Chennai, Tamil Nadu",
+    "date_of_incorporation": "1956-11-14"
+  },
+
+  "capacity": {
+    "reporting_date": "2024-12-31",
+    "total_mw": 6731,
+    "by_fuel": {
+      "coal": {"value_mw": 1660, "notes": "JV coal plants: NTPL Tuticorin 1000 MW + NUPPL Ghatampur 660 MW"},
+      "lignite": {"value_mw": 3640, "notes": "Neyveli TPS-I Exp 420, TPS-II 1470, TPS-II Exp 500, NNTPS 1000, Barsingsar 250"},
+      "gas": {"value_mw": 0},
+      "oil": {"value_mw": 0},
+      "hydro": {"value_mw": 0},
+      "solar": {"value_mw": 1380, "notes": "Tamil Nadu, A&N Islands (20 MW with 8 MWh BESS), Neyveli captive"},
+      "wind": {"value_mw": 51, "notes": "Kaluneerkulam, Tenkasi District - 34 WTGs x 1.5 MW"},
+      "nuclear": {"value_mw": 0},
+      "other_re": {"value_mw": 0}
+    },
+    "thermal_mw": 5300,
+    "thermal_share_pct": 78.7,
+    "re_mw": 1431,
+    "re_share_pct": 21.3,
+    "under_construction_mw": 4720,
+    "under_construction_details": "NUPPL Units 2-3 (1320 MW), Talabira TPP (2400 MW), TPS-II 2nd Exp (1000 MW)",
+    "pipeline_re_mw": 3570,
+    "pipeline_re_details": "Khavda 600 MW, Barsingsar Solar 1110 MW, CPSU Solar 510 MW, SECI Hybrid 150 MW, Telangana 200 MW, Assam JV 1000 MW",
+    "mining_capacity_mtpa": {
+      "total": 50.10,
+      "lignite": 30.10,
+      "coal": 20.00
+    },
+    "source": "NLC India Annual Report FY2023-24, NSE filings"
+  },
+
+  "generation": {
+    "reporting_year": "FY2024-25",
+    "total_gwh": 27866,
+    "by_fuel_gwh": {
+      "thermal": 25765,
+      "renewable": 2100
+    },
+    "notes": "27,865.58 MU consolidated FY25; +2.8% YoY from 27,106 MU; Thermal 92%, RE 8%",
+    "plf_highlights": {
+      "nntps_pct": 98.21,
+      "nntps_notes": "NNTPS (2x500 MW) single-month peak (March 2024), NOT annual company-wide figure",
+      "tps_i_exp_pct": 97.92,
+      "tps_i_exp_notes": "TPS-I Expansion single-month peak (March 2024)",
+      "company_wide_annual_plf_pct": 65,
+      "company_wide_annual_plf_notes": "Estimated annual company-wide PLF based on generation (25,765 GWh thermal) / capacity (~5,536 MW thermal) / 8760h = ~53%. CEA all-India thermal average: 69%. NLC India historical company-wide PLF approximately 55-70% depending on year.",
+      "notes": "WARNING: Previous use of 98% CF for NLC India was a single unit's best month. Annual company-wide figure is approximately 55-70%."
+    },
+    "source": "NLC India FY25, ICICI Direct"
+  },
+
+  "financial": {
+    "reporting_year": "FY2024-25",
+    "currency": "INR",
+    "fx_to_usd": 84.0,
+    "audited": true,
+    "income_statement": {
+      "revenue": {
+        "value_local": 153220,
+        "value_usd": 1824,
+        "unit": "millions",
+        "notes": "INR 15,322 crore; +17.9% YoY",
+        "source": "NLC India FY25"
+      },
+      "ebitda": {
+        "value_local": 65130,
+        "value_usd": 775,
+        "unit": "millions",
+        "notes": "INR 6,513 crore; +35.7% YoY; Operating margin 31%",
+        "source": "NLC India FY25"
+      },
+      "ebit": {
+        "value_local": null,
+        "value_usd": null,
+        "unit": "millions",
+        "notes": "Not explicitly provided",
+        "source": ""
+      },
+      "interest_expense": {
+        "value_local": 9320,
+        "value_usd": 111,
+        "unit": "millions",
+        "notes": "INR 932 crore FY25; +9.8% YoY from 849 Cr; Q4 FY25 highest at 325 Cr",
+        "source": "NLC India Consolidated Financial Statements FY25"
+      },
+      "net_income": {
+        "value_local": 27140,
+        "value_usd": 323,
+        "unit": "millions",
+        "notes": "INR 2,714 crore; +45.3% YoY",
+        "source": "NLC India FY25"
+      }
+    },
+    "balance_sheet": {
+      "total_assets": {
+        "value_local": null,
+        "value_usd": null,
+        "unit": "millions",
+        "notes": "Not provided",
+        "source": ""
+      },
+      "total_debt": {
+        "value_local": 224290,
+        "value_usd": 2670,
+        "unit": "millions",
+        "notes": "INR 22,429 crore",
+        "source": "NLC India FY25"
+      },
+      "net_debt": {
+        "value_local": null,
+        "value_usd": null,
+        "unit": "millions",
+        "notes": "Not provided",
+        "source": ""
+      },
+      "total_equity": {
+        "value_local": 166141,
+        "value_usd": 1978,
+        "unit": "millions",
+        "notes": "INR 16,614 crore (calculated from D/E 1.35x)",
+        "source": "Calculated from Debt/Equity ratio"
+      },
+      "current_assets": {
+        "value_local": 80650,
+        "value_usd": 960,
+        "unit": "millions",
+        "notes": "INR 8,065 crore FY25 (Cash 187 + Receivables 4,122 + Inventory 1,913 + Other 1,843); down from 9,326 Cr FY24",
+        "source": "NLC India Consolidated Balance Sheet FY25"
+      },
+      "current_liabilities": {
+        "value_local": 107070,
+        "value_usd": 1275,
+        "unit": "millions",
+        "notes": "INR 10,707 crore FY25 (ST Debt 2,628 + Payables 1,898 + Current LT Debt 1,274 + Other 4,907); up from 7,947 Cr FY24",
+        "source": "NLC India Consolidated Balance Sheet FY25"
+      }
+    },
+    "cash_flow": {
+      "operating_cash_flow": {
+        "value_local": 89770,
+        "value_usd": 1069,
+        "unit": "millions",
+        "notes": "INR 8,977 crore FY25; +62.9% YoY from 5,512 Cr; improved receivables collection (113 days vs 239 days)",
+        "source": "NLC India Consolidated Cash Flow Statement FY25"
+      },
+      "capex": {
+        "value_local": 77000,
+        "value_usd": 917,
+        "unit": "millions",
+        "notes": "INR 7,700+ crore FY25 - highest-ever investment year; RE commitment INR 50,000 crore through 2030",
+        "source": "NLC India FY25, CARE Ratings"
+      }
+    },
+    "credit_rating": {
+      "rating": "AAA",
+      "agency": "CRISIL/ICRA",
+      "outlook": "Stable",
+      "date": "2025-02",
+      "notes": "CRISIL AAA (NCDs 3,000 Cr, Bank facilities 6,659 Cr); ICRA AAA (NCDs 2,000 Cr)",
+      "source": "Rating Agency Reports"
+    },
+    "key_ratios": {
+      "debt_to_equity": 1.35,
+      "roe_pct": 14.5,
+      "roce_pct": 10.5,
+      "operating_margin_pct": 31,
+      "source": "NLC India FY25"
+    }
+  },
+
+  "emissions": {
+    "reporting_year": 2024,
+    "scope1": {
+      "value_tco2": 25154950,
+      "value_mtco2": 25.15,
+      "notes": "Very high due to lignite combustion; -11.2% YoY from 28.52 MtCO2",
+      "source": "NLC India BRSR FY2023-24"
+    },
+    "scope2": {
+      "value_tco2": 303,
+      "value_mtco2": 0.000303,
+      "notes": "Minimal purchased electricity",
+      "source": "NLC India BRSR FY2023-24"
+    },
+    "scope3": {
+      "value_tco2": null,
+      "value_mtco2": null,
+      "notes": "Not publicly disclosed",
+      "source": ""
+    },
+    "total": {
+      "value_tco2": 25155253,
+      "value_mtco2": 25.16,
+      "notes": "Total Scope 1+2 emissions"
+    },
+    "intensity": {
+      "value_tco2_mwh": 1.0,
+      "notes": "Estimated ~1.0 tCO2/MWh - exceeds India grid average (0.716 tCO2/MWh) due to lignite",
+      "source": "Estimated"
+    },
+    "historical": {
+      "FY2021-22": {"scope1_tco2": 28522909, "scope2_tco2": 213},
+      "FY2022-23": {"scope1_tco2": 28522909, "scope2_tco2": 324},
+      "FY2023-24": {"scope1_tco2": 25154950, "scope2_tco2": 303}
+    },
+    "methodology": "GHG Protocol",
+    "verification": true,
+    "cdp_score": null,
+    "cdp_notes": "No public CDP submission"
+  },
+
+  "transition": {
+    "net_zero": {
+      "target_year": 2070,
+      "scope": "Aligned with India national target",
+      "notes": "No company-specific target; aligned with India COP26 commitment",
+      "source": "NLC India disclosures"
+    },
+    "sbti": {
+      "validated": false,
+      "committed": false,
+      "notes": "In process of setting targets; not yet submitted for validation",
+      "source": "SBTi Database"
+    },
+    "interim_targets": {
+      "re_share_2030_pct": 50,
+      "carbon_reduction_2030_pct": 50,
+      "capacity_2030_gw": 10.11,
+      "no_new_thermal_after_2030": true,
+      "source": "NLC India corporate strategy"
+    },
+    "coal_policy": {
+      "no_new_coal": false,
+      "coal_exit_date": null,
+      "coal_exit_details": "No phase-out timeline; 4.7 GW thermal under construction",
+      "new_thermal_planned_mw": 4720,
+      "source": "NLC India Annual Report"
+    },
+    "re_targets": {
+      "current_re_share_pct": 21.3,
+      "target_re_share_pct": 50,
+      "target_re_capacity_gw": 10.11,
+      "investment_commitment_inr_crore": 50000,
+      "investment_commitment_usd_billion": 6.0,
+      "notes": "Aggressive RE expansion but continued thermal additions through 2030",
+      "source": "NLC India strategy"
+    },
+    "capex_allocation": {
+      "clean_capex_share_pct": null,
+      "clean_capex_definition": "RE investment commitment INR 50,000 crore",
+      "notes": "Clean vs thermal capex split not explicitly disclosed",
+      "source": ""
+    },
+    "clean_energy_initiatives": {
+      "green_hydrogen_mw": 4,
+      "green_hydrogen_kg_day": 300,
+      "lignite_to_methanol_mtpa": 0.4,
+      "battery_storage": "Under evaluation",
+      "pumped_hydro": "MoU with WAPCOS Ltd",
+      "notes": "Diversification into green hydrogen and methanol",
+      "source": "NLC India disclosures"
+    },
+    "governance": {
+      "tcfd_aligned": null,
+      "brsr_disclosure": true,
+      "sustainability_report_standalone": false
+    }
+  },
+
+  "coal_plants": {
+    "status": "expanding",
+    "notes": "Heavy lignite/coal focus with 4.7 GW thermal under construction",
+    "plants": [
+      {
+        "name": "TPS-I Expansion",
+        "type": "lignite",
+        "capacity_mw": 420,
+        "location": "Neyveli, Tamil Nadu",
+        "units": "2x210 MW",
+        "retirement_date": null
+      },
+      {
+        "name": "TPS-II",
+        "type": "lignite",
+        "capacity_mw": 1470,
+        "location": "Neyveli, Tamil Nadu",
+        "units": "7x210 MW",
+        "retirement_date": null
+      },
+      {
+        "name": "TPS-II Expansion",
+        "type": "lignite",
+        "capacity_mw": 500,
+        "location": "Neyveli, Tamil Nadu",
+        "units": "2x250 MW CFBC",
+        "retirement_date": null
+      },
+      {
+        "name": "Neyveli New TPS (NNTPS)",
+        "type": "lignite",
+        "capacity_mw": 1000,
+        "location": "Neyveli, Tamil Nadu",
+        "units": "2x500 MW",
+        "notes": "Largest lignite boiler in Asia",
+        "retirement_date": null
+      },
+      {
+        "name": "Barsingsar TPS",
+        "type": "lignite",
+        "capacity_mw": 250,
+        "location": "Bikaner, Rajasthan",
+        "units": "2x125 MW",
+        "retirement_date": null
+      },
+      {
+        "name": "NTPL Tuticorin",
+        "type": "coal",
+        "capacity_mw": 1000,
+        "location": "Tuticorin, Tamil Nadu",
+        "nlcil_equity_pct": 89,
+        "retirement_date": null
+      },
+      {
+        "name": "NUPPL Ghatampur Unit-1",
+        "type": "coal",
+        "capacity_mw": 660,
+        "location": "Ghatampur, Uttar Pradesh",
+        "commissioned": "December 2024",
+        "retirement_date": null
+      }
+    ],
+    "under_construction": [
+      {
+        "name": "NUPPL Ghatampur Units 2-3",
+        "type": "coal",
+        "capacity_mw": 1320,
+        "location": "Ghatampur, Uttar Pradesh",
+        "expected": "FY2025-26"
+      },
+      {
+        "name": "Talabira TPP",
+        "type": "coal",
+        "capacity_mw": 2400,
+        "location": "Odisha",
+        "units": "3x800 MW",
+        "epc_contractor": "BHEL",
+        "epc_value_crore": 18255
+      },
+      {
+        "name": "TPS-II Second Expansion",
+        "type": "lignite",
+        "capacity_mw": 1000,
+        "location": "Neyveli, Tamil Nadu",
+        "units": "2x500 MW",
+        "status": "Under planning"
+      }
+    ],
+    "retired": [
+      {
+        "name": "TPS-I",
+        "type": "lignite",
+        "capacity_mw": 600,
+        "retirement_date": "2020-09",
+        "replaced_by": "NNTPS"
+      }
+    ]
+  },
+
+  "esg_ratings": {
+    "sustainalytics_risk_rating": 44.8,
+    "sustainalytics_risk_category": "Severe",
+    "sustainalytics_notes": "High exposure due to lignite combustion carbon intensity",
+    "awards": [
+      "GEEF Global Environment Award 2024 (Platinum)",
+      "Greentech Environmental Excellence Award 2023",
+      "13 Five-Star Mining Awards (Ministry of Coal)"
+    ],
+    "source": "Sustainalytics ESG Database"
+  },
+
+  "credit_metrics_b5": {
+    "reporting_year": "FY2024-25",
+    "metrics": {
+      "debt_to_ebitda": {
+        "value": 3.44,
+        "calculation": "224290 / 65130",
+        "threshold": 4.0,
+        "pass_if": "< 4.0x",
+        "pass": true,
+        "assessment": "adequate",
+        "notes": "Debt 22,429 Cr / EBITDA 6,513 Cr = 3.44x"
+      },
+      "interest_coverage": {
+        "value": 6.99,
+        "calculation": "65130 / 9320",
+        "threshold": 2.5,
+        "pass_if": "> 2.5x",
+        "pass": true,
+        "assessment": "strong",
+        "notes": "EBITDA 6,513 Cr / Interest 932 Cr = 7.0x; CRISIL adjusted 5.30x FY24"
+      },
+      "ffo_to_debt_pct": {
+        "value": 40.0,
+        "calculation": "89770 / 224290 * 100",
+        "threshold": 20,
+        "pass_if": "> 20%",
+        "pass": true,
+        "assessment": "strong",
+        "notes": "OCF 8,977 Cr / Debt 22,429 Cr = 40.0%; +63% YoY cash generation"
+      },
+      "current_ratio": {
+        "value": 0.75,
+        "calculation": "80650 / 107070",
+        "threshold": 1.0,
+        "pass_if": "> 1.0x",
+        "pass": false,
+        "assessment": "weak",
+        "notes": "CA 8,065 Cr / CL 10,707 Cr = 0.75x; down from 1.17x FY24 due to capex-related ST borrowings"
+      },
+      "debt_to_capital_pct": {
+        "value": 57.4,
+        "calculation": "224290 / (224290 + 166141) * 100",
+        "threshold": 60,
+        "pass_if": "< 60%",
+        "pass": true,
+        "assessment": "adequate",
+        "notes": "Debt 22,429 Cr / (Debt + Equity 39,043 Cr) = 57.4%; D/E 1.17x well within CERC norm of 2.33x"
+      }
+    },
+    "b5_pass_count": 4,
+    "b5_metrics_available": 5,
+    "b5_overall_pass": true,
+    "notes": "4/5 metrics pass. Only current ratio (0.75x) fails due to highest-ever capex year (₹7,700+ Cr). Interest coverage 7.0x and FFO/Debt 40.0% exceptionally strong. AAA ratings from CRISIL/ICRA/CARE confirmed. ₹3,500 Cr undrawn bank lines mitigate liquidity squeeze.",
+    "source": "Calculated from NLC India FY25 Consolidated Financial Statements, CARE Jan 2026"
+  },
+
+  "data_gaps": [],
+
+  "data_resolved": [
+    {
+      "field": "interest_expense",
+      "value": "INR 932 crore",
+      "resolved_date": "2026-01-14",
+      "source": "NLC India Consolidated Financial Statements FY25"
+    },
+    {
+      "field": "operating_cash_flow",
+      "value": "INR 8,977 crore",
+      "resolved_date": "2026-01-14",
+      "source": "NLC India Consolidated Cash Flow Statement FY25"
+    },
+    {
+      "field": "current_assets",
+      "value": "INR 8,065 crore",
+      "resolved_date": "2026-01-14",
+      "source": "NLC India Consolidated Balance Sheet FY25"
+    },
+    {
+      "field": "current_liabilities",
+      "value": "INR 10,707 crore",
+      "resolved_date": "2026-01-14",
+      "source": "NLC India Consolidated Balance Sheet FY25"
+    },
+    {
+      "field": "generation_gwh",
+      "value": "27,865.58 MU",
+      "resolved_date": "2026-01-14",
+      "source": "NLC India FY25, ICICI Direct"
+    }
+  ],
+
+  "data_sources": {
+    "annual_report": "NLC India Annual Report FY2023-24",
+    "financial_data": "NSE India filings, FY2024-25",
+    "rating_reports": "CRISIL Rating Rationale April 2024, ICRA February 2025",
+    "sustainability_report": "NLC India BRSR FY2023-24",
+    "other": ["Press Information Bureau releases", "Sustainalytics ESG Database", "Central Electricity Authority"]
+  },
+
+  "verification_checklist": {
+    "coal_capacity_confirmed": true,
+    "coal_capacity_note": "5,300 MW thermal (3,640 MW lignite + 1,660 MW coal JVs) = 78.7%",
+    "capacity_sums_verified": true,
+    "capacity_sums_note": "3640 + 1660 + 1380 + 51 = 6,731 MW",
+    "financial_same_year": true,
+    "sources_documented": true,
+    "credit_metrics_calculated": true,
+    "credit_metrics_note": "5/5 metrics calculated; 4/5 pass (current ratio fails)",
+    "sbti_status_verified": true,
+    "sbti_verification_note": "In process but not committed/validated",
+    "net_zero_verified": true,
+    "net_zero_note": "2070 - aligned with India national target, no company-specific commitment",
+    "b5_data_complete": true,
+    "b5_data_note": "All B5 data complete; 4/5 metrics pass"
+  },
+
+  "analyst_notes": "NLC India is a lignite-focused Navratna PSU with 78.7% thermal capacity (3,640 MW lignite + 1,660 MW coal JVs). Despite AAA ratings and strong cash generation (OCF +63% YoY to ₹8,977 Cr), company faces significant transition risk: (1) Very high Scope 1 emissions (25.15 MtCO2); (2) Emissions intensity ~1.0 tCO2/MWh exceeds grid average; (3) 4.7 GW additional thermal under construction; (4) No coal/lignite phase-out timeline; (5) Sustainalytics 'Severe' ESG risk rating (44.8). FY25 financials show exceptional operational performance: highest-ever EBITDA (₹6,513 Cr), interest coverage 7.0x, FFO/Debt 40.0%. Only weakness is current ratio (0.75x) due to intensive capex (₹7,700+ Cr). ETCB outcomes: B1 FAIL (78.7% thermal at-risk), B2 FAIL (CCE 28.6% at medium carbon price), B3 PASS (no LCOE crossover), B4 FAIL (2070 net-zero, no SBTi, only 21.3% RE), B5 PASS (4/5 metrics). Final score: 2/5 Low-medium tier. Interesting paradox: lignite-heavy NLC passes B5 with strong financials while pure-RE AGEL fails B5 due to growth financing."
+}

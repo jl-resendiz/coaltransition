@@ -1,0 +1,171 @@
+{
+  "country_code": "ID",
+  "country_name": "Indonesia",
+  "last_updated": "2026-01-15",
+
+  "carbon_pricing": {
+    "current_price_usd_tco2": 4.0,
+    "price_low_usd_tco2": 2,
+    "price_high_usd_tco2": 100,
+    "carbon_tax_usd_tco2": null,
+    "carbon_tax_proposed_usd_tco2": 2.0,
+    "ets_price_usd_tco2": 4.0,
+    "ets_price_projected_usd_tco2": {
+      "low": 50,
+      "high": 100
+    },
+    "effective_date": "2023-09-26",
+    "trading_start_expected": null,
+    "coverage_pct": 2,
+    "power_capacity_coverage_pct": 37,
+    "status": "active",
+    "scheme_name": "IDX Carbon (Indonesia Carbon Exchange)",
+    "covered_sectors": [
+      "coal_power_plants"
+    ],
+    "covered_entities": 63,
+    "covered_plants": 146,
+    "notes": "IDX Carbon launched Sept 2023; international trading opened Jan 2025. Phase 1 covers coal plants ≥25 MW on PLN grid. Carbon tax enacted in Law 7/2021 but remains undefined and unenforced. Current ~$4/tCO2 far below $50-100 needed by 2030 per IEEFA.",
+    "source": "ICAP ETS Map; IEEFA Indonesia Briefings; OECD"
+  },
+
+  "lcoe_benchmarks": {
+    "solar_pv_utility": {
+      "value_low": 38,
+      "value_high": 100,
+      "value_mid": 70,
+      "unit": "USD/MWh"
+    },
+    "solar_plus_storage": {
+      "value_low": 90,
+      "value_high": 110,
+      "value_mid": 100,
+      "storage_duration_hours": 4,
+      "unit": "USD/MWh",
+      "notes": "Estimated from solar PV mid ($70) + BNEF Southeast Asia storage adder ($20-40/MWh). Previous values ($54-73, mid $65) from Berkeley GSPP study assumed India-like installation costs ($550/kW vs actual Indonesian $800-1000/kW) and concessional financing (3% WACC vs normal 6.5%), making solar+storage appear cheaper than solar alone -- a physical impossibility under identical assumptions.",
+      "source": "BNEF; IRENA; previous Berkeley GSPP values retained in notes for reference"
+    },
+    "onshore_wind": {
+      "value_low": 60,
+      "value_high": 110,
+      "value_mid": 80,
+      "unit": "USD/MWh"
+    },
+    "gas_ccgt": {
+      "value_low": 65,
+      "value_high": 100,
+      "value_mid": 80,
+      "unit": "USD/MWh"
+    },
+    "coal": {
+      "value_low": 50,
+      "value_high": 77,
+      "value_mid": 60,
+      "notes": "New coal at $50-64/MWh with DMO; captive coal $77/MWh without DMO access",
+      "unit": "USD/MWh"
+    },
+    "coal_existing_variable": {
+      "value_low": 22,
+      "value_high": 90,
+      "value_mid": 35,
+      "notes": "DMO subsidized: $22-25/MWh; at international prices: $60-90/MWh; PLN 2023 avg $48/MWh",
+      "unit": "USD/MWh"
+    },
+    "geothermal": {
+      "value_low": 78,
+      "value_high": 100,
+      "value_mid": 90,
+      "unit": "USD/MWh"
+    },
+    "reporting_year": 2024,
+    "currency_conversion_rate": 16955,
+    "currency_conversion_unit": "IDR/USD",
+    "notes": "Solar+storage at $54-59 competitive with new coal $57-64 per Berkeley/GSPP study. PLN solar auctions declined 78% from $250 (2015) to $56 (2022). Floating solar under $40/MWh. Indonesia cost premiums 50-100% above regional peers due to LCR, financing costs, import duties.",
+    "source": "IRENA Renewable Power Generation Costs 2024; BNEF; IESR; PLN RUPTL; Berkeley GSPP study"
+  },
+
+  "national_targets": {
+    "net_zero_target_year": 2060,
+    "net_zero_power_sector_year": 2050,
+    "net_zero_status": "aspirational",
+    "re_capacity_target_gw": 56.5,
+    "re_capacity_target_year": 2030,
+    "re_capacity_target_source": "JETP CIPP",
+    "re_share_target_pct": 44,
+    "re_share_target_pct_ndc": 21,
+    "re_share_target_type": "generation",
+    "coal_phase_out_year": null,
+    "current_re_share_pct": 15,
+    "current_re_share_type": "generation",
+    "peak_emissions_year": 2037,
+    "peak_emissions_year_jetp": 2030,
+    "emissions_cap_2030_mtco2": 250,
+    "emissions_cap_2030_note": "250 MtCO2 for on-grid only; excludes ~30 GW captive coal",
+    "notes": "20+ ppt gap between JETP (44% RE by 2030) and NDC (19-23%). Peak emissions slipped from 2030 (JETP) to 2037 (official). Net-zero 2050 power sector conditional on international finance. JETP CIPP explicitly non-binding.",
+    "source": "JETP CIPP 2023; Indonesia 2nd NDC (Oct 2025); Climate Action Tracker"
+  },
+
+  "jetp_commitments": {
+    "total_funding_billion_usd": 20,
+    "ipg_public_pledges_billion_usd": 10,
+    "gfanz_private_billion_usd": 10,
+    "grants_disbursed_million_usd": 230,
+    "disbursement_pct": 1.15,
+    "coal_retirement_gw": 1.7,
+    "total_investment_need_billion_usd": 97.1,
+    "binding_status": false,
+    "notes": "Only 1.15% of $20B committed has been disbursed as grants. 1.7 GW early coal retirement funded (down from 5 GW proposal). No direct disbursement to Indonesian government. Indonesia Special Envoy called JETP a 'failed program'.",
+    "source": "JETP CIPP; IEEFA; Climate Action Tracker"
+  },
+
+  "grid_context": {
+    "grid_emission_factor_tco2_mwh": 0.682,
+    "grid_emission_factor_type": "weighted_average",
+    "emission_factor_year": "2023",
+    "electricity_market_structure": "State monopoly single-buyer; PLN controls 98% of distribution; IPPs sell to PLN under take-or-pay PPAs",
+    "coal_share_generation_pct": 62,
+    "coal_share_capacity_pct": 53,
+    "coal_share_capacity_pln_pct": 44.9,
+    "total_capacity_gw": 100.6,
+    "total_generation_twh": 371.6,
+    "peak_demand_gw": 61.3,
+    "reserve_margin_pct": 39,
+    "capacity_date": "2024",
+    "captive_coal_gw": 16.6,
+    "captive_coal_pipeline_gw": 20,
+    "notes": "PLN coal share (44.9%) vs national (53%) gap due to captive coal tripling from 5.5 GW (2019) to 16.6 GW (2024). 20+ GW more captive planned. Grid EF 0.682 tCO2/MWh nearly double G20 average.",
+    "source": "Ember Global Electricity Data 2024; PLN Statistics 2024; MEMR; GEM"
+  },
+
+  "currency": {
+    "code": "IDR",
+    "fx_to_usd": 16955.35,
+    "fx_source": "Bank Indonesia",
+    "fx_date": "2026-01-15"
+  },
+
+  "data_quality": {
+    "high_confidence": [
+      "grid_emission_factor_tco2_mwh",
+      "coal_share_generation_pct",
+      "total_capacity_gw",
+      "current_price_usd_tco2",
+      "solar_plus_storage_value_mid"
+    ],
+    "medium_confidence": [
+      "solar_pv_utility_value_mid",
+      "coal_existing_variable_value_mid",
+      "current_re_share_pct"
+    ],
+    "low_confidence": [
+      "onshore_wind_value_mid",
+      "gas_ccgt_value_mid",
+      "ets_price_projected"
+    ],
+    "data_gaps": [
+      "offshore_wind_usd_mwh",
+      "nuclear_usd_mwh"
+    ],
+    "notes": "LCOE for wind less reliable due to only 154 MW installed. Coal variable costs depend heavily on DMO policy. JETP targets significantly exceed official NDC commitments."
+  }
+}

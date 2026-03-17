@@ -1,0 +1,484 @@
+{
+  "id": "IN003",
+  "name": "Adani Power",
+  "full_name": "Adani Power Limited",
+  "country_code": "IN",
+  "last_updated": "2026-01-14",
+
+  "identification": {
+    "ownership": "Private (Adani Group)",
+    "ownership_details": "Promoter Group 71.75% (Gautam S. Adani, Rajesh S. Adani)",
+    "listed": true,
+    "stock_ticker": "NSE:ADANIPOWER, BSE:533096",
+    "website": "https://www.adanipower.com",
+    "fiscal_year_end": "March 31",
+    "registered_office": "Adani Corporate House, Shantigram, S.G. Highway, Ahmedabad, Gujarat 382421"
+  },
+
+  "capacity": {
+    "reporting_date": "2024-03-31",
+    "total_mw": 15250,
+    "by_fuel": {
+      "coal": {
+        "value_mw": 15210,
+        "domestic_mw": 7790,
+        "imported_mw": 7420,
+        "notes": "Mundra (4,620 MW), Tiroda (3,300 MW), Godda (1,600 MW), Raipur (1,370 MW), Kawai (1,320 MW), Udupi (1,200 MW), Mahan (1,200 MW), Raigarh (600 MW)",
+        "source": "Adani Power Annual Report FY2023-24"
+      },
+      "gas": {
+        "value_mw": 0,
+        "source": "Adani Power Annual Report FY2023-24"
+      },
+      "oil": {
+        "value_mw": 0,
+        "source": "Adani Power Annual Report FY2023-24"
+      },
+      "hydro": {
+        "value_mw": 0,
+        "source": "Adani Power Annual Report FY2023-24"
+      },
+      "solar": {
+        "value_mw": 40,
+        "notes": "Bitta Solar, Gujarat",
+        "source": "Adani Power Annual Report FY2023-24"
+      },
+      "wind": {
+        "value_mw": 0,
+        "source": "Adani Power Annual Report FY2023-24"
+      },
+      "nuclear": {
+        "value_mw": 0,
+        "source": "Adani Power Annual Report FY2023-24"
+      },
+      "other_re": {
+        "value_mw": 0,
+        "source": "Adani Power Annual Report FY2023-24"
+      }
+    },
+    "re_share_pct": 0.3,
+    "thermal_share_pct": 99.7,
+    "capacity_type": "gross",
+    "source": "Adani Power Annual Report FY2023-24"
+  },
+
+  "generation": {
+    "reporting_year": "FY2023-24",
+    "total_gwh": 85500,
+    "units_sold_gwh": 79400,
+    "plf_pct": 64.7,
+    "plant_availability_pct": 91,
+    "notes": "85.5 billion units generated; 79.4 billion units sold; PLF improved 17pp YoY",
+    "source": "Adani Power Q4 FY24 Results Press Release"
+  },
+
+  "financial": {
+    "reporting_year": "FY2023-24",
+    "currency": "INR",
+    "fx_to_usd": 83.5,
+    "income_statement": {
+      "revenue": {
+        "value_local": 602810,
+        "value_usd": 7220,
+        "unit": "millions",
+        "notes": "INR 60,281 crore total revenue (Operations 50,351 Cr + Other Income 9,883 Cr)",
+        "source": "Adani Power Annual Report FY2023-24"
+      },
+      "ebitda": {
+        "value_local": 281110,
+        "value_usd": 3367,
+        "unit": "millions",
+        "notes": "INR 28,111 crore reported EBITDA; Continuing EBITDA INR 18,789 crore (excl. one-time items INR 9,322 Cr)",
+        "source": "Adani Power Annual Report FY2023-24"
+      },
+      "ebit": {
+        "value_local": null,
+        "value_usd": null,
+        "unit": "millions",
+        "source": ""
+      },
+      "interest_expense": {
+        "value_local": 33880,
+        "value_usd": 406,
+        "unit": "millions",
+        "notes": "INR 3,388 crore; +1.6% YoY; Cash interest paid INR 3,431 crore",
+        "source": "Adani Power Annual Report FY2023-24"
+      },
+      "net_income": {
+        "value_local": 208290,
+        "value_usd": 2495,
+        "unit": "millions",
+        "notes": "INR 20,829 crore PAT; +94.2% YoY",
+        "source": "Adani Power Annual Report FY2023-24"
+      }
+    },
+    "balance_sheet": {
+      "total_assets": {
+        "value_local": 923250,
+        "value_usd": 11057,
+        "unit": "millions",
+        "notes": "INR 92,325 crore",
+        "source": "Adani Power Annual Report FY2023-24"
+      },
+      "total_debt": {
+        "value_local": 348620,
+        "value_usd": 4176,
+        "unit": "millions",
+        "notes": "INR 34,862 crore gross borrowings; Net Debt INR 26,545 crore",
+        "source": "Adani Power Annual Report FY2023-24"
+      },
+      "total_equity": {
+        "value_local": 431450,
+        "value_usd": 5167,
+        "unit": "millions",
+        "notes": "INR 43,145 crore shareholders' funds",
+        "source": "Adani Power Annual Report FY2023-24"
+      },
+      "current_assets": {
+        "value_local": 255866,
+        "value_usd": 3065,
+        "unit": "millions",
+        "notes": "INR 25,586.60 crore (Receivables 11,678 + Inventory 5,609 + Other 4,744 + Bank 1,838 + Cash 1,136 + Other 581)",
+        "source": "Adani Power Annual Report FY2023-24"
+      },
+      "current_liabilities": {
+        "value_local": 157887,
+        "value_usd": 1891,
+        "unit": "millions",
+        "notes": "INR 15,788.70 crore (ST Borrowings 6,397 + Other 3,649 + Trade Payables 3,609 + Current LTD 1,465 + Other 669)",
+        "source": "Adani Power Annual Report FY2023-24"
+      }
+    },
+    "cash_flow": {
+      "operating_cash_flow": {
+        "value_local": 141700,
+        "value_usd": 1697,
+        "unit": "millions",
+        "notes": "INR 14,170 crore; +68.1% YoY from INR 8,431 crore in FY23",
+        "source": "Adani Power Annual Report FY2023-24"
+      },
+      "capex": {
+        "value_local": null,
+        "value_usd": null,
+        "unit": "millions",
+        "source": ""
+      }
+    },
+    "credit_rating": {
+      "rating": "AA",
+      "agency": "CRISIL/ICRA/CARE/India Ratings",
+      "outlook": "Stable",
+      "date": "FY2023-24",
+      "notes": "Unanimous AA/Stable from all four major Indian agencies",
+      "source": "Rating Agency Reports"
+    },
+    "market_cap": {
+      "value_local": null,
+      "value_usd": null,
+      "source": ""
+    },
+    "key_ratios": {
+      "net_debt_to_ebitda": 1.4,
+      "debt_to_equity": 0.6,
+      "source": "Adani Power Annual Report FY2023-24"
+    }
+  },
+
+  "emissions": {
+    "reporting_year": 2024,
+    "scope1": {
+      "value_tco2": 72900000,
+      "value_mtco2": 72.9,
+      "notes": "Direct emissions from coal power generation",
+      "source": "Adani Power Annual Report FY2023-24, DitchCarbon"
+    },
+    "scope2": {
+      "value_tco2": 5300,
+      "value_mtco2": 0.0053,
+      "notes": "Location-based",
+      "source": "Adani Power Annual Report FY2023-24"
+    },
+    "scope3": {
+      "value_tco2": 2500000,
+      "value_mtco2": 2.5,
+      "notes": "Limited Scope 3 disclosure",
+      "source": "Adani Power Annual Report FY2023-24"
+    },
+    "total": {
+      "value_tco2": 75405300,
+      "value_mtco2": 75.4,
+      "notes": "Scope 1 + Scope 2 + Scope 3"
+    },
+    "intensity": {
+      "value_tco2_mwh": 0.853,
+      "value_kgco2_mwh": 853,
+      "target_tco2_mwh": 0.84,
+      "target_year": "FY2025",
+      "notes": "72,900,000 tCO2 / 85,500,000 MWh = 0.853 tCO2/MWh (853 kg CO2/MWh)",
+      "source": "Calculated from Scope 1 emissions and FY24 generation"
+    },
+    "methodology": "CEMS monitoring",
+    "cdp_score": "B",
+    "cdp_water_score": "B",
+    "cdp_notes": "CDP Climate: B, CDP Water: B"
+  },
+
+  "transition": {
+    "net_zero": {
+      "target_year": null,
+      "scope": null,
+      "notes": "NO NET-ZERO COMMITMENT. Adani Power has not announced any net-zero target.",
+      "source": "Adani Power Annual Report FY2023-24"
+    },
+    "sbti": {
+      "validated": false,
+      "committed": false,
+      "notes": "No SBTi commitment or validation",
+      "source": "SBTi Companies Taking Action database"
+    },
+    "coal_policy": {
+      "no_new_coal": false,
+      "no_new_coal_note": "AGGRESSIVE COAL EXPANSION PLANNED",
+      "coal_exit_date": null,
+      "coal_exit_details": "No coal exit plan. Planning expansion from 15.2 GW to 41.87 GW by FY2031-32.",
+      "expansion_target_mw": 41870,
+      "expansion_target_year": "FY2031-32",
+      "expansion_capex_inr_cr": 200000,
+      "expansion_capex_usd_bn": 22,
+      "source": "Adani Power Investor Presentations"
+    },
+    "re_targets": {
+      "target_pct": null,
+      "target_year": null,
+      "current_pct": 0.3,
+      "notes": "No RE targets announced; current RE share negligible at 0.3%",
+      "source": "Adani Power Annual Report FY2023-24"
+    },
+    "capex_allocation": {
+      "clean_capex_share_pct": null,
+      "clean_capex_definition": "Not disclosed",
+      "notes": "No clean CAPEX allocation disclosed; expansion plans focused on coal",
+      "source": ""
+    },
+    "decarbonization_pilots": [
+      {
+        "initiative": "Green ammonia co-firing",
+        "plant": "Mundra 330 MW unit",
+        "target_blend_pct": 20,
+        "partners": ["IHI Corporation (Japan)", "Kowa Company"],
+        "status": "Testing underway"
+      }
+    ],
+    "governance": {
+      "tcfd_aligned": null,
+      "tcfd_reporting_since": null,
+      "internal_carbon_price_usd": null
+    }
+  },
+
+  "coal_plants": {
+    "status": "operating_and_expanding",
+    "notes": "99.7% coal portfolio with aggressive expansion to 41.87 GW planned. No coal exit date.",
+    "plants": [
+      {
+        "name": "Mundra TPP",
+        "capacity_mw": 4620,
+        "fuel": "Imported coal",
+        "technology": "Subcritical + Supercritical",
+        "location": "Gujarat",
+        "units": "4x330 + 5x660"
+      },
+      {
+        "name": "Tiroda TPP",
+        "capacity_mw": 3300,
+        "fuel": "Domestic coal",
+        "technology": "Supercritical",
+        "location": "Maharashtra",
+        "units": "5x660"
+      },
+      {
+        "name": "Godda TPP",
+        "capacity_mw": 1600,
+        "fuel": "Imported coal",
+        "technology": "Ultra-Supercritical",
+        "location": "Jharkhand",
+        "units": "2x800",
+        "notes": "Exports to Bangladesh under 25-year PPA"
+      },
+      {
+        "name": "Raipur (Raikheda) TPP",
+        "capacity_mw": 1370,
+        "fuel": "Domestic coal",
+        "technology": "Supercritical",
+        "location": "Chhattisgarh",
+        "units": "2x685"
+      },
+      {
+        "name": "Kawai TPP",
+        "capacity_mw": 1320,
+        "fuel": "Domestic coal",
+        "technology": "Supercritical",
+        "location": "Rajasthan",
+        "units": "2x660"
+      },
+      {
+        "name": "Udupi TPP",
+        "capacity_mw": 1200,
+        "fuel": "Imported coal",
+        "technology": "Subcritical",
+        "location": "Karnataka",
+        "units": "2x600"
+      },
+      {
+        "name": "Mahan (Singrauli) TPP",
+        "capacity_mw": 1200,
+        "fuel": "Domestic coal",
+        "technology": "Subcritical",
+        "location": "Madhya Pradesh",
+        "units": "2x600"
+      },
+      {
+        "name": "Raigarh TPP",
+        "capacity_mw": 600,
+        "fuel": "Domestic coal",
+        "technology": "Subcritical",
+        "location": "Chhattisgarh",
+        "units": "1x600"
+      }
+    ],
+    "source": "Adani Power Annual Report FY2023-24"
+  },
+
+  "esg_ratings": {
+    "cdp_climate": "B",
+    "cdp_water": "B",
+    "sp_global_csa_score": 67,
+    "sp_global_csa_percentile": 86,
+    "sustainalytics_score": 29.2,
+    "sustainalytics_risk": "Medium",
+    "source": "ESG Rating Agencies"
+  },
+
+  "credit_metrics_b5": {
+    "reporting_year": "FY2023-24",
+    "metrics": {
+      "debt_to_ebitda": {
+        "value": 1.24,
+        "calculation": "348620 / 281110",
+        "threshold": 4.0,
+        "pass_if": "< 4.0x",
+        "pass": true,
+        "assessment": "strong",
+        "notes": "Using reported EBITDA; with continuing EBITDA (18,789 Cr) = 1.86x"
+      },
+      "interest_coverage": {
+        "value": 8.3,
+        "calculation": "281110 / 33880",
+        "threshold": 2.5,
+        "pass_if": "> 2.5x",
+        "pass": true,
+        "assessment": "strong",
+        "notes": "Using reported EBITDA; with continuing EBITDA = 5.5x"
+      },
+      "ffo_to_debt_pct": {
+        "value": 40.6,
+        "calculation": "141700 / 348620 * 100",
+        "threshold": 20,
+        "pass_if": "> 20%",
+        "pass": true,
+        "assessment": "strong"
+      },
+      "current_ratio": {
+        "value": 1.62,
+        "calculation": "255866 / 157887",
+        "threshold": 1.0,
+        "pass_if": "> 1.0x",
+        "pass": true,
+        "assessment": "strong"
+      },
+      "debt_to_capital_pct": {
+        "value": 44.7,
+        "calculation": "348620 / (348620 + 431450) * 100",
+        "threshold": 60,
+        "pass_if": "< 60%",
+        "pass": true,
+        "assessment": "strong"
+      }
+    },
+    "b5_pass_count": 5,
+    "b5_metrics_available": 5,
+    "b5_overall_pass": true,
+    "notes": "All 5/5 metrics pass. Exceptionally strong balance sheet despite coal-heavy portfolio. Substantial deleveraging in FY24 (net debt reduced 33% YoY). Credit rating upgrades during FY24.",
+    "source": "Calculated from Adani Power Annual Report FY2023-24"
+  },
+
+  "data_gaps": [],
+
+  "data_resolved": [
+    {
+      "field": "interest_expense",
+      "value": "INR 3,388 crore",
+      "resolved_date": "2026-01-14",
+      "source": "Adani Power Annual Report FY2023-24"
+    },
+    {
+      "field": "operating_cash_flow",
+      "value": "INR 14,170 crore",
+      "resolved_date": "2026-01-14",
+      "source": "Adani Power Annual Report FY2023-24"
+    },
+    {
+      "field": "current_assets",
+      "value": "INR 25,586.60 crore",
+      "resolved_date": "2026-01-14",
+      "source": "Adani Power Annual Report FY2023-24"
+    },
+    {
+      "field": "current_liabilities",
+      "value": "INR 15,788.70 crore",
+      "resolved_date": "2026-01-14",
+      "source": "Adani Power Annual Report FY2023-24"
+    },
+    {
+      "field": "generation_gwh",
+      "value": "85,500 GWh",
+      "resolved_date": "2026-01-14",
+      "source": "Adani Power Q4 FY24 Results"
+    },
+    {
+      "field": "total_assets",
+      "value": "INR 92,325 crore",
+      "resolved_date": "2026-01-14",
+      "source": "Adani Power Annual Report FY2023-24"
+    }
+  ],
+
+  "data_sources": {
+    "annual_report": "Adani Power Annual Report FY2023-24",
+    "investor_presentation": "Adani Power Q4 FY24 Results Presentation",
+    "rating_report": "CARE/CRISIL/ICRA/India Ratings Reports",
+    "other": [
+      "DitchCarbon Emissions Database",
+      "BSE/NSE Shareholding Disclosures",
+      "CDP Climate and Water Responses"
+    ]
+  },
+
+  "verification_checklist": {
+    "coal_capacity_confirmed": true,
+    "coal_capacity_note": "15,210 MW coal - 99.7% of portfolio",
+    "capacity_sums_verified": true,
+    "financial_same_year": true,
+    "sources_documented": true,
+    "credit_metrics_calculated": true,
+    "credit_metrics_note": "All 5/5 metrics calculable; ALL PASS",
+    "sbti_status_verified": true,
+    "sbti_verification_note": "Not submitted to SBTi",
+    "net_zero_verified": true,
+    "net_zero_warning": "NO NET-ZERO COMMITMENT",
+    "b5_data_complete": true,
+    "b5_data_note": "All balance sheet data resolved 2026-01-14"
+  },
+
+  "analyst_notes": "Adani Power is India's largest private thermal power producer with an almost pure-coal portfolio (99.7%). With complete financial data, all 5 B5 credit metrics PASS - exceptionally strong balance sheet (Debt/EBITDA 1.24x, Interest Coverage 8.3x, FFO/Debt 40.6%, Current Ratio 1.62x, Debt/Capital 44.7%). B5 will now PASS, improving score to 3/5. However, significant transition risk remains: (1) No net-zero commitment; (2) No SBTi submission; (3) No coal exit plan; (4) Aggressive expansion from 15.2 GW to 41.87 GW coal by FY32; (5) Potential 200 MtCO2/year emissions at full expansion. B4 FAILS due to complete absence of transition commitments. B1 FAILS (100% coal at-risk). B2 PASSES narrowly at 19.1% CCE. Note: Adani Power is separate from Adani Green Energy (AGEL), which has distinct net-zero commitments. Emissions intensity of 853 kg CO2/MWh is high but in line with coal-dominated fleet. Expected score: 3/5 Medium (passes B2, B3, B5; fails B1, B4)."
+}

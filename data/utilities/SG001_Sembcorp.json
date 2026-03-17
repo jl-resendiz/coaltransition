@@ -1,0 +1,460 @@
+{
+  "id": "SG001",
+  "name": "Sembcorp",
+  "full_name": "Sembcorp Industries Ltd",
+  "country_code": "SG",
+  "last_updated": "2025-01-13",
+
+  "identification": {
+    "ownership": "State-linked",
+    "ownership_details": "Temasek Holdings (indirect majority via Sembcorp Industries)",
+    "largest_shareholder": "Temasek Holdings (50%)",
+    "shares_outstanding": 1780465300,
+    "listed": true,
+    "stock_ticker": "SGX:U96",
+    "website": "https://www.sembcorp.com",
+    "fiscal_year_end": "December 31"
+  },
+
+  "capacity": {
+    "reporting_date": "2024-12-31",
+    "total_mw": 25100,
+    "boundary": "gross_portfolio",
+    "boundary_notes": "Gross portfolio capacity including projects secured but not yet commissioned. Installed operational capacity is lower (~21,100 MW). Gap includes BESS (MWh not MW), diesel peakers, waste-to-energy, and under-development projects.",
+    "by_fuel": {
+      "coal": {
+        "value_mw": 0,
+        "notes": "Currently coal-free. WARNING: Alinta acquisition (H1 2026) will add 1,100 MW Loy Yang B coal.",
+        "source": "Sembcorp Annual Report 2024"
+      },
+      "gas": {
+        "value_mw": 8015,
+        "notes": "Singapore (1,800 MW via 30% Senoko stake) + Myanmar (225 MW) + Bangladesh + UAE",
+        "source": "Sembcorp Annual Report 2024"
+      },
+      "oil": {
+        "value_mw": 0,
+        "source": "Sembcorp Annual Report 2024"
+      },
+      "hydro": {
+        "value_mw": 49,
+        "source": "Sembcorp Annual Report 2024"
+      },
+      "solar": {
+        "value_mw": 7995,
+        "notes": "India, China, Singapore, Vietnam, Oman",
+        "source": "Sembcorp Annual Report 2024"
+      },
+      "wind": {
+        "value_mw": 7472,
+        "notes": "China, India, UK",
+        "source": "Sembcorp Annual Report 2024"
+      },
+      "geothermal": {
+        "value_mw": 0,
+        "source": "Sembcorp Annual Report 2024"
+      },
+      "other_re": {
+        "value_mw": 82,
+        "includes": "energy from waste",
+        "source": "Sembcorp Annual Report 2024"
+      }
+    },
+    "energy_storage_mwh": 1456,
+    "by_geography": {
+      "singapore_mw": 1800,
+      "india_mw": null,
+      "china_mw": null,
+      "uk_mw": null,
+      "vietnam_mw": null,
+      "other_mw": null,
+      "source": "Sembcorp Annual Report 2024"
+    },
+    "re_share_pct": 67.7,
+    "re_share_notes": "Renewables 17,016 MW of 25,100 MW total (solar + wind + hydro + other_re)",
+    "capacity_type": "gross",
+    "capacity_type_notes": "Gross operated capacity (100% ownership basis)",
+    "targets": {
+      "renewable_capacity_target_mw": 25000,
+      "target_year": 2028,
+      "current_mw": 17000,
+      "under_construction_mw": 3900
+    },
+    "source": "Sembcorp Annual Report 2024"
+  },
+
+  "generation": {
+    "reporting_year": "FY2024",
+    "total_gwh": 33500,
+    "by_fuel": {
+      "coal_gwh": 0,
+      "gas_gwh": 15000,
+      "solar_gwh": 10500,
+      "wind_gwh": 7500,
+      "other_gwh": 500
+    },
+    "method": "estimated",
+    "calculation": "Scope 1 emissions (9.05 MtCO2e) / intensity (0.27 tCO2e/MWh)",
+    "capacity_factors_assumed": {
+      "gas_pct": 55,
+      "solar_pct": 15,
+      "wind_pct": 25
+    },
+    "notes": "Sembcorp does not publicly disclose actual generation GWh; figures derived from emissions intensity",
+    "source": "Sembcorp Sustainability Report 2024"
+  },
+
+  "financial": {
+    "reporting_year": "FY2024",
+    "currency": "SGD",
+    "fx_to_usd": 1.3669,
+    "income_statement": {
+      "revenue": {
+        "value_local": 6417,
+        "value_usd": 4694,
+        "unit": "millions",
+        "source": "Sembcorp Annual Report 2024"
+      },
+      "ebitda": {
+        "value_local": 1734,
+        "value_usd": 1268,
+        "unit": "millions",
+        "source": "Sembcorp Annual Report 2024"
+      },
+      "ebit": {
+        "value_local": 1032,
+        "value_usd": 755,
+        "unit": "millions",
+        "source": "Sembcorp Annual Report 2024"
+      },
+      "interest_expense": {
+        "value_local": 356,
+        "value_usd": 260,
+        "unit": "millions",
+        "notes": "Net interest expense",
+        "source": "Sembcorp Annual Report 2024"
+      },
+      "net_income": {
+        "value_local": 1019,
+        "value_usd": 745,
+        "unit": "millions",
+        "notes": "Net profit before exceptional items",
+        "source": "Sembcorp Annual Report 2024"
+      }
+    },
+    "balance_sheet": {
+      "total_assets": {
+        "value_local": 18178,
+        "value_usd": 13299,
+        "unit": "millions",
+        "source": "Sembcorp Annual Report 2024"
+      },
+      "total_debt": {
+        "value_local": 9400,
+        "value_usd": 6876,
+        "unit": "millions",
+        "notes": "Current debt (698) + Long-term debt (8702)",
+        "source": "Sembcorp Annual Report 2024"
+      },
+      "net_debt": {
+        "value_local": 8421,
+        "value_usd": 6160,
+        "unit": "millions",
+        "source": "Sembcorp Annual Report 2024"
+      },
+      "total_equity": {
+        "value_local": 5659,
+        "value_usd": 4140,
+        "unit": "millions",
+        "notes": "Common equity (5361) + Minority interest (298)",
+        "source": "Sembcorp Annual Report 2024"
+      },
+      "current_assets": {
+        "value_local": 3362,
+        "value_usd": 2460,
+        "unit": "millions",
+        "source": "Sembcorp Annual Report 2024"
+      },
+      "current_liabilities": {
+        "value_local": 2911,
+        "value_usd": 2130,
+        "unit": "millions",
+        "source": "Sembcorp Annual Report 2024"
+      }
+    },
+    "cash_flow": {
+      "operating_cash_flow": {
+        "value_local": 1412,
+        "value_usd": 1033,
+        "unit": "millions",
+        "notes": "Cash from operations (CFO)",
+        "source": "Sembcorp Annual Report 2024"
+      },
+      "capex": {
+        "value_local": 1608,
+        "value_usd": 1176,
+        "unit": "millions",
+        "source": "Sembcorp Annual Report 2024"
+      }
+    },
+    "credit_rating": {
+      "rating": null,
+      "agency": null,
+      "outlook": null,
+      "date": null,
+      "notes": "Company is unrated by S&P, Moody's, and Fitch",
+      "source": ""
+    },
+    "market_cap": {
+      "value_sgd_bn": 10.7,
+      "value_usd_bn": 7.83,
+      "enterprise_value_sgd_bn": 18.92,
+      "enterprise_value_usd_bn": 13.84,
+      "share_price_sgd": 6.00,
+      "date": "2026-01-13",
+      "source": "SGX market data"
+    }
+  },
+
+  "emissions": {
+    "reporting_year": 2024,
+    "scope1": {
+      "value_tco2": 9054000,
+      "value_mtco2": 9.054,
+      "notes": "Direct emissions from power plants",
+      "source": "Sembcorp Sustainability Report 2024"
+    },
+    "scope2": {
+      "value_tco2": 233700,
+      "location_based": true,
+      "source": "Sembcorp Sustainability Report 2024"
+    },
+    "intensity": {
+      "value_tco2_mwh": 0.27,
+      "value_kgco2_kwh": 0.27,
+      "notes": "50% reduction vs 2020 baseline (0.54). 2025 target (0.40) achieved 2 years early.",
+      "source": "Sembcorp Sustainability Report 2024"
+    },
+    "intensity_trend": {
+      "direction": "declining",
+      "historical": [
+        {"year": 2020, "tco2_mwh": 0.54, "notes": "baseline"},
+        {"year": 2023, "tco2_mwh": 0.29},
+        {"year": 2024, "tco2_mwh": 0.27}
+      ],
+      "targets": {
+        "2025_target": 0.40,
+        "2025_status": "achieved_2_years_early",
+        "2028_target": 0.15,
+        "2028_status": "at_risk_due_to_alinta",
+        "post_alinta_estimated": 0.36,
+        "2035_revised_target": 0.26
+      },
+      "yoy_change_pct": -11.1,
+      "vs_2020_change_pct": -50.0,
+      "notes": "WARNING: Post-Alinta intensity may rise to ~0.36 tCO2/MWh",
+      "source": "Sembcorp Sustainability Report 2024"
+    },
+    "scope3": {
+      "value_tco2": 15734800,
+      "value_mtco2": 15.73,
+      "share_of_total_pct": 62.9,
+      "total_carbon_footprint_tco2": 25022500,
+      "notes": "Largest component of total emissions. SBTi requires Scope 3 targets when >40% of total.",
+      "source": "Sembcorp Sustainability Report 2024"
+    },
+    "cdp_score": "B",
+    "cdp_year": 2024,
+    "cdp_notes": "Management level, consistent since 2021"
+  },
+
+  "transition": {
+    "net_zero": {
+      "target_year": 2050,
+      "scope": "group-wide",
+      "interim_targets": [
+        {"year": 2030, "target": "Halve emissions intensity from 2020 baseline"}
+      ],
+      "source": "Sembcorp Sustainability Report 2024"
+    },
+    "sbti": {
+      "validated": false,
+      "committed": false,
+      "validation_date": null,
+      "target_type": null,
+      "notes": "NOT in SBTi database as of Jan 2025. Not validated, not committed.",
+      "source": "https://sciencebasedtargets.org/companies-taking-action"
+    },
+    "coal_policy": {
+      "no_new_coal": true,
+      "coal_exit_date": "2024-12",
+      "coal_exit_details": "Completed sale of Alinta Energy (Australia) in December 2024",
+      "source": "Sembcorp press release December 2024"
+    },
+    "re_targets": {
+      "target_pct": null,
+      "target_year": 2028,
+      "target_capacity_gw": 25,
+      "current_gw": 17,
+      "on_track": true,
+      "source": "Sembcorp Sustainability Report 2024"
+    },
+    "capex_allocation": {
+      "clean_capex_share_pct": 75,
+      "total_capex_2024_2028_sgd_bn": 14.0,
+      "renewable_capex_sgd_bn": 10.5,
+      "clean_capex_definition": "renewables, grids, storage, hydrogen, low-carbon solutions",
+      "reporting_period": "2024-2028",
+      "source": "Sembcorp Investor Presentation 2024"
+    },
+    "hydrogen_strategy": {
+      "hydrogen_ready_plant_mw": 600,
+      "location": "Jurong Island, Singapore",
+      "operational_date": 2026,
+      "hydrogen_cofiring_capability_pct": 30,
+      "capex_allocation_pct": 10
+    },
+    "ccus": {
+      "project": "Net Zero Teesside",
+      "location": "UK",
+      "role": "Industrial partner",
+      "capture_target_mtco2_per_year": 10
+    },
+    "green_finance": {
+      "green_bonds_issued_sgd_mn": 400,
+      "green_bond_date": "2021-06",
+      "sustainability_linked_loans_sgd_mn": 675,
+      "slb_date": "2021-09",
+      "slb_note": "First SLB by Southeast Asian energy company",
+      "framework": "Climate Bonds Initiative Standard v3.0",
+      "verifier": "EY",
+      "source": "Sembcorp Annual Report 2024"
+    }
+  },
+
+  "coal_plants": {
+    "status": "currently_zero",
+    "notes": "Coal-free as of Dec 2024. WARNING: Alinta acquisition (H1 2026) will add 1,100 MW Loy Yang B coal plant.",
+    "plants": [],
+    "divestments_completed": [
+      {
+        "asset": "SEIL (India)",
+        "capacity_mw": 2640,
+        "buyer": "Tanweer Infrastructure",
+        "sale_value_sgd_million": 2100,
+        "completion_date": "2023-01"
+      },
+      {
+        "asset": "Chongqing Songzao (China) - 49% stake",
+        "capacity_mw": 794,
+        "completion_date": "2024-12"
+      }
+    ],
+    "pending_acquisition": {
+      "asset": "Alinta Energy (includes Loy Yang B)",
+      "coal_capacity_mw": 1100,
+      "announced": "2025-12-11",
+      "value_aud_billion": 6.5,
+      "expected_completion": "H1 2026",
+      "impact": "Coal-free status will be reversed"
+    },
+    "source": "Sembcorp press releases"
+  },
+
+  "credit_metrics_b5": {
+    "reporting_year": "FY2024",
+    "metrics": {
+      "debt_to_ebitda": {
+        "value": 5.4,
+        "calculation": "9400 / 1734",
+        "threshold": 4.0,
+        "pass_if": "< 4.0x",
+        "pass": false,
+        "assessment": "elevated"
+      },
+      "interest_coverage": {
+        "value": 4.9,
+        "calculation": "1734 / 356",
+        "threshold": 2.5,
+        "pass_if": "> 2.5x",
+        "pass": true,
+        "assessment": "adequate"
+      },
+      "ffo_to_debt_pct": {
+        "value": 15.0,
+        "calculation": "1412 / 9400 * 100",
+        "threshold": 20,
+        "pass_if": "> 20%",
+        "pass": false,
+        "assessment": "below_threshold"
+      },
+      "current_ratio": {
+        "value": 1.15,
+        "calculation": "3362 / 2911",
+        "threshold": 1.0,
+        "pass_if": "> 1.0x",
+        "pass": true,
+        "assessment": "adequate"
+      },
+      "debt_to_capital_pct": {
+        "value": 62.4,
+        "calculation": "9400 / (9400 + 5659) * 100",
+        "threshold": 60,
+        "pass_if": "< 60%",
+        "pass": false,
+        "assessment": "slightly_elevated"
+      }
+    },
+    "b5_pass_count": 2,
+    "b5_overall_pass": false,
+    "notes": "Only 2/5 metrics pass. Elevated leverage with Debt/EBITDA 5.4x above 4.0x threshold. Pending A$6.5B Alinta acquisition will likely increase leverage further.",
+    "source": "Calculated from Sembcorp Annual Report 2024"
+  },
+
+  "data_gaps": [
+    {
+      "field": "credit_rating",
+      "status": "unavailable",
+      "reason": "Company is unrated by S&P, Moody's, and Fitch"
+    },
+    {
+      "field": "generation_gwh",
+      "status": "estimated",
+      "reason": "Not publicly disclosed; derived from emissions intensity"
+    },
+    {
+      "field": "scope_3_targets",
+      "status": "unavailable",
+      "reason": "No reduction targets disclosed for Scope 3 emissions"
+    },
+    {
+      "field": "post_alinta_financials",
+      "status": "unavailable",
+      "reason": "Pro forma financial impact not yet disclosed"
+    }
+  ],
+
+  "data_sources": {
+    "annual_report": "Sembcorp Annual Report 2024",
+    "sustainability_report": "Sembcorp Sustainability Report 2024",
+    "investor_presentation": "Sembcorp FY2024 Results Release",
+    "sgx_filings": "SGX Filings",
+    "rating_reports": "",
+    "other": [
+      "SBTi Companies Taking Action Database",
+      "CDP Database",
+      "Yahoo Finance / StockAnalysis"
+    ]
+  },
+
+  "verification_checklist": {
+    "coal_zero_confirmed": true,
+    "coal_zero_note": "Currently coal-free; will change H1 2026 with Alinta",
+    "capacity_sums_verified": true,
+    "financial_same_year": true,
+    "sources_documented": true,
+    "credit_metrics_calculated": true,
+    "sbti_status_verified": true,
+    "sbti_verification_note": "Confirmed NOT in SBTi database as of Jan 2026"
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "country_code": "MY",
+  "country_name": "Malaysia",
+  "last_updated": "2026-01-15",
+
+  "carbon_pricing": {
+    "current_price_usd_tco2": 0,
+    "price_low_usd_tco2": 3.33,
+    "price_high_usd_tco2": 15,
+    "carbon_tax_usd_tco2": 3.33,
+    "carbon_tax_local_tco2": 15,
+    "ets_price_usd_tco2": null,
+    "carbon_tax_projected_usd_tco2": {
+      "2026": 3.33,
+      "2028": 5,
+      "2030": 10
+    },
+    "effective_date": "2026",
+    "status": "scheduled",
+    "scheme_name": "Malaysia Carbon Tax (Climate Change Bill)",
+    "coverage_pct": 39,
+    "covered_sectors": ["iron", "steel", "energy"],
+    "allowance_allocation": "tax_with_offsets",
+    "offset_permitted": true,
+    "voluntary_market": {
+      "exchange": "Bursa Carbon Exchange (BCX)",
+      "launch_date": "2022-12",
+      "first_auction_date": "2023-03",
+      "global_tech_based_usd": 4.11,
+      "nature_based_low_usd": 11.11,
+      "nature_based_high_usd": 15.0,
+      "shariah_compliant": true,
+      "notes": "World's first Shariah-compliant carbon exchange. Voluntary market only."
+    },
+    "regulatory_framework": {
+      "climate_change_bill": "RUUPIN expected March 2026",
+      "carbon_tax_coverage": "Iron, steel, energy sectors initially"
+    },
+    "asean_comparison": {
+      "singapore_usd_tco2": 25,
+      "singapore_2030_usd_tco2": 50,
+      "indonesia_usd_tco2": 4,
+      "vietnam_usd_tco2": 0,
+      "thailand_usd_tco2": 0
+    },
+    "notes": "Malaysia has NO operational carbon pricing on power generation. Effective carbon price is $0/tCO2e. Federal carbon tax at RM35-45/tCO2e (~$8-11) planned for 2026 covering iron, steel, and ENERGY sectors. Sarawak state announced carbon levy on oil, gas, and energy sectors for 2026. Bursa Carbon Exchange (launched Dec 2022) is VOLUNTARY market only (~$4.6/tCO2e for nature-based credits) with no mandatory compliance. Climate Change Bill tabling delayed. Domestic ETS (DETS) has no set date. Malaysia's updated NDC (October 2025) targets peak emissions by 2030. For B2 calculation: use $0 until 2026 implementation confirmed.",
+    "source": "ICAP; S&P Global (October 2024); Malaysia Budget 2025; Bursa Carbon Exchange; verified January 2026",
+    "verification_confidence": "HIGH"
+  },
+
+  "lcoe_benchmarks": {
+    "solar_pv_utility": {
+      "value_low": 33,
+      "value_mid": 46,
+      "value_high": 61,
+      "lss5_auction_usd_mwh": 38,
+      "lss5_auction_myr_kwh": 0.1699,
+      "unit": "USD/MWh",
+      "notes": "LSS5 (2024) auction achieved average MYR 0.1699/kWh (~$38/MWh)"
+    },
+    "solar_plus_storage": {
+      "value_low": 64,
+      "value_mid": 83,
+      "value_high": 123,
+      "storage_duration_hours": 4,
+      "crossover_new_ccgt_year": 2026,
+      "crossover_new_coal_year": 2028,
+      "unit": "USD/MWh",
+      "notes": "Projected to undercut new CCGT by 2026, new coal by 2028"
+    },
+    "onshore_wind": {
+      "value_low": null,
+      "value_mid": null,
+      "value_high": null,
+      "unit": "USD/MWh",
+      "notes": "Not viable in Peninsula Malaysia. Average wind speeds ~2.7 m/s (threshold >4.5 m/s required)"
+    },
+    "offshore_wind": {
+      "value_low": 108,
+      "value_mid": 128,
+      "value_high": 150,
+      "unit": "USD/MWh",
+      "notes": "Limited potential at Kudat (Sabah) and Mersing. First-of-kind estimates only."
+    },
+    "gas_ccgt": {
+      "value_low": 78,
+      "value_mid": 83,
+      "value_high": 89,
+      "unit": "USD/MWh",
+      "notes": "New build LCOE"
+    },
+    "gas_ccgt_existing_variable": {
+      "value_low": 70,
+      "value_mid": 75,
+      "value_high": 80,
+      "unit": "USD/MWh",
+      "notes": "Short-run marginal cost of existing gas CCGT fleet"
+    },
+    "coal": {
+      "value_low": 56,
+      "value_mid": 65,
+      "value_high": 77,
+      "unit": "USD/MWh",
+      "notes": "New build LCOE. 100% imported coal."
+    },
+    "coal_existing_variable": {
+      "value_low": 45,
+      "value_mid": 55,
+      "value_high": 65,
+      "unit": "USD/MWh",
+      "notes": "Short-run marginal cost of existing coal fleet"
+    },
+    "reporting_year": 2025,
+    "notes": "LCOE from BloombergNEF Malaysia Techno-Economic Analysis April 2025. Solar highly competitive - LSS5 auction at $38/MWh. Solar+storage projected to beat new thermal by 2026-2028.",
+    "source": "BloombergNEF Malaysia Techno-Economic Analysis April 2025; IRENA; LSS5 auction results"
+  },
+
+  "fuel_costs": {
+    "gas_usd_mmbtu": {
+      "reference_price": 7.65,
+      "tier1_power_regulated": 6.67,
+      "tier2_power_market": 9.93,
+      "tier1_local_mmbtu": 30,
+      "as_of_date": "2025-10"
+    },
+    "coal_usd_tonne": {
+      "ici4_fob_gar4200": 46.23,
+      "tnb_cif_delivered": 114.60,
+      "indonesia_hba": 115.29,
+      "as_of_date": "2026-01"
+    },
+    "coal_import_sources": {
+      "indonesia_pct": 71,
+      "australia_pct": 20,
+      "other_pct": 9
+    },
+    "carbon_intensity_gas_tco2_mwh": 0.40,
+    "carbon_intensity_coal_tco2_mwh": 0.92,
+    "notes": "Two-tier gas pricing: Tier 1 regulated at RM30/MMBtu (~$6.67), Tier 2 market-indexed. Coal 100% imported, primarily from Indonesia.",
+    "source": "PETRONAS Oct 2025; TNB 1QFY2024; Indonesia HBA Aug 2024; ICI 4 Jan 2026"
+  },
+
+  "national_targets": {
+    "net_zero_target_year": 2050,
+    "net_zero_status": "aspiration",
+    "net_zero_condition": "pending_climate_change_act",
+    "net_zero_legal_basis": "COP26 announcement / NETR",
+    "ndc_target": "45% carbon intensity reduction vs 2005",
+    "ndc_target_year": 2030,
+    "peak_emissions_year": 2030,
+    "re_capacity_target_pct": {
+      "2025": 31,
+      "2035": 40,
+      "2050": 70
+    },
+    "re_share_target_year": 2050,
+    "current_re_capacity_pct": 28,
+    "current_re_generation_pct": 22,
+    "coal_phase_out_year": 2044,
+    "coal_capacity_reduction_2035_pct": 50,
+    "new_coal_cutoff": "2021",
+    "investment_required": {
+      "total_usd_billion": 143,
+      "total_myr_billion": 637,
+      "period": "2023-2050"
+    },
+    "notes": "Net-zero 2050 framed as aspiration pending Climate Change Act. Not legally binding. RE targets: 40% capacity by 2035, 70% by 2050. CCPI notes 70% target is below 1.5C alignment (requires 90-100%). No new coal since 2021 commitment.",
+    "source": "Malaysia NDC 2.0/3.0; NETR; MyRER; COP26 announcement"
+  },
+
+  "grid_context": {
+    "grid_emission_factor_tco2_mwh": 0.774,
+    "grid_emission_factor_type": "peninsular_average",
+    "grid_emission_factors_by_region": {
+      "peninsular_tco2e_mwh": 0.774,
+      "sabah_tco2e_mwh": 0.525,
+      "sarawak_tco2e_mwh": 0.199
+    },
+    "emission_factor_year": 2024,
+    "emission_factor_notes": "Sarawak low GEF (0.199) reflects 62% hydropower generation",
+    "electricity_market_structure": "Single Buyer Model",
+    "dominant_utility": "Tenaga Nasional Berhad (TNB)",
+    "regulator": "Energy Commission Malaysia (Suruhanjaya Tenaga)",
+    "separate_grids": true,
+    "grids": {
+      "peninsular": {
+        "utility": "TNB",
+        "ownership": "Listed (Bursa: 5347.KL)",
+        "government_stake_pct": 25
+      },
+      "sabah": {
+        "utility": "SESB",
+        "ownership": "83% TNB-owned"
+      },
+      "sarawak": {
+        "utility": "SEB (Sarawak Energy Berhad)",
+        "ownership": "State-owned"
+      }
+    },
+    "ipp_share_pct": 42,
+    "ipp_share_range": {
+      "low": 38,
+      "high": 47
+    },
+    "tariff_mechanism": "ICPT (Imbalance Cost Pass-Through)",
+    "corporate_ppa_schemes": ["CGPP", "CRESS"],
+    "dppa_status": "limited",
+    "coal_share_generation_pct": 47,
+    "gas_share_generation_pct": 37,
+    "hydro_share_generation_pct": 17,
+    "solar_share_generation_pct": 3,
+    "coal_share_capacity_pct": 35,
+    "total_capacity_gw": 40,
+    "total_generation_twh": 174,
+    "generation_year": 2023,
+    "peak_demand_gw": {
+      "peninsular": 19.5,
+      "sabah": 1.1,
+      "sarawak": 3.2
+    },
+    "reserve_margin_pct": {
+      "peninsular_low": 24,
+      "peninsular_high": 36,
+      "sabah": 6.1,
+      "sarawak": 25
+    },
+    "capacity_by_region_gw": {
+      "peninsular": 26.2,
+      "sabah": 1.2,
+      "sarawak": 5.7
+    },
+    "large_hydro": {
+      "bakun_mw": 2400,
+      "murum_mw": 944,
+      "notes": "Located in Sarawak, exports to Peninsula via HVDC"
+    },
+    "notes": "Three separate non-interconnected grids. TNB acts as monopsony purchaser via PPAs in Peninsular Malaysia. Sabah grid critically constrained with only 6.1% reserve margin. Single Buyer Model limits direct corporate RE procurement.",
+    "source": "Energy Commission Malaysia; TNB Annual Report; IEA"
+  },
+
+  "power_sector": {
+    "installed_solar_gw": 5,
+    "installed_wind_mw": 0.2,
+    "installed_hydro_gw": 6.5,
+    "installed_coal_gw": 14,
+    "installed_gas_gw": 14.5,
+    "generation_mix_peninsular_pct": {
+      "coal": 49,
+      "natural_gas": 42,
+      "hydropower": 5,
+      "solar": 5
+    },
+    "generation_mix_sarawak_pct": {
+      "coal": 16,
+      "natural_gas": 21,
+      "hydropower": 62,
+      "solar": 1
+    },
+    "lss_auctions": {
+      "program": "Large Scale Solar (LSS)",
+      "administrator": "SEDA Malaysia / Energy Commission",
+      "lss1_2016_avg_usd_mwh": 82,
+      "lss5_2024_avg_usd_mwh": 38,
+      "cost_reduction_pct": 64
+    }
+  },
+
+  "currency": {
+    "code": "MYR",
+    "fx_to_usd": 4.5,
+    "fx_source": "Bank Negara Malaysia",
+    "fx_date": "2026-01-15"
+  },
+
+  "data_quality": {
+    "high_confidence": [
+      "carbon_pricing.current_price_usd_tco2",
+      "carbon_pricing.status",
+      "lcoe_benchmarks.solar_pv_utility.value_mid",
+      "lcoe_benchmarks.solar_plus_storage.value_mid",
+      "national_targets.net_zero_target_year",
+      "grid_context.grid_emission_factor_tco2_mwh",
+      "grid_context.total_capacity_gw"
+    ],
+    "medium_confidence": [
+      "carbon_pricing.carbon_tax_usd_tco2",
+      "lcoe_benchmarks.gas_ccgt.value_mid",
+      "lcoe_benchmarks.coal.value_mid",
+      "fuel_costs.gas_usd_mmbtu",
+      "fuel_costs.coal_usd_tonne"
+    ],
+    "low_confidence": [
+      "carbon_pricing.carbon_tax_projected_usd_tco2",
+      "lcoe_benchmarks.offshore_wind.value_mid"
+    ],
+    "data_gaps": [],
+    "notes": "Malaysia carbon tax scheduled for 2026 means current_price_usd_tco2 = $0. For B2 calculation TNB will PASS at current carbon price. Solar+storage ($83/MWh) already cheaper than new gas CCGT ($83/MWh) and approaching coal ($65/MWh) - B3 will show significant displacement potential."
+  },
+
+  "key_investment_considerations": [
+    "Coal phase-out by 2044 creates stranded asset risks for thermal generation",
+    "Solar LCOE ($33-46/MWh) now cheaper than new gas CCGT ($78-89/MWh)",
+    "Sabah grid critically constrained with 6.1% reserve margin - infrastructure investment needed",
+    "Carbon tax from 2026 at ~$3.33/tCO2e is modest vs regional peers (Singapore $25-45)",
+    "Sarawak offers significantly lower grid carbon intensity (0.199 vs 0.774 tCO2e/MWh)",
+    "Single Buyer Model limits direct corporate PPA - use CGPP/CRESS schemes",
+    "NETR requires RM637B ($143B) investment through 2050"
+  ],
+
+  "metadata": {
+    "fiscal_year_government": "January-December",
+    "fiscal_year_tnb": "Ends August 31",
+    "timezone": "UTC+8",
+    "primary_language": "Malay (Bahasa Malaysia)",
+    "business_language": "English"
+  },
+
+  "data_sources": [
+    "Energy Commission Malaysia (Suruhanjaya Tenaga)",
+    "Tenaga Nasional Berhad (TNB) Annual Reports",
+    "BloombergNEF Malaysia Techno-Economic Analysis 2025",
+    "PETRONAS",
+    "Malaysia Gas Exchange (MGX)",
+    "Bursa Carbon Exchange (BCX)",
+    "IEA",
+    "IRENA",
+    "World Bank Carbon Pricing Dashboard"
+  ]
+}

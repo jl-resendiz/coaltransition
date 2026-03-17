@@ -1,0 +1,452 @@
+{
+  "id": "IN004",
+  "name": "Adani Green Energy",
+  "full_name": "Adani Green Energy Limited",
+  "country_code": "IN",
+  "last_updated": "2026-01-14",
+
+  "identification": {
+    "ownership": "Private (Adani Group)",
+    "ownership_details": "Promoter (Adani Family) 62.43%, TotalEnergies 18.99%, FII/FPI 11.29%, DII 2.98%, Public 4.31%",
+    "listed": true,
+    "stock_ticker": "NSE:ADANIGREEN, BSE:541450",
+    "isin": "INE364U01010",
+    "website": "https://www.adanigreenenergy.com",
+    "fiscal_year_end": "March 31",
+    "registered_office": "Adani Corporate House, Shantigram, S.G. Highway, Ahmedabad, Gujarat 382421"
+  },
+
+  "capacity": {
+    "reporting_date": "2026-01-01",
+    "total_mw": 17237,
+    "by_fuel": {
+      "coal": {
+        "value_mw": 0,
+        "source": "AGEL Operational Updates January 2026"
+      },
+      "gas": {
+        "value_mw": 0,
+        "source": "AGEL Operational Updates January 2026"
+      },
+      "oil": {
+        "value_mw": 0,
+        "source": "AGEL Operational Updates January 2026"
+      },
+      "hydro": {
+        "value_mw": 0,
+        "source": "AGEL Operational Updates January 2026"
+      },
+      "solar": {
+        "value_mw": 11156,
+        "notes": "Includes ground-mounted and floating solar",
+        "source": "AGEL Operational Updates January 2026"
+      },
+      "wind": {
+        "value_mw": 1986,
+        "source": "AGEL Operational Updates January 2026"
+      },
+      "nuclear": {
+        "value_mw": 0,
+        "source": "AGEL Operational Updates January 2026"
+      },
+      "other_re": {
+        "value_mw": 2674,
+        "notes": "Solar-wind hybrid capacity",
+        "source": "AGEL Operational Updates January 2026"
+      },
+      "storage": {
+        "value_mw": 1421,
+        "notes": "Battery Energy Storage Systems including 1,126 MW Khavda BESS under construction",
+        "source": "AGEL Operational Updates January 2026"
+      }
+    },
+    "re_share_pct": 100,
+    "thermal_share_pct": 0,
+    "capacity_type": "gross",
+    "pipeline_mw": 11019,
+    "total_locked_in_mw": 22000,
+    "target_2030_gw": 50,
+    "source": "AGEL Operational Updates January 2026, NSE filings"
+  },
+
+  "generation": {
+    "reporting_year": "FY2023-24",
+    "total_gwh": 28230,
+    "notes": "Estimated from emissions intensity (39,619 tCO2e / 0.0014 tCO2/MWh = 28.3 TWh)",
+    "source": "AGEL Integrated Annual Report FY2023-24"
+  },
+
+  "financial": {
+    "reporting_year": "FY2024-25",
+    "currency": "INR",
+    "fx_to_usd": 83.5,
+    "income_statement": {
+      "revenue": {
+        "value_local": 94950,
+        "value_usd": 1137,
+        "unit": "millions",
+        "notes": "INR 9,495 crore power supply revenue FY2024-25",
+        "source": "AGEL Q3 FY2026 Results"
+      },
+      "ebitda": {
+        "value_local": 102050,
+        "value_usd": 1222,
+        "unit": "millions",
+        "notes": "INR 10,205 crore; EBITDA margin 91.7%",
+        "source": "AGEL Audited Consolidated Financial Statements FY2024-25"
+      },
+      "ebit": {
+        "value_local": 77070,
+        "value_usd": 923,
+        "unit": "millions",
+        "notes": "INR 7,707 crore",
+        "source": "AGEL Audited Consolidated Financial Statements FY2024-25"
+      },
+      "interest_expense": {
+        "value_local": 54920,
+        "value_usd": 658,
+        "unit": "millions",
+        "notes": "INR 5,492 crore finance costs; +7.9% YoY from 5,088 Cr",
+        "source": "AGEL Audited Consolidated Financial Statements FY2024-25"
+      },
+      "net_income": {
+        "value_local": 20010,
+        "value_usd": 240,
+        "unit": "millions",
+        "notes": "INR 2,001 crore",
+        "source": "AGEL Q3 FY2026 Results"
+      }
+    },
+    "balance_sheet": {
+      "total_assets": {
+        "value_local": null,
+        "value_usd": null,
+        "unit": "millions",
+        "source": ""
+      },
+      "total_debt": {
+        "value_local": 800400,
+        "value_usd": 9586,
+        "unit": "millions",
+        "notes": "INR 80,040 crore total debt (Gross Debt 73,339 Cr + other); Long-term debt INR 68,800 crore",
+        "source": "AGEL Audited Consolidated Financial Statements FY2024-25"
+      },
+      "net_debt": {
+        "value_local": 644620,
+        "value_usd": 7721,
+        "unit": "millions",
+        "notes": "INR 64,462 crore net debt; Net Debt/EBITDA 6.3x",
+        "source": "AGEL Audited Consolidated Financial Statements FY2024-25"
+      },
+      "total_equity": {
+        "value_local": 121370,
+        "value_usd": 1454,
+        "unit": "millions",
+        "notes": "INR 12,137 crore shareholders' equity",
+        "source": "AGEL Audited Consolidated Financial Statements FY2024-25"
+      },
+      "current_assets": {
+        "value_local": 86220,
+        "value_usd": 1033,
+        "unit": "millions",
+        "notes": "INR 8,622 crore (Cash 2,212 + Investments 1,804 + Receivables 1,540 + Other Bank 1,120 + Other 1,946)",
+        "source": "AGEL Audited Consolidated Balance Sheet Mar 2025"
+      },
+      "current_liabilities": {
+        "value_local": 168880,
+        "value_usd": 2023,
+        "unit": "millions",
+        "notes": "INR 16,888 crore (Current Borrowings 10,706 + Other Financial 4,671 + Other 1,511)",
+        "source": "AGEL Audited Consolidated Balance Sheet Mar 2025"
+      }
+    },
+    "cash_flow": {
+      "operating_cash_flow": {
+        "value_local": 83640,
+        "value_usd": 1002,
+        "unit": "millions",
+        "notes": "INR 8,364 crore; +8.4% YoY from 7,713 Cr",
+        "source": "AGEL Audited Consolidated Cash Flow Statement FY2024-25"
+      },
+      "capex": {
+        "value_local": null,
+        "value_usd": null,
+        "unit": "millions",
+        "source": ""
+      }
+    },
+    "credit_rating": {
+      "rating": "AA",
+      "agency": "CRISIL/ICRA",
+      "outlook": "Stable",
+      "date": "2025-09",
+      "international_rating": "BBB-/Baa3",
+      "international_agency": "Fitch/Moody's",
+      "international_outlook": "Stable",
+      "notes": "Investment grade domestic and international ratings",
+      "source": "Rating Agency Reports"
+    },
+    "market_cap": {
+      "value_local": null,
+      "value_usd": null,
+      "source": ""
+    },
+    "key_ratios": {
+      "net_debt_to_ebitda": 6.3,
+      "gross_debt_to_ebitda": 7.84,
+      "debt_to_equity": 6.6,
+      "interest_coverage_ebitda": 1.86,
+      "interest_coverage_ebit": 1.40,
+      "current_ratio": 0.51,
+      "debt_covenant_limit": 7.5,
+      "dscr": 1.52,
+      "source": "AGEL Audited Consolidated Financial Statements FY2024-25"
+    }
+  },
+
+  "emissions": {
+    "reporting_year": 2024,
+    "scope1": {
+      "value_tco2": 3019,
+      "value_mtco2": 0.003019,
+      "notes": "Minimal Scope 1 from vehicles and backup generators",
+      "source": "AGEL BRSR FY2023-24"
+    },
+    "scope2": {
+      "value_tco2": 36600,
+      "value_mtco2": 0.0366,
+      "notes": "Grid electricity for auxiliary operations",
+      "source": "AGEL BRSR FY2023-24"
+    },
+    "scope3": {
+      "value_tco2": 3963034,
+      "value_mtco2": 3.96,
+      "notes": "Primarily from upstream manufacturing of solar/wind equipment",
+      "source": "AGEL BRSR FY2023-24"
+    },
+    "total": {
+      "value_tco2": 39619,
+      "value_mtco2": 0.0396,
+      "notes": "Scope 1 + Scope 2 only (39,619 tCO2e)"
+    },
+    "intensity": {
+      "value_tco2_mwh": 0.0014,
+      "value_kgco2_mwh": 1.4,
+      "notes": "Extremely low intensity - 99.8% lower than India grid average (0.727 tCO2/MWh)",
+      "source": "AGEL BRSR FY2023-24"
+    },
+    "avoided_emissions": {
+      "value_mtco2": 20.3,
+      "notes": "20.3 million tCO2e avoided by displacing grid electricity",
+      "source": "AGEL Integrated Annual Report FY2023-24"
+    },
+    "methodology": "GHG Protocol, ISAE 3000 assured by Intertek",
+    "cdp_score": "A-",
+    "cdp_supplier_engagement": "A",
+    "cdp_notes": "CDP Climate: A- (2023), Supplier Engagement: A (2024)"
+  },
+
+  "transition": {
+    "net_zero": {
+      "target_year": 2050,
+      "scope": "Scope 1 + 2",
+      "notes": "Net-zero by 2050 or earlier; already near-zero operational emissions",
+      "source": "AGEL Integrated Annual Report FY2023-24"
+    },
+    "sbti": {
+      "validated": false,
+      "committed": false,
+      "notes": "REMOVED from SBTi in May 2023 due to parent group (Adani) involvement in coal. Despite pure-play RE operations, SBTi Fossil Fuel Policy triggered removal.",
+      "removal_date": "2023-05",
+      "removal_reason": "SBTi Fossil Fuel Policy - parent group involvement in coal",
+      "source": "SBTi Companies Taking Action database"
+    },
+    "coal_policy": {
+      "no_new_coal": true,
+      "no_new_coal_note": "Pure-play RE company - no thermal assets",
+      "coal_exit_date": null,
+      "coal_exit_details": "Never had coal assets",
+      "source": "AGEL Integrated Annual Report FY2023-24"
+    },
+    "re_targets": {
+      "target_pct": 100,
+      "target_year": null,
+      "current_pct": 100,
+      "notes": "Already 100% RE; target 50 GW by 2030",
+      "capacity_target_gw": 50,
+      "capacity_target_year": 2030,
+      "source": "AGEL Investor Presentations"
+    },
+    "capex_allocation": {
+      "clean_capex_share_pct": 100,
+      "clean_capex_definition": "All CAPEX is for RE projects",
+      "investment_commitment_inr_lakh_crore": 2,
+      "notes": "INR 2 lakh crore (USD 24 billion) committed for 50 GW buildout",
+      "source": "AGEL Investor Presentations"
+    },
+    "key_projects": [
+      {
+        "name": "Khavda Renewable Energy Park",
+        "location": "Kutch, Gujarat",
+        "type": "Solar-wind hybrid",
+        "planned_capacity_mw": 30000,
+        "operational_capacity_mw": 7100,
+        "status": "World's largest renewable energy plant",
+        "target_completion": 2029
+      },
+      {
+        "name": "Khavda BESS",
+        "location": "Kutch, Gujarat",
+        "type": "Battery storage",
+        "capacity_mw": 1126,
+        "capacity_mwh": 3530,
+        "status": "Under construction",
+        "target_completion": "2026-03",
+        "notes": "World's largest single-location BESS project"
+      }
+    ],
+    "governance": {
+      "tcfd_aligned": true,
+      "tcfd_reporting_since": null,
+      "tnfd_aligned": true,
+      "internal_carbon_price_usd": null
+    }
+  },
+
+  "coal_plants": {
+    "status": "none",
+    "notes": "Pure-play RE company - no coal or thermal assets",
+    "plants": [],
+    "source": "AGEL Integrated Annual Report FY2023-24"
+  },
+
+  "esg_ratings": {
+    "cdp_climate": "A-",
+    "cdp_supplier_engagement": "A",
+    "ftse_russell": "1st globally - Alternative Electricity",
+    "iss_esg": "Prime Band A-",
+    "sustainalytics": "Top 7 globally, 1st in India",
+    "crisil_esg": "1st Power Sector India",
+    "source": "ESG Rating Agencies"
+  },
+
+  "credit_metrics_b5": {
+    "reporting_year": "FY2024-25",
+    "metrics": {
+      "debt_to_ebitda": {
+        "value": 7.84,
+        "calculation": "800400 / 102050",
+        "threshold": 4.0,
+        "pass_if": "< 4.0x",
+        "pass": false,
+        "assessment": "weak",
+        "notes": "Using gross debt 80,040 Cr / EBITDA 10,205 Cr. Net Debt/EBITDA 6.3x also above threshold."
+      },
+      "interest_coverage": {
+        "value": 1.86,
+        "calculation": "102050 / 54920",
+        "threshold": 2.5,
+        "pass_if": "> 2.5x",
+        "pass": false,
+        "assessment": "weak",
+        "notes": "EBITDA 10,205 Cr / Interest 5,492 Cr = 1.86x. EBIT-based: 1.40x. Below 2.0x comfort threshold typical for infrastructure."
+      },
+      "ffo_to_debt_pct": {
+        "value": 10.45,
+        "calculation": "83640 / 800400 * 100",
+        "threshold": 20,
+        "pass_if": "> 20%",
+        "pass": false,
+        "assessment": "weak",
+        "notes": "OCF 8,364 Cr / Total Debt 80,040 Cr = 10.45%. Rating agencies use FFO ~3,942 Cr (post-tax) yielding ~4.9%."
+      },
+      "current_ratio": {
+        "value": 0.51,
+        "calculation": "86220 / 168880",
+        "threshold": 1.0,
+        "pass_if": "> 1.0x",
+        "pass": false,
+        "assessment": "weak",
+        "notes": "Current Assets 8,622 Cr / Current Liabilities 16,888 Cr. Reliance on rolling debt facilities typical for high-capex infrastructure."
+      },
+      "debt_to_capital_pct": {
+        "value": 86.8,
+        "calculation": "800400 / (800400 + 121370) * 100",
+        "threshold": 60,
+        "pass_if": "< 60%",
+        "pass": false,
+        "assessment": "weak",
+        "notes": "High leverage (D/E 6.6x) typical of infrastructure buildout phase. Equity growing as profits accumulate."
+      }
+    },
+    "b5_pass_count": 0,
+    "b5_metrics_available": 5,
+    "b5_overall_pass": false,
+    "notes": "ALL 5 METRICS FAIL. Despite strong EBITDA margin (91.7%) and investment-grade ratings, leverage metrics are stretched: Debt/EBITDA 7.84x, Interest Coverage 1.86x, FFO/Debt 10.45%, Current Ratio 0.51x, Debt/Capital 86.8%. This reflects aggressive 50 GW buildout financing - typical for high-growth RE infrastructure. Credit ratings (CRISIL AA+, Fitch BBB-) supported by 25-year PPA revenue visibility.",
+    "source": "Calculated from AGEL Audited Consolidated Financial Statements FY2024-25"
+  },
+
+  "data_gaps": [],
+
+  "data_resolved": [
+    {
+      "field": "interest_expense",
+      "value": "INR 5,492 crore",
+      "resolved_date": "2026-01-14",
+      "source": "AGEL Audited Consolidated Financial Statements FY2024-25"
+    },
+    {
+      "field": "operating_cash_flow",
+      "value": "INR 8,364 crore",
+      "resolved_date": "2026-01-14",
+      "source": "AGEL Audited Consolidated Cash Flow Statement FY2024-25"
+    },
+    {
+      "field": "current_assets",
+      "value": "INR 8,622 crore",
+      "resolved_date": "2026-01-14",
+      "source": "AGEL Audited Consolidated Balance Sheet Mar 2025"
+    },
+    {
+      "field": "current_liabilities",
+      "value": "INR 16,888 crore",
+      "resolved_date": "2026-01-14",
+      "source": "AGEL Audited Consolidated Balance Sheet Mar 2025"
+    },
+    {
+      "field": "ebitda",
+      "value": "INR 10,205 crore (updated from 8,818)",
+      "resolved_date": "2026-01-14",
+      "source": "AGEL Audited Consolidated Financial Statements FY2024-25"
+    }
+  ],
+
+  "data_sources": {
+    "annual_report": "AGEL Integrated Annual Report FY2023-24, FY2024-25",
+    "investor_presentation": "AGEL Q1-Q3 FY2026 Operational Updates",
+    "rating_report": "CRISIL/ICRA/Fitch/Moody's Reports",
+    "sustainability": "AGEL BRSR FY2023-24, ESG Report",
+    "other": [
+      "NSE/BSE Regulatory Filings",
+      "CDP Climate and Supplier Engagement Responses"
+    ]
+  },
+
+  "verification_checklist": {
+    "coal_capacity_confirmed": true,
+    "coal_capacity_note": "0 MW coal - 100% RE portfolio",
+    "capacity_sums_verified": true,
+    "capacity_sums_note": "11156 + 1986 + 2674 + 1421 = 17,237 MW",
+    "financial_same_year": true,
+    "sources_documented": true,
+    "credit_metrics_calculated": true,
+    "credit_metrics_note": "All 5/5 metrics calculable; ALL FAIL",
+    "sbti_status_verified": true,
+    "sbti_verification_note": "Removed from SBTi May 2023 due to parent group coal involvement",
+    "net_zero_verified": true,
+    "b5_data_complete": true,
+    "b5_data_note": "All balance sheet data resolved 2026-01-14 from audited FY25 statements"
+  },
+
+  "analyst_notes": "Adani Green Energy Limited (AGEL) is India's largest renewable energy company and a pure-play RE utility with 17.2 GW of solar/wind capacity (100% RE). Despite exemplary environmental credentials (CDP A-, net-zero 2050, 99.8% lower emissions than grid), the company faces significant financial stress. With complete FY2024-25 audited data, ALL 5 B5 METRICS FAIL: Debt/EBITDA 7.84x (threshold <4.0x), Interest Coverage 1.86x (threshold >2.5x), FFO/Debt 10.45% (threshold >20%), Current Ratio 0.51x (threshold >1.0x), Debt/Capital 86.8% (threshold <60%). This reflects aggressive 50 GW buildout financing - typical for high-growth RE infrastructure. Credit ratings (CRISIL AA+, Fitch BBB-) remain investment-grade due to 25-year PPA revenue visibility and 91.7% EBITDA margins. SBTi validation was REMOVED in May 2023 because the parent Adani Group has significant coal exposure through Adani Power - this is a governance/boundary issue, not an operational one. B4 PASSES via net-zero 2050 + 100% RE pathway. ETCB outcomes: B1 PASS (0% coal), B2 PASS (minimal emissions), B3 PASS (no thermal), B4 PASS (net-zero + RE share), B5 FAIL (0/5 metrics). Final score: 4/5 Medium-high. Interesting contrast: Coal-heavy sibling Adani Power (IN003) scores 3/5 with perfect B5 (5/5 pass), while 100% RE AGEL scores 4/5 but fails B5 entirely due to growth financing."
+}

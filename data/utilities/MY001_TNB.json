@@ -1,0 +1,765 @@
+{
+  "id": "MY001",
+  "name": "TNB",
+  "full_name": "Tenaga Nasional Berhad",
+  "country_code": "MY",
+  "last_updated": "2026-01-15",
+  "utility_type": "integrated",
+
+  "identification": {
+    "ownership": "Government-linked company",
+    "ownership_details": "EPF ~18.1%, Khazanah Nasional ~18.0%, PNB ~14.8%, KWAP ~6.8%, Lembaga Tabung Haji ~1.3%",
+    "ownership_pct_government": 63,
+    "ownership_pct_government_notes": "Combined GLICs (EPF, Khazanah, PNB, KWAP, LTH) hold ~60-66%",
+    "listed": true,
+    "stock_exchange": "Bursa Malaysia",
+    "stock_ticker": "5347.KL",
+    "market_cap_usd_million": 18121,
+    "share_price_local": 13.92,
+    "share_price_date": "2026-01-15",
+    "website": "https://www.tnb.com.my",
+    "headquarters": "Kuala Lumpur, Malaysia",
+    "established": "1990",
+    "fiscal_year_end": "December 31",
+    "fiscal_year_note": "Changed from August 31 to December 31 - FY2024 is first full calendar year",
+    "employees": 35000,
+    "subsidiaries": [
+      {"name": "TNB Generation Sdn Bhd", "type": "Generation", "ownership_pct": 100},
+      {"name": "TNB Power Generation Sdn Bhd", "type": "Generation", "ownership_pct": 100},
+      {"name": "TNB Transmission Network Sdn Bhd", "type": "Transmission", "ownership_pct": 100},
+      {"name": "TNB Renewables Sdn Bhd", "type": "Renewables", "ownership_pct": 100},
+      {"name": "Sabah Electricity Sdn Bhd (SESB)", "type": "Integrated", "ownership_pct": 83},
+      {"name": "Kapar Energy Ventures Sdn Bhd", "type": "Generation", "ownership_pct": 60},
+      {"name": "Jimah East Power Sdn Bhd", "type": "Generation", "ownership_pct": 70},
+      {"name": "Vantage RE Limited (UK)", "type": "Renewables International", "ownership_pct": 100}
+    ],
+    "credit_ratings": [
+      {
+        "agency": "Moody's",
+        "rating": "A3",
+        "outlook": "Stable",
+        "date": "2024-12-01",
+        "notes": "Two-notch uplift for implicit sovereign support"
+      },
+      {
+        "agency": "S&P",
+        "rating": "A-",
+        "outlook": "Stable",
+        "date": "2024-05-01",
+        "notes": "Upgraded from BBB+ in May 2024"
+      },
+      {
+        "agency": "RAM Malaysia",
+        "rating": "AAA/P1",
+        "outlook": "Stable",
+        "date": "2024-12-01"
+      },
+      {
+        "agency": "MARC Malaysia",
+        "rating": "AAA",
+        "outlook": "Stable",
+        "date": "2024-12-01"
+      }
+    ],
+    "market_share": {
+      "generation_pct": 40,
+      "transmission_pct": 100,
+      "distribution_pct": 100,
+      "notes": "100% monopoly on T&D in Peninsular Malaysia; ~40% generation share (rest via IPP PPAs)"
+    }
+  },
+
+  "capacity": {
+    "reporting_date": "2024-12-31",
+    "total_mw": 16400,
+    "boundary": "consolidated",
+    "boundary_notes": "Includes TNB Genco wholly-owned plants and equity stakes in IPP subsidiaries (e.g., Jimah East Power 70% owned, 2,000 MW coal). International operations excluded.",
+    "total_mw_notes": "TNB-owned capacity in Peninsular Malaysia",
+    "total_system_mw": 25000,
+    "total_system_mw_notes": "Including IPPs under Single Buyer model",
+    "by_fuel": {
+      "coal": {
+        "value_mw": 6810,
+        "notes": "TNB-effective ownership weighted capacity",
+        "source": "TNB Annual Report FY2024"
+      },
+      "gas": {
+        "value_mw": 6500,
+        "notes": "CCGT and OCGT capacity",
+        "source": "TNB Annual Report FY2024"
+      },
+      "oil": {
+        "value_mw": 200,
+        "notes": "Peaking and backup capacity",
+        "source": "TNB Annual Report FY2024"
+      },
+      "hydro": {
+        "value_mw": 2536,
+        "notes": "Large hydro including Cameron Highlands, Kenyir, Pergau",
+        "source": "TNB Annual Report FY2024"
+      },
+      "solar": {
+        "value_mw": 916,
+        "notes": "Utility-scale solar operational",
+        "source": "TNB Annual Report FY2024"
+      },
+      "wind": {
+        "value_mw": 165,
+        "notes": "Primarily international assets",
+        "source": "TNB Annual Report FY2024"
+      },
+      "biomass": {
+        "value_mw": 50,
+        "source": "TNB Annual Report FY2024"
+      },
+      "other_re": {
+        "value_mw": 223,
+        "source": "TNB Annual Report FY2024"
+      }
+    },
+    "re_share_pct": 23.7,
+    "re_share_notes": "Hydro (2,536) + Solar (916) + Wind (165) + Biomass (50) + Other RE (223) = 3,890 MW of 16,400 MW",
+    "capacity_type": "gross",
+    "source": "TNB Annual Report FY2024"
+  },
+
+  "generation": {
+    "reporting_year": 2024,
+    "total_gwh": 73185,
+    "total_gwh_notes": "TNB generation in Peninsular Malaysia",
+    "total_system_gwh": 138539,
+    "total_system_gwh_notes": "Including all subsidiaries and international",
+    "commercial_sales_gwh": 68500,
+    "customers_millions": 10.16,
+    "by_fuel_pct": {
+      "coal_pct": 55.6,
+      "gas_pct": 30.4,
+      "hydro_pct": 9.8,
+      "solar_pct": 1.7,
+      "wind_pct": 1.2,
+      "other_pct": 1.4
+    },
+    "by_fuel_gwh": {
+      "coal_gwh": 40679,
+      "gas_gwh": 22239,
+      "hydro_gwh": 7148,
+      "solar_gwh": 1275,
+      "wind_gwh": 852,
+      "other_gwh": 992
+    },
+    "notes": "Coal still dominates at 55.6% of generation despite 23.7% RE capacity share",
+    "source": "TNB Annual Report FY2024"
+  },
+
+  "coal_plants": {
+    "status": "operating",
+    "notes": "TNB owns 6,810 MW effective coal capacity. Additional ~7,200 MW coal via IPP PPAs under Single Buyer model. Jimah East (2019, 2,000 MW USC) is newest and runs until 2044.",
+    "retirement_methodology": "PPA expiry dates used as retirement dates; early retirement announced for Kapar (2029)",
+    "plants": [
+      {
+        "name": "Manjung Units 1-3",
+        "capacity_mw": 2100,
+        "owner": "TNB",
+        "ownership_pct": 100,
+        "effective_mw": 2100,
+        "location": "Manjung, Perak",
+        "commissioned": 2003,
+        "technology": "Subcritical",
+        "efficiency_pct": 36,
+        "retirement_date": "2030",
+        "retirement_date_basis": "PPA expiry + announced retirement",
+        "retirement_date_type": "announced"
+      },
+      {
+        "name": "Manjung Unit 4",
+        "capacity_mw": 1000,
+        "owner": "TNB",
+        "ownership_pct": 100,
+        "effective_mw": 1000,
+        "location": "Manjung, Perak",
+        "commissioned": 2015,
+        "technology": "Ultra-supercritical",
+        "efficiency_pct": 42,
+        "retirement_date": "2040",
+        "retirement_date_basis": "PPA expiry",
+        "retirement_date_type": "target",
+        "notes": "11-month forced outage in FY2024"
+      },
+      {
+        "name": "Manjung Unit 5",
+        "capacity_mw": 1000,
+        "owner": "TNB",
+        "ownership_pct": 100,
+        "effective_mw": 1000,
+        "location": "Manjung, Perak",
+        "commissioned": 2017,
+        "technology": "Ultra-supercritical",
+        "efficiency_pct": 42,
+        "retirement_date": "2042",
+        "retirement_date_basis": "PPA expiry",
+        "retirement_date_type": "target"
+      },
+      {
+        "name": "Kapar Units 3-6",
+        "capacity_mw": 1600,
+        "owner": "Kapar Energy Ventures",
+        "ownership_pct": 60,
+        "effective_mw": 960,
+        "location": "Kapar, Selangor",
+        "commissioned": 1994,
+        "technology": "Subcritical",
+        "efficiency_pct": 35,
+        "retirement_date": "2029",
+        "retirement_date_basis": "Early retirement announced - to be replaced by 2,100 MW hydrogen-ready CCGT by 2031",
+        "retirement_date_type": "confirmed",
+        "notes": "Oldest coal asset"
+      },
+      {
+        "name": "Jimah East Units 1-2",
+        "capacity_mw": 2000,
+        "owner": "Jimah East Power",
+        "ownership_pct": 70,
+        "effective_mw": 1400,
+        "location": "Port Dickson, Negeri Sembilan",
+        "commissioned": 2019,
+        "technology": "Ultra-supercritical",
+        "efficiency_pct": 40,
+        "retirement_date": "2044",
+        "retirement_date_basis": "PPA expiry",
+        "retirement_date_type": "ppa_expiry",
+        "notes": "Newest coal plant - CCUS pilot (Project Dragon) underway, 30% complete as of Apr 2025"
+      },
+      {
+        "name": "Jimah Original Units 1-2",
+        "capacity_mw": 1400,
+        "owner": "Jimah Power",
+        "ownership_pct": 25,
+        "effective_mw": 350,
+        "location": "Port Dickson, Negeri Sembilan",
+        "commissioned": 2009,
+        "technology": "Subcritical",
+        "efficiency_pct": 37,
+        "retirement_date": "2033",
+        "retirement_date_basis": "PPA expiry",
+        "retirement_date_type": "ppa_expiry",
+        "notes": "Minority stake"
+      }
+    ],
+    "ipp_coal_exposure": [
+      {
+        "name": "Tanjung Bin Power Plant",
+        "capacity_mw": 3100,
+        "owner": "Malakoff Corporation",
+        "tnb_offtake_pct": 100,
+        "technology": "Supercritical",
+        "commissioned": 2006,
+        "ppa_expiry": 2031,
+        "notes": "100% PPA offtake by TNB Single Buyer"
+      },
+      {
+        "name": "Tanjung Bin Energy",
+        "capacity_mw": 1000,
+        "owner": "Malakoff Corporation",
+        "tnb_offtake_pct": 100,
+        "technology": "Ultra-supercritical",
+        "commissioned": 2016,
+        "ppa_expiry": 2041,
+        "notes": "100% PPA offtake by TNB Single Buyer"
+      }
+    ],
+    "b1_calculation": {
+      "total_coal_mw": 6810,
+      "at_risk_mw": 3400,
+      "at_risk_definition": "Retirement date > 2040",
+      "at_risk_pct": 49.9,
+      "not_at_risk_mw": 3410,
+      "not_at_risk_plants": ["Manjung 1-3 (2100 MW, 2030)", "Kapar (960 MW, 2029)", "Jimah Original (350 MW, 2033)"],
+      "notes": "49.9% at-risk due to Manjung 4 (2040), Manjung 5 (2042), Jimah East (2044). Better than EVN but still fails <20% threshold."
+    },
+    "source": "TNB Annual Report FY2024; Global Energy Monitor"
+  },
+
+  "emissions": {
+    "reporting_year": 2024,
+    "disclosure_status": "Disclosed",
+    "scope1": {
+      "value_tco2": 38750000,
+      "value_mtco2": 38.75,
+      "data_type": "reported",
+      "notes": "Direct emissions from power generation",
+      "source": "TNB Sustainability Report 2024"
+    },
+    "scope2": {
+      "value_tco2": 321000,
+      "notes": "Purchased electricity for own use",
+      "source": "TNB Sustainability Report 2024"
+    },
+    "scope3": {
+      "value_tco2": 98000,
+      "notes": "Categories 6 & 7 only (business travel, commuting) - significant disclosure gap",
+      "source": "TNB Sustainability Report 2024"
+    },
+    "intensity": {
+      "value_tco2_mwh": 0.5571,
+      "yoy_change_pct": 1.9,
+      "paris_aligned_target_tco2_mwh": 0.510,
+      "notes": "Increased due to Manjung 4 forced outage requiring dispatch of less efficient units"
+    },
+    "intensity_trend": {
+      "direction": "increasing",
+      "fy2022_tco2_mwh": 0.545,
+      "fy2023_tco2_mwh": 0.5465,
+      "fy2024_tco2_mwh": 0.5571,
+      "notes": "Intensity increasing - NOT on Paris-aligned pathway"
+    },
+    "cdp_climate_score": "B",
+    "cdp_climate_notes": "Estimated based on disclosure quality; TNB participates in CDP",
+    "methodology": "GHG Protocol",
+    "sustainability_reporting": {
+      "standalone_report": true,
+      "cdp_submission": true,
+      "gri_aligned": true,
+      "tcfd_aligned": true,
+      "tcfd_notes": "Aligned since 2019 across all four pillars; climate scenario analysis conducted"
+    },
+    "source": "TNB Sustainability Report 2024"
+  },
+
+  "financial": {
+    "reporting_year": "FY2024",
+    "currency": "MYR",
+    "fx_to_usd": 4.47,
+    "fx_date": "2024-12-31",
+    "income_statement": {
+      "revenue": {
+        "value_local": 56737000,
+        "value_usd": 12694,
+        "unit": "millions",
+        "yoy_change_pct": 6.9,
+        "notes": "MYR 56.737 billion",
+        "source": "TNB Annual Report FY2024"
+      },
+      "ebitda": {
+        "value_local": 19952000,
+        "value_usd": 4464,
+        "unit": "millions",
+        "data_type": "reported",
+        "notes": "MYR 19.952 billion. EBITDA margin 35.2%",
+        "source": "TNB Annual Report FY2024"
+      },
+      "depreciation_amortization": {
+        "value_local": 11232000,
+        "value_usd": 2513,
+        "unit": "millions",
+        "notes": "MYR 11.232 billion",
+        "source": "TNB Annual Report FY2024"
+      },
+      "ebit": {
+        "value_local": 8720000,
+        "value_usd": 1951,
+        "unit": "millions",
+        "notes": "MYR 8.720 billion",
+        "source": "TNB Annual Report FY2024"
+      },
+      "interest_expense": {
+        "value_local": 4098000,
+        "value_usd": 917,
+        "unit": "millions",
+        "notes": "MYR 4.098 billion",
+        "source": "TNB Annual Report FY2024"
+      },
+      "net_income": {
+        "value_local": 4699000,
+        "value_usd": 1051,
+        "unit": "millions",
+        "yoy_change_pct": 69.6,
+        "notes": "MYR 4.699 billion attributable to shareholders",
+        "source": "TNB Annual Report FY2024"
+      }
+    },
+    "balance_sheet": {
+      "total_assets": {
+        "value_local": 205056000,
+        "value_usd": 45886,
+        "unit": "millions",
+        "notes": "MYR 205.056 billion",
+        "source": "TNB Annual Report FY2024"
+      },
+      "total_debt": {
+        "value_local": 57400000,
+        "value_usd": 12841,
+        "unit": "millions",
+        "notes": "MYR 57.4 billion (excluding lease liabilities)",
+        "source": "TNB Annual Report FY2024"
+      },
+      "long_term_debt": {
+        "value_local": 45000000,
+        "value_usd": 10067,
+        "unit": "millions",
+        "notes": "Estimated ~78% of total debt",
+        "source": "Estimated from TNB Annual Report FY2024"
+      },
+      "short_term_debt": {
+        "value_local": 12400000,
+        "value_usd": 2774,
+        "unit": "millions",
+        "notes": "Estimated ~22% of total debt",
+        "source": "Estimated from TNB Annual Report FY2024"
+      },
+      "total_liabilities": {
+        "value_local": 142486000,
+        "value_usd": 31878,
+        "unit": "millions",
+        "notes": "MYR 142.486 billion",
+        "source": "TNB Annual Report FY2024"
+      },
+      "total_equity": {
+        "value_local": 62570000,
+        "value_usd": 14000,
+        "unit": "millions",
+        "notes": "MYR 62.570 billion",
+        "source": "TNB Annual Report FY2024"
+      },
+      "current_assets": {
+        "value_local": 28500000,
+        "value_usd": 6376,
+        "unit": "millions",
+        "notes": "MYR 28.5 billion",
+        "source": "TNB Annual Report FY2024"
+      },
+      "current_liabilities": {
+        "value_local": 25000000,
+        "value_usd": 5593,
+        "unit": "millions",
+        "notes": "MYR 25.0 billion",
+        "source": "TNB Annual Report FY2024"
+      },
+      "cash_and_equivalents": {
+        "value_local": 20000000,
+        "value_usd": 4474,
+        "unit": "millions",
+        "notes": "MYR 20.0 billion",
+        "source": "TNB Annual Report FY2024"
+      },
+      "regulated_asset_base": {
+        "value_local": 68824000,
+        "value_usd": 15397,
+        "unit": "millions",
+        "notes": "RAB under IBR framework",
+        "source": "TNB Annual Report FY2024"
+      }
+    },
+    "cash_flow": {
+      "operating_cash_flow": {
+        "value_local": 12600000,
+        "value_usd": 2819,
+        "unit": "millions",
+        "data_type": "reported",
+        "notes": "MYR 12.6 billion (FFO)",
+        "source": "TNB Annual Report FY2024"
+      },
+      "investing_cash_flow": {
+        "value_local": -11500000,
+        "value_usd": -2573,
+        "unit": "millions",
+        "notes": "Primarily CAPEX",
+        "source": "TNB Annual Report FY2024"
+      },
+      "capex": {
+        "value_local": 11500000,
+        "value_usd": 2573,
+        "unit": "millions",
+        "notes": "MYR 11.5 billion",
+        "source": "TNB Annual Report FY2024"
+      },
+      "free_cash_flow": {
+        "value_local": 1100000,
+        "value_usd": 246,
+        "unit": "millions",
+        "notes": "MYR 1.1 billion (OCF - CAPEX)",
+        "source": "Calculated"
+      }
+    },
+    "credit_rating": {
+      "rating": "A3/A-",
+      "agency": "Moody's/S&P",
+      "outlook": "Stable",
+      "date": "2024-12-01",
+      "notes": "Investment grade with sovereign support uplift",
+      "source": "Moody's, S&P"
+    }
+  },
+
+  "transition": {
+    "net_zero": {
+      "target_year": 2050,
+      "scope": "Operations",
+      "status": "Aspiration",
+      "paris_aligned": false,
+      "notes": "Third-party assessments (Carbon Tracker, WBA) rate as not Paris-aligned",
+      "source": "TNB Sustainability Report 2024"
+    },
+    "sbti": {
+      "validated": false,
+      "committed": false,
+      "validation_date": null,
+      "target_type": null,
+      "notes": "TNB has NOT committed to or been validated by SBTi - critical gap vs global peers",
+      "source": "SBTi Companies Taking Action database"
+    },
+    "coal_policy": {
+      "no_new_coal": true,
+      "no_new_coal_date": "2021",
+      "no_new_coal_notes": "Jimah East (2019) was last coal investment; existing PPAs honored through expiration",
+      "coal_exit_date": "2050",
+      "coal_exit_notes": "Coal-free target by 2050; 50% reduction by 2035 via natural PPA expirations",
+      "confirmed_retirements": [
+        {"name": "Kapar", "capacity_mw": 960, "retirement_year": 2029, "notes": "Early retirement announced"},
+        {"name": "Manjung 1-3", "capacity_mw": 2100, "retirement_year": 2030}
+      ],
+      "source": "TNB Sustainability Report 2024; Eco-Business"
+    },
+    "re_targets": {
+      "target_gw": 8.3,
+      "target_year": 2025,
+      "progress_gw": 4.0,
+      "progress_pct": 48,
+      "progress_date": "2023-06-30",
+      "current_green_capacity_mw": 4515,
+      "notes": "Significantly behind 8.3 GW target",
+      "source": "TNB Sustainability Report 2024"
+    },
+    "capex_allocation": {
+      "clean_capex_share_pct": 39,
+      "clean_capex_definition": "MYR 35B of MYR 90B total CAPEX through 2030 allocated to energy transition",
+      "total_capex_local": 90000000,
+      "total_capex_usd": 20134,
+      "total_capex_period": "Through 2030",
+      "clean_capex_local": 35000000,
+      "clean_capex_usd": 7831,
+      "data_type": "disclosed",
+      "notes": "39% clean CAPEX is below 50% threshold for B4",
+      "source": "TNB Annual Report FY2024"
+    },
+    "emissions_targets": {
+      "target": "35% emissions intensity reduction vs 2020",
+      "target_year": 2035,
+      "notes": "Intensity target, not absolute reduction",
+      "source": "TNB Sustainability Report 2024"
+    },
+    "green_finance": {
+      "green_bonds_issued": true,
+      "transition_finance_framework": {
+        "established": true,
+        "date": "2024-09-01",
+        "rating": "Credible and impactful",
+        "rating_agency": "Sustainalytics",
+        "notes": "First Transition Finance Framework by an ASEAN utility"
+      },
+      "sustainability_sukuk": {
+        "program_size_local": 3500000,
+        "utilized_local": 2220000,
+        "unit": "millions",
+        "utilized_date": "2025-05-01"
+      },
+      "nenggiri_sukuk": {
+        "program_size_local": 10000000,
+        "unit": "millions",
+        "purpose": "300 MW Nenggiri Hydro Project"
+      }
+    },
+    "ccus": {
+      "project_name": "Project Dragon",
+      "location": "Jimah East Power Station",
+      "status": "In progress",
+      "completion_pct": 30,
+      "completion_date_estimate": "2026",
+      "notes": "Carbon capture pilot at newest USC coal plant"
+    },
+    "governance": {
+      "tcfd_aligned": true,
+      "tcfd_since": 2019,
+      "internal_carbon_price_usd": null
+    },
+    "wba_assessment": {
+      "assessment_year": 2024,
+      "paris_aligned": false,
+      "notes": "WBA rates TNB as not Paris-aligned",
+      "source": "World Benchmarking Alliance Electric Utilities Benchmark 2024"
+    }
+  },
+
+  "credit_metrics_b5": {
+    "reporting_year": "FY2024",
+    "data_availability": "complete",
+    "metrics": {
+      "debt_to_ebitda": {
+        "value": 2.88,
+        "calculation": "57400000 / 19952000",
+        "threshold": 4.0,
+        "pass_if": "< 4.0x",
+        "pass": true,
+        "data_type": "calculated",
+        "notes": "Healthy leverage at 2.9x"
+      },
+      "interest_coverage": {
+        "value": 4.87,
+        "calculation": "19952000 / 4098000 (EBITDA / Interest)",
+        "threshold": 2.5,
+        "pass_if": "> 2.5x",
+        "pass": true,
+        "data_type": "calculated",
+        "notes": "Strong interest coverage at 4.9x. Note: EBIT/Interest = 2.13x is below threshold."
+      },
+      "ffo_to_debt_pct": {
+        "value": 21.95,
+        "calculation": "12600000 / 57400000 * 100 (OCF / Total Debt)",
+        "threshold": 20,
+        "pass_if": "> 20%",
+        "pass": true,
+        "data_type": "calculated",
+        "notes": "Adequate cash flow coverage at 22%"
+      },
+      "current_ratio": {
+        "value": 1.14,
+        "calculation": "28500000 / 25000000",
+        "threshold": 1.0,
+        "pass_if": "> 1.0x",
+        "pass": true,
+        "data_type": "calculated",
+        "notes": "Adequate liquidity at 1.14x"
+      },
+      "debt_to_capital_pct": {
+        "value": 47.84,
+        "calculation": "57400000 / (57400000 + 62570000) * 100",
+        "threshold": 60,
+        "pass_if": "< 60%",
+        "pass": true,
+        "data_type": "calculated",
+        "notes": "Conservative gearing at 48%"
+      }
+    },
+    "b5_metrics_available": 5,
+    "b5_metrics_passed": 5,
+    "b5_overall_pass": true,
+    "notes": "All 5 metrics pass thresholds. TNB has strong credit profile with investment grade ratings (A3/A-). Regulated utility with implicit sovereign support.",
+    "source": "TNB Annual Report FY2024"
+  },
+
+  "carbon_pricing_exposure": {
+    "ets_coverage": false,
+    "carbon_tax_coverage": true,
+    "carbon_tax_status": "scheduled",
+    "current_price_usd_tco2": 0,
+    "current_price_note": "Carbon tax at RM15/tCO2e (~$3.33) scheduled for 2026",
+    "price_projections": {
+      "2026": 3.33,
+      "2028": 5,
+      "2030": 10
+    },
+    "b2_calculation": {
+      "scope1_tco2": 38750000,
+      "carbon_price_usd": 0,
+      "carbon_cost_usd": 0,
+      "ebitda_usd": 4464000000,
+      "cce_pct": 0.0,
+      "threshold_pct": 20,
+      "pass": true,
+      "notes": "At $0 current carbon price, CCE = 0%. B2 PASSES. At 2026 carbon tax ($3.33/tCO2): CCE = 2.9% - still passes."
+    },
+    "sensitivity": {
+      "cce_at_3.33_usd": 2.9,
+      "cce_at_10_usd": 8.7,
+      "cce_at_25_usd": 21.7,
+      "notes": "TNB would fail B2 threshold (20%) only if carbon price exceeds ~$23/tCO2"
+    },
+    "notes": "Malaysia carbon tax not yet effective. Even at scheduled 2026 rate, TNB passes B2 comfortably."
+  },
+
+  "esg_ratings": {
+    "msci": {
+      "rating": "A",
+      "year": 2024,
+      "notes": "Upgraded in 2024"
+    },
+    "sustainalytics": {
+      "risk_score": 30.4,
+      "risk_category": "High Risk",
+      "management_score": "Strong",
+      "year": 2024
+    },
+    "ftse4good": {
+      "included": true,
+      "indices": ["FTSE4Good Bursa Malaysia", "FTSE4Good Bursa Malaysia Shariah"]
+    }
+  },
+
+  "data_gaps": [],
+
+  "benchmark_assessment": {
+    "b1_stranded_asset_risk": {
+      "result": "FAIL",
+      "score": 0.499,
+      "rationale": "49.9% of coal capacity (3,400 MW of 6,810 MW) retires after 2040 threshold. Better than EVN (92.5%) but still fails <20% threshold.",
+      "data_quality": "high - retirement dates from announced plans and PPA expiries"
+    },
+    "b2_carbon_cost_exposure": {
+      "result": "PASS",
+      "score": 0.0,
+      "rationale": "CCE = (38.75M tCO2 x $0/tCO2) / $4.46B EBITDA = 0% < 20% threshold. No carbon price currently.",
+      "data_quality": "high - EBITDA and emissions from audited reports"
+    },
+    "b3_lcoe_crossover": {
+      "result": "PASS",
+      "score": 0.0,
+      "rationale": "At $0 carbon price, coal SRMC ($55/MWh) cheaper than solar+storage ($83/MWh). No thermal displaced.",
+      "data_quality": "high - uses country LCOE data"
+    },
+    "b4_transition_alignment": {
+      "result": "FAIL",
+      "score": 0.39,
+      "rationale": "Clean CAPEX 39% < 50% threshold. No SBTi commitment. Net-zero 2050 aspiration not Paris-aligned.",
+      "data_quality": "high - disclosed CAPEX allocation"
+    },
+    "b5_balance_sheet_stress": {
+      "result": "PASS",
+      "score": 1.0,
+      "rationale": "All 5 metrics pass: Debt/EBITDA 2.9x, Interest Coverage 4.9x, FFO/Debt 22%, Current Ratio 1.14x, Debt/Capital 48%",
+      "data_quality": "high - audited financials"
+    },
+    "final_score": "3/5",
+    "tier": "Medium",
+    "benchmarks_passed": ["B2", "B3", "B5"],
+    "benchmarks_failed": ["B1", "B4"],
+    "notes": "TNB achieves Medium tier with 3/5 benchmarks passed. Stronger credit profile than EVN (B5 passes vs fails). Fails B1 due to Jimah East (2044) and B4 due to low clean CAPEX (39%) and no SBTi. Better positioned than EVN overall but transition ambition is weak."
+  },
+
+  "data_sources": [
+    {
+      "source": "TNB Annual Report FY2024",
+      "url": "https://www.tnb.com.my/investors/annual-reports"
+    },
+    {
+      "source": "TNB 4QFY2024 Analyst Briefing",
+      "url": "https://www.tnb.com.my/assets/quarterly_results/"
+    },
+    {
+      "source": "TNB Sustainability Report 2024",
+      "url": "https://www.tnb.com.my/sustainability"
+    },
+    {
+      "source": "Carbon Tracker - TNB Corporate Profile",
+      "url": "https://carbontracker.org/reports/corporate-profile-tenaga-nasional-berhad/"
+    },
+    {
+      "source": "World Benchmarking Alliance",
+      "url": "https://www.worldbenchmarkingalliance.org/publication/electric-utilities/companies/tenaga-nasional/"
+    },
+    {
+      "source": "Global Energy Monitor - Global Coal Plant Tracker",
+      "url": "https://globalenergymonitor.org/projects/global-coal-plant-tracker/"
+    }
+  ],
+
+  "analyst_notes": "TNB is a government-linked integrated utility with strong credit metrics (investment grade A3/A-) but weak transition ambition. Key findings: (1) 49.9% coal at-risk (Manjung 4/5, Jimah East) - better than EVN's 92.5% but still fails B1; (2) No SBTi commitment is a critical gap vs global peers; (3) Clean CAPEX at 39% is below 50% threshold - fails B4; (4) Strong balance sheet (all B5 metrics pass) provides capacity for transition investment; (5) Jimah East (2019, 2,000 MW USC, 2044 retirement) is the critical stranded asset - similar to EVN's situation with young coal fleet. COMPARISON TO EVN: TNB scores same 3/5 (Medium tier) but passes B5 where EVN fails, while both fail B1 and B4. TNB has better disclosure (listed company) and stronger financials but similar transition credibility issues."
+}

@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-03-17T15:13:48.356095",
+  "utility_id": "ID001",
+  "utility_name": "PLN",
+  "country_code": "ID",
+  "benchmarks": {
+    "b1_stranded_asset_risk": {
+      "passed": false,
+      "score": 1.0,
+      "details": {
+        "coal_mw": 35000.0,
+        "at_risk_share_pct": 100
+      },
+      "notes": "Coal capacity exists but no retirement details available",
+      "data_available": false
+    },
+    "b2_carbon_cost_exposure": {
+      "passed": true,
+      "score": 0.10400000000000001,
+      "details": {
+        "scope1_tco2": 160550000.0,
+        "ebitda_usd": 6170000000.0,
+        "carbon_price_usd_tco2": 4.0,
+        "cce_low_pct": 39.0,
+        "cce_medium_pct": 10.4,
+        "cce_high_pct": 195.2,
+        "threshold_pct": 20
+      },
+      "notes": "CCE at medium carbon price: 10.4% (threshold: <20%)",
+      "data_available": true
+    },
+    "b3_lcoe_crossover": {
+      "passed": true,
+      "score": 0.0,
+      "details": {
+        "thermal_mw": 56484.0,
+        "displaced_mw": 0.0,
+        "displaced_share_pct": 0.0,
+        "solar_plus_storage_lcoe": 100.0,
+        "carbon_price_usd_tco2": 4.0,
+        "fuel_analysis": {
+          "coal": {
+            "capacity_mw": 35000.0,
+            "base_cost_usd_mwh": 20.0,
+            "carbon_cost_usd_mwh": 3.64,
+            "total_cost_usd_mwh": 23.64,
+            "displaced": false
+          },
+          "gas": {
+            "capacity_mw": 18058.0,
+            "base_cost_usd_mwh": 35.0,
+            "carbon_cost_usd_mwh": 1.6,
+            "total_cost_usd_mwh": 36.6,
+            "displaced": false
+          },
+          "oil": {
+            "capacity_mw": 3426.0,
+            "base_cost_usd_mwh": 65.0,
+            "carbon_cost_usd_mwh": 3.12,
+            "total_cost_usd_mwh": 68.12,
+            "displaced": false
+          }
+        },
+        "threshold_pct": 30
+      },
+      "notes": "Displaced thermal: 0.0% (threshold: <30%)",
+      "data_available": true
+    },
+    "b4_transition_alignment": {
+      "passed": false,
+      "score": 0.15,
+      "details": {
+        "sbti_validated": false,
+        "sbti_committed": false,
+        "net_zero_year": 2060.0,
+        "re_share_pct": 15.1,
+        "clean_capex_pct": 15.0,
+        "re_target_pct": 23.0
+      },
+      "notes": "Insufficient transition commitments",
+      "data_available": true
+    },
+    "b5_balance_sheet_stress": {
+      "passed": false,
+      "score": 0.4,
+      "details": {
+        "metrics": {
+          "debt_to_ebitda": 5.32,
+          "interest_coverage": 3.76,
+          "ffo_to_debt_pct": 17.5,
+          "current_ratio": 0.92,
+          "debt_to_capital_pct": 52.6
+        },
+        "checks": {
+          "debt_to_ebitda": false,
+          "interest_coverage": true,
+          "ffo_to_debt": false,
+          "current_ratio": false,
+          "debt_to_capital": true
+        },
+        "metrics_available": 5,
+        "metrics_passed": 2,
+        "metrics_failed": 3,
+        "thresholds": {
+          "debt_to_ebitda": "< 4.0x",
+          "interest_coverage": "> 2.5x",
+          "ffo_to_debt_pct": "> 20%",
+          "current_ratio": "> 1.0x",
+          "debt_to_capital_pct": "< 60%"
+        }
+      },
+      "notes": "2/5 metrics pass (need at least 4/5)",
+      "data_available": true
+    }
+  },
+  "summary": {
+    "pass_count": 2,
+    "tier": "Low-medium",
+    "benchmarks_passed": [
+      "B2",
+      "B3"
+    ],
+    "benchmarks_failed": [
+      "B1",
+      "B4",
+      "B5"
+    ]
+  }
+}

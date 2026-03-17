@@ -1,0 +1,186 @@
+{
+  "country_code": "TH",
+  "country_name": "Thailand",
+  "last_updated": "2026-01-14",
+
+  "fx_rate": {
+    "value": 34.5,
+    "currency": "THB",
+    "reference_date": "2024-12-31",
+    "source": "Bank of Thailand"
+  },
+
+  "carbon_pricing": {
+    "mechanism": "petroleum_excise_reclassification",
+    "ets_status": "scheduled",
+    "current_price_local_tco2": 0,
+    "current_price_usd_tco2": 0,
+    "petroleum_tax_thb_tco2": 200,
+    "petroleum_tax_usd_tco2": 5.50,
+    "petroleum_tax_coverage": "oil and petroleum products only; excludes coal and natural gas for power generation",
+    "current_period": "2024-2025",
+    "effective_date": "2025-01-21",
+    "price_2030_usd_tco2": {
+      "low": 10,
+      "high": 25,
+      "notes": "Dependent on ETS implementation and Climate Change Act"
+    },
+    "coverage_pct": null,
+    "notes": "Cabinet approved THB 200/tCO2 carbon tax (Jan 21, 2025) but Draft Ministerial Regulation covers only oil and petroleum products under Excise Tax Act. Coal and natural gas for power generation excluded; to be covered under future Climate Change Bill (2027 earliest). Revenue-neutral: reclassifies existing excise, no additional cost. Effective carbon price on coal/gas power generation: $0.",
+    "ets_expected_start": "2027-2029",
+    "ets_notes": "Mandatory ETS under draft Climate Change Act. Will cover approximately 300 large industrial facilities.",
+    "source": "Thailand Public Relations Department, ICAP"
+  },
+
+  "voluntary_carbon_market": {
+    "program_name": "Thailand Voluntary Emission Reduction (T-VER)",
+    "average_price_usd_tco2": 5.10,
+    "price_range": {
+      "solar_biomass_low": 1.00,
+      "solar_biomass_high": 7.00,
+      "forestry_agriculture_low": 50.00,
+      "forestry_agriculture_high": 62.00
+    },
+    "status": "voluntary",
+    "cumulative_volume_mtco2": 3.26,
+    "available_credits_mtco2": 19.48,
+    "notes": "Premium T-VER credits have CORSIA approval for airline emissions offsetting.",
+    "source": "Nation Thailand, TGO"
+  },
+
+  "lcoe_benchmarks": {
+    "reporting_year": 2024,
+    "currency": "USD",
+    "unit": "MWh",
+    "solar_pv": {
+      "value_low": 33,
+      "value_high": 75,
+      "value_mid": 47,
+      "source": "BloombergNEF Thailand Report May 2025"
+    },
+    "solar_plus_storage": {
+      "value_low": 62,
+      "value_high": 114,
+      "value_mid": 79,
+      "storage_duration_hours": 4,
+      "notes": "Key benchmark for B3 LCOE crossover analysis",
+      "source": "BloombergNEF Thailand Report May 2025"
+    },
+    "wind_onshore": {
+      "value_low": 75,
+      "value_high": 166,
+      "value_mid": 110,
+      "notes": "Limited wind resources outside specific coastal and northeastern regions explains higher costs",
+      "source": "BloombergNEF Thailand Report May 2025"
+    },
+    "wind_offshore": {
+      "value": null,
+      "status": "not_applicable",
+      "notes": "Limited offshore development in Thailand"
+    },
+    "gas_ccgt": {
+      "value_low": 79,
+      "value_high": 86,
+      "value_mid": 82,
+      "operating_cost": 74,
+      "notes": "Existing CCGT operating costs approximately $74/MWh",
+      "source": "BloombergNEF Thailand Report May 2025"
+    },
+    "coal": {
+      "value_low": 74,
+      "value_high": 96,
+      "value_mid": 85,
+      "notes": "Includes Mae Moh lignite plant (2,625 MW)",
+      "source": "BloombergNEF Thailand Report May 2025"
+    }
+  },
+
+  "fuel_cost_assumptions": {
+    "reporting_year": 2024,
+    "gas_usd_mmbtu": 9.50,
+    "gas_benchmark": "JKM Asian LNG",
+    "thailand_pool_gas_usd_mmbtu": 8.20,
+    "coal_usd_tonne": 105,
+    "coal_benchmark": "Newcastle high-CV thermal coal",
+    "indonesian_coal_usd_tonne": 46,
+    "carbon_intensity_gas_tco2_mwh": 0.40,
+    "carbon_intensity_coal_tco2_mwh": 0.92,
+    "source": "IPCC/IEA standards"
+  },
+
+  "national_targets": {
+    "net_zero_target_year": 2050,
+    "net_zero_official_ndc_year": 2065,
+    "net_zero_status": "revised",
+    "net_zero_notes": "Government announced acceleration from 2065 to 2050 in late 2025. Official UNFCCC-submitted NDC target remains 2065 pending formal update.",
+    "carbon_neutrality_year": 2050,
+    "re_targets": [
+      {"year": 2030, "share_pct": 33},
+      {"year": 2037, "share_pct": 51},
+      {"year": 2040, "share_pct": 68},
+      {"year": 2050, "share_pct": 74}
+    ],
+    "coal_phase_out_year": 2050,
+    "coal_phase_out_notes": "PDP pathway includes closure of 2,625 MW Mae Moh lignite plant. Some unit retirements delayed to 2031.",
+    "current_re_share_pct": 18,
+    "current_re_share_range": {"low": 15, "high": 21},
+    "current_re_share_notes": "Variation depending on inclusion of large hydro and imports from Laos",
+    "source": "Power Development Plan (PDP) 2024, Thailand NDC"
+  },
+
+  "power_sector_context": {
+    "total_capacity_gw": 54.5,
+    "total_generation_twh": null,
+    "peak_demand_gw": 34.4,
+    "peak_demand_date": "2024-04",
+    "generation_mix": {
+      "gas_pct": 58,
+      "imports_pct": 15,
+      "coal_lignite_pct": 14,
+      "renewables_pct": 10,
+      "other_pct": 3
+    },
+    "grid_emission_factor_tco2_mwh": 0.475,
+    "grid_emission_factor_notes": "Declining trend from 0.566 tCO2/MWh in 2016",
+    "market_structure": "Enhanced Single Buyer (ESB)",
+    "market_notes": "EGAT controls all wholesale electricity purchasing, high-voltage transmission, and dispatch",
+    "egat_capacity_mw": 16235,
+    "egat_share_pct": 31,
+    "ipps_share_pct": 32,
+    "spps_share_pct": 19,
+    "vspps_share_pct": 8,
+    "source": "EGAT, Thailand Board of Investment"
+  },
+
+  "key_policy_documents": [
+    "Power Development Plan (PDP) 2024",
+    "Thailand NDC (Second Update)",
+    "Draft Climate Change Act",
+    "Energy Efficiency Plan (EEP)"
+  ],
+
+  "reference_urls": {
+    "lcoe_benchmarks": [
+      "BloombergNEF Thailand: Turning Point for a Net-Zero Power Grid (May 2025)"
+    ],
+    "national_targets": [
+      "https://unfccc.int/sites/default/files/NDC/2022-11/Thailand%202nd%20Updated%20NDC.pdf"
+    ],
+    "carbon_pricing": [
+      "https://thailand.prd.go.th/en/content/category/detail/id/52/iid/294932",
+      "https://icapcarbonaction.com/en/ets/thailand"
+    ]
+  },
+
+  "data_notes": {
+    "uncertainties": [
+      "ETS implementation timing dependent on Climate Change Act passage (expected 2027-2029)",
+      "Actual pace of coal phase-out uncertain given recent Mae Moh retirement delays",
+      "Accelerated 2050 net-zero target not yet formalized in updated NDC submission"
+    ],
+    "data_gaps": [
+      "Offshore wind LCOE not available (limited offshore development)",
+      "Exact ETS coverage percentage pending final Climate Change Act provisions"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "country_code": "IN",
+  "country_name": "India",
+  "last_updated": "2026-01-14",
+
+  "carbon_pricing": {
+    "current_price_usd_tco2": 0.0,
+    "price_low_usd_tco2": 0,
+    "price_high_usd_tco2": 75,
+    "coal_cess_inr_tonne": 0,
+    "coal_cess_status": "abolished",
+    "coal_cess_abolished_date": "2025-09-22",
+    "carbon_tax_usd_tco2": 0,
+    "ets_price_usd_tco2": null,
+    "ets_price_projected_usd_tco2": {
+      "low": 1,
+      "high": 7
+    },
+    "pat_scheme_indirect_price": {
+      "value_low": 1,
+      "value_high": 7,
+      "notes": "PAT scheme ESCerts provide indirect carbon-equivalent price through energy efficiency trading, but oversupply has depressed prices"
+    },
+    "effective_date": "2025-09-22",
+    "trading_start_expected": "2026-06",
+    "coverage_pct": 0,
+    "status": "no_direct_carbon_price",
+    "scheme_name": "Carbon Credit Trading Scheme (CCTS) - Power sector NOT initially covered",
+    "covered_sectors": [
+      "aluminium",
+      "cement",
+      "chlor-alkali",
+      "fertilizer",
+      "iron_steel",
+      "pulp_paper",
+      "petrochemicals",
+      "petroleum_refining",
+      "textiles"
+    ],
+    "power_sector_coverage": false,
+    "covered_entities": 740,
+    "notes": "MAJOR UPDATE: Coal cess of ₹400/tonne abolished September 22, 2025 (56th GST Council). Replaced with higher GST (5%→18%) but net effect is tax REDUCTION for power generation. CCTS framework notified June 2023 explicitly excludes power sector initially. PAT scheme provides minimal indirect carbon price (~$2-3/tCO2e) through energy efficiency certificates but is not a direct carbon price. Gujarat state carbon market under development.",
+    "source": "PIB Release PRID 2169438, 2165754; CERC Order 10/SM/2025; BEE; ICAP; verified January 2026",
+    "verification_confidence": "HIGH"
+  },
+
+  "lcoe_benchmarks": {
+    "solar_pv_utility": {
+      "value_low": 32,
+      "value_high": 45,
+      "value_mid": 38,
+      "unit": "USD/MWh"
+    },
+    "solar_plus_storage": {
+      "value_low": 38,
+      "value_high": 50,
+      "value_mid": 42,
+      "storage_duration_hours": 4,
+      "unit": "USD/MWh"
+    },
+    "onshore_wind": {
+      "value_low": 30,
+      "value_high": 40,
+      "value_mid": 34,
+      "unit": "USD/MWh"
+    },
+    "gas_ccgt": {
+      "value_mid": 100,
+      "notes": "Economically unviable due to LNG import dependency",
+      "unit": "USD/MWh"
+    },
+    "coal": {
+      "value_mid": 68,
+      "notes": "New coal tariffs now higher than Firm Dispatchable RE",
+      "unit": "USD/MWh"
+    },
+    "coal_existing_variable": {
+      "value_mid": 35,
+      "notes": "Variable cost for existing coal plants",
+      "unit": "USD/MWh"
+    },
+    "reporting_year": 2024,
+    "currency_conversion_rate": 83,
+    "currency_conversion_unit": "INR/USD",
+    "notes": "India has world's lowest solar installed costs at $525/kW. Gas CCGT economically unviable due to LNG import dependency. New coal tariffs now higher than Firm Dispatchable RE.",
+    "source": "IRENA Renewable Power Generation Costs 2024; SECI auction results; Ember Energy 2025; CERC tariff orders"
+  },
+
+  "national_targets": {
+    "net_zero_target_year": 2070,
+    "re_capacity_target_gw": 500,
+    "re_capacity_target_year": 2030,
+    "re_share_target_pct": 50,
+    "re_share_target_type": "installed_capacity",
+    "coal_phase_out_year": null,
+    "current_re_share_pct": 22,
+    "current_re_share_type": "generation",
+    "current_nonfossil_capacity_pct": 51.5,
+    "notes": "50% non-fossil capacity target achieved 5 years early (Sept 2025). India opposes coal phase-out; 80 GW new coal planned by 2031-32. RE generation share lags capacity share due to lower capacity factors.",
+    "source": "India Updated NDC (UNFCCC August 2022); COP26 Panchamrit; Union Minister Parliament statement March 2025"
+  },
+
+  "grid_context": {
+    "grid_emission_factor_tco2_mwh": 0.727,
+    "grid_emission_factor_type": "weighted_average_including_RE",
+    "grid_emission_factor_combined_margin_tco2_mwh": 0.757,
+    "grid_emission_factor_operating_margin_tco2_mwh": 0.962,
+    "emission_factor_year": "FY2023-24",
+    "electricity_market_structure": "Regulated market with wholesale exchanges; ~93% long-term PPAs, ~7% exchange trading; CERC/SERC regulated",
+    "coal_share_generation_pct": 73,
+    "coal_share_capacity_pct": 48.5,
+    "total_capacity_gw": 501,
+    "capacity_date": "2025-09-30",
+    "notes": "Coal below 50% of capacity but above 70% of generation due to higher plant load factors (~69% vs ~19% for solar). Three power exchanges operate: IEX, PXIL, HPX.",
+    "source": "CEA CO2 Baseline Database V20.0; Ministry of Power; CERC Power Market Regulations 2021"
+  },
+
+  "data_quality": {
+    "high_confidence": [
+      "net_zero_target_year",
+      "re_capacity_target_gw",
+      "grid_emission_factor_tco2_mwh",
+      "coal_share_generation_pct",
+      "total_capacity_gw"
+    ],
+    "medium_confidence": [
+      "solar_pv_utility_usd_mwh",
+      "solar_plus_storage_4hr_usd_mwh",
+      "onshore_wind_usd_mwh",
+      "current_re_share_pct"
+    ],
+    "low_confidence": [
+      "ets_price_projected_usd_tco2",
+      "gas_ccgt_usd_mwh",
+      "coal_existing_variable_usd_mwh"
+    ],
+    "data_gaps": [
+      "offshore_wind_usd_mwh",
+      "nuclear_usd_mwh",
+      "hydrogen_production_costs"
+    ]
+  }
+}

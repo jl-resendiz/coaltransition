@@ -1,0 +1,149 @@
+{
+  "country": "Singapore",
+  "country_code": "SG",
+  "last_updated": "2025-01-13",
+
+  "fx_to_usd": {
+    "value": 1.3669,
+    "currency": "SGD",
+    "reference_date": "2024-12-31",
+    "source": "Exchange-rates.org, X-Rates (mid-market spot rate)"
+  },
+
+  "carbon_pricing": {
+    "mechanism": "carbon tax",
+    "ets_status": "none",
+    "current_price_sgd_tco2": 25,
+    "current_price_usd_tco2": 18.29,
+    "current_period": "2024-2025",
+    "price_2030_sgd_tco2": {
+      "low": 50,
+      "high": 80
+    },
+    "price_2030_usd_tco2": {
+      "low": 36.58,
+      "high": 58.53
+    },
+    "price_trajectory": [
+      {"period": "2019-2023", "sgd_tco2": 5, "usd_tco2": 3.66},
+      {"period": "2024-2025", "sgd_tco2": 25, "usd_tco2": 18.29},
+      {"period": "2026-2027", "sgd_tco2": 45, "usd_tco2": 32.92},
+      {"period": "2030", "sgd_tco2": "50-80", "usd_tco2": "36.58-58.53"}
+    ],
+    "coverage_threshold_tco2": 25000,
+    "taxable_facilities": 50,
+    "emissions_coverage_pct": 70,
+    "power_sector_exemptions": false,
+    "power_sector_notes": "Power generation classified as non-EITE (domestic-oriented). Full carbon tax liability applies with no transitional allowances. Costs pass through to consumers via electricity tariffs.",
+    "icc_offset_allowance_pct": 5,
+    "source": "National Climate Change Secretariat (NCCS), Carbon Pricing Act 2018, Budget 2022"
+  },
+
+  "lcoe_benchmarks": {
+    "currency": "USD",
+    "unit": "MWh",
+    "reference_year": 2024,
+    "solar_pv": {
+      "value_low": 80,
+      "value_high": 120,
+      "value_mid": 100,
+      "notes": "Singapore solar LCOE 2-3x higher than regional benchmarks due to severe land constraints (709 km² total area). Large-scale C&I rooftop ~$63/MWh, small-scale residential ~$110/MWh. Current installed capacity: 1,211 MWac (2.1% of electricity).",
+      "source": "EMA Singapore Energy Statistics 2024, SERIS, Solar Magazine"
+    },
+    "solar_plus_storage": {
+      "value_low": 60,
+      "value_high": 104,
+      "value_mid": 82,
+      "storage_duration_hours": 4,
+      "notes": "4-hour battery storage alone ~$104/MWh (BNEF 2024). Competitive APAC solar+storage hybrids $60-80/MWh. Cross-border projects (Indonesia, Australia) will leverage regional cost advantages.",
+      "source": "BloombergNEF LCOE 2024-2025, Lazard LCOE+ v17.0"
+    },
+    "wind_onshore": {
+      "value": null,
+      "status": "not_viable",
+      "notes": "Average wind speeds 2-3 m/s, well below 4-5 m/s commercial threshold. Land scarcity and maritime traffic restrict options. Only installation: 20 kW demonstration turbine at Semakau Landfill.",
+      "source": "Energy Market Authority (EMA)"
+    },
+    "wind_offshore": {
+      "value": null,
+      "status": "not_viable",
+      "notes": "Maritime traffic density and limited territorial waters constrain offshore wind. No commercial projects planned.",
+      "source": "Energy Market Authority (EMA)"
+    },
+    "gas_ccgt": {
+      "value_low": 42,
+      "value_high": 75,
+      "value_mid": 58.5,
+      "notes": "Natural gas provides ~94% of Singapore electricity. Modern CCGT plants achieve 52-60% efficiency. Grid emission factor: 0.402 kg CO2/kWh (2024). Wholesale electricity price (USEP) ranges $75-150/MWh.",
+      "source": "EMA Singapore Energy Statistics 2024, Ember ASEAN Clean Power Pathways 2024"
+    },
+    "coal": {
+      "value_low": 75,
+      "value_high": 100,
+      "value_mid": 87.5,
+      "notes": "Coal is not competitive in Singapore due to import costs, carbon tax exposure, and policy direction. Only Tembusu Multi-Utilities Complex uses coal/gas/biomass mix (<2% of generation). New coal effectively banned.",
+      "source": "IRENA Renewable Power Generation Costs 2024, Lazard LCOE+ v17.0"
+    },
+    "regional_comparison": {
+      "malaysia_solar": {"low": 38, "high": 50},
+      "vietnam_solar": {"low": 44, "high": 50},
+      "thailand_solar": {"low": 44, "high": 50},
+      "irena_global_solar_avg": 43
+    }
+  },
+
+  "national_targets": {
+    "re_target_pct": 3,
+    "re_target_capacity_gw": 2.0,
+    "re_target_year": 2030,
+    "re_target_notes": "2 GWp solar target would power ~350,000 households. Current installed: 1.17-1.21 GW (60% of 2030 goal). Interim target: 1.5 GWp by 2025.",
+    "coal_phaseout_year": 2050,
+    "coal_phaseout_notes": "Phase out of unabated coal power by 2050. Joined Powering Past Coal Alliance (PPCA) at COP26 (Nov 2021). Current coal dependency <2% (only Tembusu Multi-Utilities Complex uses coal/gas/biomass mix).",
+    "net_zero_year": 2050,
+    "net_zero_notes": "Announced October 25, 2022 at Singapore International Energy Week. Power sector has dedicated 2050 net-zero target. Public sector target: ~2045.",
+    "ndc_2030_mtco2e": 60,
+    "ndc_2035_mtco2e": {"low": 45, "high": 50},
+    "electricity_import_target": {
+      "capacity_gw": 6,
+      "year": 2035,
+      "share_of_supply_pct": 30,
+      "notes": "Raised from 4 GW to 6 GW in September 2024. 11 projects with conditional approval spanning Australia, Cambodia, Indonesia, Vietnam, Malaysia (Sarawak)."
+    },
+    "source": "Singapore Green Plan 2030, NCCS Long-Term Low-Emissions Development Strategy (LEDS), Energy Market Authority, MSE press releases, 2035 NDC submission (Feb 2025)"
+  },
+
+  "power_sector_context": {
+    "total_capacity_gw": 13.5,
+    "total_generation_twh": 55,
+    "peak_demand_gw": 7.5,
+    "gas_share_pct": 94,
+    "solar_share_pct": 2.1,
+    "coal_share_pct": 1,
+    "other_share_pct": 2.9,
+    "grid_emission_factor_kg_co2_kwh": 0.402,
+    "notes": "~95% of gas imported via pipeline (Malaysia/Indonesia) and LNG terminals. Land-constrained city-state with 709 km² total area. System reserve margin ~30%.",
+    "source": "EMA Singapore Energy Statistics 2024"
+  },
+
+  "key_policy_documents": [
+    "Singapore Green Plan 2030",
+    "Long-Term Low-Emissions Development Strategy (LEDS)",
+    "Carbon Pricing Act 2018",
+    "Budget 2022 (carbon tax escalation announcement)"
+  ],
+
+  "data_sources": {
+    "exchange_rate": "https://www.exchange-rates.org/exchange-rate-history/usd-sgd-2024-12-31",
+    "carbon_pricing": "https://www.nccs.gov.sg/singapores-climate-action/mitigation-efforts/carbontax/",
+    "lcoe": [
+      "https://www.ema.gov.sg/resources/singapore-energy-statistics/chapter2",
+      "BloombergNEF LCOE Report 2024-2025",
+      "IRENA Renewable Power Generation Costs 2024"
+    ],
+    "national_targets": [
+      "https://www.greenplan.gov.sg/targets/",
+      "https://www.nccs.gov.sg/media/press-releases/singapore-commits-to-achieve-net-zero/",
+      "https://www.ema.gov.sg/our-energy-story/energy-supply/regional-power-grids"
+    ]
+  }
+}

@@ -1,0 +1,389 @@
+{
+  "id": "TH005",
+  "name": "B.Grimm Power",
+  "full_name": "B.Grimm Power Public Company Limited",
+  "country_code": "TH",
+  "last_updated": "2026-01-14",
+
+  "identification": {
+    "ownership": "Private (listed)",
+    "ownership_details": "Link Family (B.Grimm Group founding family, 3rd-4th generation); Dr. Harald Link 21.21%, B.Grimm Power Singapore 10.49%, B.Grimm JV Holding 7.80%",
+    "listed": true,
+    "stock_ticker": "SET:BGRIM",
+    "website": "https://www.bgrimmpower.com",
+    "fiscal_year_end": "December 31"
+  },
+
+  "capacity": {
+    "reporting_date": "2024-09-30",
+    "total_mw": 4071,
+    "equity_mw": 2647,
+    "committed_portfolio_mw": 5893,
+    "target_2030_mw": 10000,
+    "number_of_plants": 62,
+    "by_fuel": {
+      "coal": {
+        "value_mw": 0,
+        "notes": "No Coal Policy - Zero coal assets",
+        "source": "B.Grimm Power Climate Strategy"
+      },
+      "gas": {
+        "value_mw": 2920,
+        "notes": "Industrial cogeneration SPPs in Thailand: Amata City Chonburi, Amata City Rayong, Asia Industrial Estate, Angthong, Bangkadi, Laem Chabang",
+        "source": "B.Grimm Power Q2 2024 Opportunity Day"
+      },
+      "oil": {
+        "value_mw": 13,
+        "notes": "Diesel backup in Vietnam",
+        "source": "B.Grimm Power Q2 2024 Opportunity Day"
+      },
+      "hydro": {
+        "value_mw": 65,
+        "notes": "Laos (Xenamnoy 2/Xekatam 1, Nam Che 1) + USA (29.9 MW)",
+        "source": "B.Grimm Power Q2 2024 Opportunity Day"
+      },
+      "solar": {
+        "value_mw": 1052,
+        "notes": "Vietnam (Dau Tieng, Phu Yen 497 MW), Thailand (195 MW), Philippines (65 MW), Cambodia (39 MW), Japan (20 MW)",
+        "source": "B.Grimm Power Q2 2024 Opportunity Day"
+      },
+      "wind": {
+        "value_mw": 16,
+        "notes": "Thailand onshore; South Korea 20 MW + 740 MW pipeline",
+        "source": "B.Grimm Power Q2 2024 Opportunity Day"
+      },
+      "geothermal": {
+        "value_mw": 0,
+        "source": "B.Grimm Power Q2 2024 Opportunity Day"
+      },
+      "other_re": {
+        "value_mw": 5,
+        "includes": "Waste-to-energy (4.8 MW)",
+        "source": "B.Grimm Power Q2 2024 Opportunity Day"
+      }
+    },
+    "re_share_pct": 28,
+    "re_share_notes": "28% RE operating; 51% RE in committed portfolio",
+    "capacity_type": "gross",
+    "source": "B.Grimm Power Q2 2024 Opportunity Day Presentation"
+  },
+
+  "generation": {
+    "reporting_year": "FY2024",
+    "total_gwh": 15180,
+    "total_mwh": 15180000,
+    "notes": "FY2024 electricity sales confirmed",
+    "source": "B.Grimm Power Climate Strategy 2024"
+  },
+
+  "financial": {
+    "reporting_year": "FY2024",
+    "currency": "THB",
+    "fx_to_usd": 35.27,
+    "income_statement": {
+      "revenue": {
+        "value_local": 55853,
+        "value_usd": 1583,
+        "unit": "millions",
+        "source": "S&P Capital IQ, Company Press Release (March 2025)"
+      },
+      "ebitda": {
+        "value_local": 14987,
+        "value_usd": 425,
+        "unit": "millions",
+        "source": "S&P Capital IQ, Company Press Release (March 2025)"
+      },
+      "ebit": {
+        "value_local": 8049,
+        "value_usd": 228,
+        "unit": "millions",
+        "source": "S&P Capital IQ"
+      },
+      "interest_expense": {
+        "value_local": 5017,
+        "value_usd": 142,
+        "unit": "millions",
+        "source": "S&P Capital IQ"
+      },
+      "net_income": {
+        "value_local": 1557,
+        "value_usd": 44,
+        "unit": "millions",
+        "notes": "Normalized net profit THB 2,227M",
+        "source": "S&P Capital IQ, Company Press Release (March 2025)"
+      }
+    },
+    "balance_sheet": {
+      "total_assets": {
+        "value_local": 180901,
+        "value_usd": 5129,
+        "unit": "millions",
+        "source": "S&P Capital IQ"
+      },
+      "total_debt": {
+        "value_local": 117872,
+        "value_usd": 3342,
+        "unit": "millions",
+        "notes": "Short-term 7,790M + Current portion LT 15,312M + Long-term 92,650M + Finance leases 2,119M",
+        "source": "S&P Capital IQ"
+      },
+      "total_equity": {
+        "value_local": 51672,
+        "value_usd": 1465,
+        "unit": "millions",
+        "notes": "Parent equity THB 36,086M + NCI THB 15,585M",
+        "source": "S&P Capital IQ"
+      },
+      "current_assets": {
+        "value_local": 46426,
+        "value_usd": 1316,
+        "unit": "millions",
+        "notes": "Includes cash THB 18,785M",
+        "source": "S&P Capital IQ"
+      },
+      "current_liabilities": {
+        "value_local": 31514,
+        "value_usd": 894,
+        "unit": "millions",
+        "source": "S&P Capital IQ"
+      }
+    },
+    "cash_flow": {
+      "operating_cash_flow": {
+        "value_local": 7443,
+        "value_usd": 211,
+        "unit": "millions",
+        "source": "S&P Capital IQ"
+      },
+      "capex": {
+        "value_local": null,
+        "value_usd": null,
+        "unit": "millions",
+        "notes": "Free cash flow THB 3,166M reported",
+        "source": "S&P Capital IQ"
+      }
+    },
+    "credit_rating": {
+      "rating": "A-",
+      "agency": "TRIS",
+      "outlook": "Stable",
+      "date": "2024",
+      "notes": "Senior Unsecured Debentures A-; Subordinated Capital Debentures BBB+",
+      "source": "TRIS Rating"
+    },
+    "market_cap": {
+      "value_local": null,
+      "value_usd": null,
+      "notes": "Listed on SET",
+      "source": ""
+    }
+  },
+
+  "emissions": {
+    "reporting_year": 2024,
+    "data_quality_warning": "Absolute Scope 1/2 totals available in One Report 2024 PDF but not extracted; intensity-based estimate used.",
+    "scope1": {
+      "value_tco2": 5700000,
+      "value_mtco2": 5.7,
+      "notes": "Calculated FY2024 estimate based on confirmed generation (15,180 GWh) and intensity (0.376 tCO2/MWh). Historical data: 2019-2021 Scope 1 available.",
+      "source": "Calculated from B.Grimm Power Climate Strategy 2024"
+    },
+    "scope2": {
+      "value_tco2": 50000,
+      "value_mtco2": 0.05,
+      "notes": "ESTIMATED: Typical Scope 2 for IPP operations",
+      "source": "Estimated"
+    },
+    "scope3": {
+      "value_tco2": null,
+      "value_mtco2": null,
+      "notes": "Not disclosed",
+      "source": ""
+    },
+    "intensity": {
+      "value_tco2_mwh": 0.376,
+      "value_kgco2_kwh": 0.376,
+      "notes": "9% reduction from 2018 baseline; target 0.28 tCO2/MWh by 2030",
+      "baseline_year": 2018,
+      "target_2030": 0.28,
+      "source": "B.Grimm Power Sustainability Report"
+    },
+    "internal_carbon_price": {
+      "value_usd_tco2": 6,
+      "source": "B.Grimm Power Climate Strategy"
+    },
+    "methodology": "GHG Protocol, Operational Control Basis",
+    "third_party_assured": true,
+    "cdp_score": null,
+    "cdp_status": null,
+    "cdp_notes": "Not verified"
+  },
+
+  "transition": {
+    "net_zero": {
+      "target_year": 2050,
+      "scope": "Carbon Emissions",
+      "pathway_alignment": "IEA 2.0C (non-OECD)",
+      "interim_targets": [
+        {"year": 2030, "target": "Emissions intensity 0.28 tCO2/MWh (25% reduction from 2018)"}
+      ],
+      "source": "B.Grimm Power Climate Strategy"
+    },
+    "sbti": {
+      "validated": false,
+      "committed": false,
+      "validation_date": null,
+      "target_type": null,
+      "notes": "Aligned to IEA 2.0C pathway, not SBTi 1.5C standard",
+      "source": "B.Grimm Power Climate Strategy"
+    },
+    "coal_policy": {
+      "no_new_coal": true,
+      "no_new_coal_note": "No Coal Policy - Zero coal assets since founding",
+      "coal_exit_date": null,
+      "coal_exit_details": "Never had coal assets",
+      "source": "B.Grimm Power Climate Strategy"
+    },
+    "re_targets": {
+      "target_pct": 50,
+      "target_year": 2030,
+      "current_operating_pct": 28,
+      "current_committed_pct": 51,
+      "notes": "50% RE by 2030; currently 28% operating, 51% committed",
+      "source": "B.Grimm Power Climate Strategy"
+    },
+    "capex_allocation": {
+      "clean_capex_share_pct": 67,
+      "clean_capex_definition": "RE allocation of 2024-2030 planned investment",
+      "planned_investment_2024_2030_thb_bn": 136,
+      "re_allocation_pct": 85,
+      "notes": "THB 136B planned 2024-2030; 85% allocated to renewables",
+      "source": "B.Grimm Power Q2 2024 Opportunity Day"
+    },
+    "green_finance": {
+      "green_bonds_issued": true,
+      "green_bonds_thb_mn": 5000,
+      "green_bonds_usd_mn": 155,
+      "green_bond_date": "2018",
+      "green_bond_buyer": "Asian Development Bank (ADB)",
+      "green_bond_certification": "Climate Bonds Initiative Certified",
+      "additional_financing": {
+        "adb_loan_2018_usd_mn": 235,
+        "adb_equity_2017_thb_mn": 1968,
+        "ifc_sustainability_linked_bond_pipeline_usd_mn": 200
+      },
+      "green_financing_framework": "B.Grimm Power Green and Blue Financing Framework (Sep 2025)",
+      "second_party_opinion": "DNV Thailand",
+      "source": "B.Grimm Power Green and Blue Financing Framework"
+    },
+    "governance": {
+      "tcfd_aligned": true,
+      "tcfd_reporting_since": null,
+      "internal_carbon_price_usd": 6
+    }
+  },
+
+  "coal_plants": {
+    "status": "none",
+    "notes": "No Coal Policy - Zero coal assets since founding",
+    "plants": [],
+    "source": "B.Grimm Power Climate Strategy"
+  },
+
+  "esg_ratings": {
+    "set_esg": "AAA",
+    "msci": "BBB",
+    "sp_global": "Top 5% (Electric Utilities sector)"
+  },
+
+  "credit_metrics_b5": {
+    "reporting_year": "FY2024",
+    "metrics": {
+      "debt_to_ebitda": {
+        "value": 7.87,
+        "calculation": "117872 / 14987",
+        "threshold": 4.0,
+        "pass_if": "< 4.0x",
+        "pass": false,
+        "assessment": "elevated"
+      },
+      "interest_coverage": {
+        "value": 2.99,
+        "calculation": "14987 / 5017",
+        "threshold": 2.5,
+        "pass_if": "> 2.5x",
+        "pass": true,
+        "assessment": "adequate"
+      },
+      "ffo_to_debt_pct": {
+        "value": 6.31,
+        "calculation": "7443 / 117872 * 100",
+        "threshold": 20,
+        "pass_if": "> 20%",
+        "pass": false,
+        "assessment": "below_threshold"
+      },
+      "current_ratio": {
+        "value": 1.47,
+        "calculation": "46426 / 31514",
+        "threshold": 1.0,
+        "pass_if": "> 1.0x",
+        "pass": true,
+        "assessment": "adequate"
+      },
+      "debt_to_capital_pct": {
+        "value": 69.52,
+        "calculation": "117872 / (117872 + 51672) * 100",
+        "threshold": 60,
+        "pass_if": "< 60%",
+        "pass": false,
+        "assessment": "elevated"
+      }
+    },
+    "b5_pass_count": 2,
+    "b5_overall_pass": false,
+    "notes": "2/5 metrics pass (need 4/5). High leverage from aggressive growth strategy. TRIS A- rating reflects strong industrial cogen business with long-term PPAs.",
+    "source": "Calculated from S&P Capital IQ data"
+  },
+
+  "data_gaps": [],
+  "data_resolved": [
+    {
+      "field": "generation_gwh",
+      "value": 15180,
+      "source": "B.Grimm Power confirmed FY2024 electricity sales"
+    },
+    {
+      "field": "scope1_tco2",
+      "value": "5.7 MtCO2e (calculated)",
+      "source": "Calculated from confirmed generation × intensity (0.376 tCO2/MWh)"
+    }
+  ],
+
+  "data_sources": {
+    "annual_report": "B.Grimm Power One Report 2024 (referenced)",
+    "sustainability_report": "B.Grimm Power Sustainability Report",
+    "rating_report": "TRIS Rating (2024)",
+    "other": [
+      "B.Grimm Power Q2 2024 Opportunity Day Presentation",
+      "B.Grimm Power Climate Strategy Page",
+      "B.Grimm Power Green and Blue Financing Framework (Sep 2025)",
+      "S&P Capital IQ",
+      "Company Press Release (March 2025)"
+    ]
+  },
+
+  "verification_checklist": {
+    "coal_zero_confirmed": true,
+    "coal_zero_note": "No Coal Policy since founding",
+    "capacity_sums_verified": true,
+    "financial_same_year": true,
+    "sources_documented": true,
+    "credit_metrics_calculated": true,
+    "sbti_status_verified": true,
+    "sbti_verification_note": "Aligned to IEA 2.0C, not SBTi",
+    "emissions_warning": "Scope 1 emissions ESTIMATED - absolute values in One Report PDF"
+  },
+
+  "analyst_notes": "B.Grimm Power is a well-positioned Thai IPP with zero coal exposure and strong ESG credentials (SET AAA). However, high leverage from aggressive growth limits financial flexibility. The company's IEA 2.0C pathway alignment rather than SBTi 1.5C may be a concern for transition alignment assessment. Clean CAPEX allocation (67-85%) is among the strongest in Thailand."
+}

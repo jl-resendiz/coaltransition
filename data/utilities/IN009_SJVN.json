@@ -1,0 +1,456 @@
+{
+  "id": "IN009",
+  "name": "SJVN",
+  "full_name": "Satluj Jal Vidyut Nigam Limited",
+  "country_code": "IN",
+  "last_updated": "2026-01-15",
+
+  "identification": {
+    "ownership": "PSU (Government of India 55.00% + Himachal Pradesh 26.85%)",
+    "ownership_details": "Navratna PSU since August 2024; Total promoter 81.85%",
+    "listed": true,
+    "stock_ticker": "NSE:SJVN, BSE:533206",
+    "isin": "INE002L01015",
+    "cin": "L40101HP1988GOI008409",
+    "website": "https://www.sjvn.nic.in",
+    "fiscal_year_end": "March 31",
+    "registered_office": "SJVN Corporate Office Complex, Shanan, Shimla, Himachal Pradesh",
+    "date_of_incorporation": "1988-05-24"
+  },
+
+  "capacity": {
+    "reporting_date": "2025-12-31",
+    "total_mw": 3146,
+    "by_fuel": {
+      "coal": {"value_mw": 0, "notes": "Zero coal operational; BUT 1,320 MW Buxar TPP under construction"},
+      "lignite": {"value_mw": 0},
+      "gas": {"value_mw": 0},
+      "oil": {"value_mw": 0},
+      "hydro": {"value_mw": 1972, "notes": "Nathpa Jhakri 1500 MW + Rampur 412 MW + Naitwar Mori 60 MW"},
+      "solar": {"value_mw": 1076, "notes": "Bikaner 1000 + Raghanesda 100 + Omkareshwar 90 + UP projects 200 + Charanka 5.6"},
+      "wind": {"value_mw": 97.6, "notes": "Khirvire 47.6 MW + Sadla 50 MW"},
+      "nuclear": {"value_mw": 0},
+      "other_re": {"value_mw": 0}
+    },
+    "thermal_mw": 0,
+    "thermal_share_pct": 0,
+    "re_mw": 3146,
+    "re_share_pct": 100,
+    "under_construction_mw": 5091,
+    "under_construction_details": {
+      "hydro_india_mw": 910,
+      "hydro_nepal_mw": 900,
+      "thermal_mw": 1320,
+      "projects": [
+        {"name": "Arun-3 HEP (Nepal)", "capacity_mw": 900, "expected_cod": "2027", "completion_pct": 74},
+        {"name": "Buxar TPP", "capacity_mw": 1320, "configuration": "2x660 MW", "expected_cod": "2025-11 (Unit 1)"},
+        {"name": "Sunni Dam HEP", "capacity_mw": 382, "expected_cod": "2028-04"},
+        {"name": "Devsari HEP", "capacity_mw": 252, "expected_cod": "2027-03"},
+        {"name": "Luhri Stage-1 HEP", "capacity_mw": 210},
+        {"name": "Dhaulasidh HEP", "capacity_mw": 66, "expected_cod": "2025-11"}
+      ]
+    },
+    "pipeline_mw": 1269,
+    "pipeline_details": "Lower Arun 669 MW (Nepal, approved Aug 2024) + Kholongchhu 600 MW (Bhutan JV)",
+    "target_2030_mw": 25000,
+    "target_2040_mw": 50000,
+    "total_project_portfolio_mw": 56802,
+    "source": "SJVN Investor Presentation, NSE filings December 2025"
+  },
+
+  "generation": {
+    "reporting_year": "FY2024-25",
+    "total_gwh": 10647,
+    "by_fuel_gwh": {
+      "hydro": 10100,
+      "solar": 380,
+      "wind": 167
+    },
+    "fy24_breakdown": {
+      "total_gwh": 8489,
+      "hydro_gwh": 8131,
+      "solar_gwh": 210,
+      "wind_gwh": 151
+    },
+    "notes": "FY25: ~10,647 MU total; Hydro 95%, Solar 3.6%, Wind 1.6%. FY24: 8,489 MU (Hydro 8,131 + Solar 210 + Wind 151). Q3 FY25 solar +387% YoY.",
+    "source": "SJVN Annual Report FY25, Quarterly Results"
+  },
+
+  "financial": {
+    "reporting_year": "FY2024-25",
+    "currency": "INR",
+    "fx_to_usd": 84.0,
+    "audited": true,
+    "income_statement": {
+      "revenue": {
+        "value_local": 30720,
+        "value_usd": 366,
+        "unit": "millions",
+        "notes": "INR 3,072 crore FY25",
+        "source": "SJVN FY25"
+      },
+      "ebitda": {
+        "value_local": 22230,
+        "value_usd": 265,
+        "unit": "millions",
+        "notes": "INR 2,223 crore; Operating margin 72%",
+        "source": "SJVN FY25"
+      },
+      "ebit": {
+        "value_local": null,
+        "value_usd": null,
+        "unit": "millions",
+        "notes": "Not explicitly provided",
+        "source": ""
+      },
+      "interest_expense": {
+        "value_local": 7430,
+        "value_usd": 88,
+        "unit": "millions",
+        "notes": "INR 743 crore FY25; +54.1% YoY from 482 Cr FY24; driven by borrowing ramp-up for capex program",
+        "source": "SJVN Annual Report FY25, CRISIL/CARE Rating Reports"
+      },
+      "net_income": {
+        "value_local": 8180,
+        "value_usd": 97,
+        "unit": "millions",
+        "notes": "INR 818 crore FY25",
+        "source": "SJVN FY25"
+      }
+    },
+    "balance_sheet": {
+      "total_assets": {
+        "value_local": 460630,
+        "value_usd": 5484,
+        "unit": "millions",
+        "notes": "INR 46,063 crore FY25",
+        "source": "SJVN FY25"
+      },
+      "total_debt": {
+        "value_local": 269060,
+        "value_usd": 3203,
+        "unit": "millions",
+        "notes": "INR 26,906 crore FY25; +33% YoY from 20,223 Cr FY24; D/E 1.9x up from 1.0x FY23",
+        "source": "SJVN Annual Report FY25, Balance Sheet"
+      },
+      "net_debt": {
+        "value_local": null,
+        "value_usd": null,
+        "unit": "millions",
+        "notes": "Not provided",
+        "source": ""
+      },
+      "total_equity": {
+        "value_local": 141790,
+        "value_usd": 1688,
+        "unit": "millions",
+        "notes": "INR 14,179 crore net worth FY25",
+        "source": "SJVN FY25"
+      },
+      "current_assets": {
+        "value_local": 44664,
+        "value_usd": 532,
+        "unit": "millions",
+        "notes": "INR 4,466.36 crore FY25 (Cash 356 + Receivables 858 + Inventory 84 + Other 3,168); down from 4,896 Cr FY24",
+        "source": "SJVN Consolidated Balance Sheet FY25"
+      },
+      "current_liabilities": {
+        "value_local": 45358,
+        "value_usd": 540,
+        "unit": "millions",
+        "notes": "INR 4,535.76 crore FY25 (Payables 199 + Accrued 699 + ST Debt 119 + Current LT Debt 602 + Other 2,917); up from 4,103 Cr FY24",
+        "source": "SJVN Consolidated Balance Sheet FY25"
+      }
+    },
+    "cash_flow": {
+      "operating_cash_flow": {
+        "value_local": 24830,
+        "value_usd": 296,
+        "unit": "millions",
+        "notes": "INR 2,483 crore FY25; +89.5% YoY from 1,310 Cr FY24",
+        "source": "SJVN Consolidated Cash Flow Statement FY25"
+      },
+      "capex": {
+        "value_local": 100000,
+        "value_usd": 1190,
+        "unit": "millions",
+        "notes": "INR ~10,000-12,000 crore annual capex program; Buxar TPP INR 13,756 Cr total",
+        "source": "SJVN Annual Report FY25"
+      }
+    },
+    "credit_rating": {
+      "rating": "AA+",
+      "agency": "CRISIL/CARE/India Ratings",
+      "outlook": "Stable",
+      "date": "2025-11",
+      "notes": "Unanimous AA+/Stable from all three agencies",
+      "source": "Rating Agency Reports"
+    },
+    "key_ratios": {
+      "debt_to_equity": 1.85,
+      "operating_margin_pct": 72,
+      "net_margin_pct": 26.6,
+      "source": "SJVN FY25"
+    },
+    "market_cap": {
+      "value_local": 290000,
+      "value_usd": 3452,
+      "unit": "millions",
+      "notes": "INR ~29,000 crore (Jan 2026)",
+      "source": "NSE"
+    }
+  },
+
+  "emissions": {
+    "reporting_year": 2025,
+    "scope1": {
+      "value_tco2": 476,
+      "value_mtco2": 0.000476,
+      "notes": "Very low - primarily from vehicles/equipment; -70.3% YoY",
+      "source": "SJVN BRSR FY2024-25"
+    },
+    "scope2": {
+      "value_tco2": 3118,
+      "value_mtco2": 0.003118,
+      "notes": "Grid electricity for operations",
+      "source": "SJVN BRSR FY2024-25"
+    },
+    "scope3": {
+      "value_tco2": null,
+      "value_mtco2": null,
+      "notes": "Not reported",
+      "source": ""
+    },
+    "total": {
+      "value_tco2": 3594,
+      "value_mtco2": 0.003594,
+      "notes": "Total Scope 1+2 emissions - extremely low for a 3+ GW utility"
+    },
+    "intensity": {
+      "value_tco2_mwh": 0.0004,
+      "notes": "~3,594 tCO2e / ~8,648,000 MWh = 0.0004 tCO2e/MWh - near-zero intensity",
+      "source": "Calculated"
+    },
+    "methodology": "GHG Protocol",
+    "verification": true,
+    "cdp_score": null,
+    "cdp_notes": "Not submitted to CDP"
+  },
+
+  "transition": {
+    "net_zero": {
+      "target_year": null,
+      "scope": null,
+      "notes": "No company-specific net-zero target announced",
+      "source": "SJVN disclosures"
+    },
+    "sbti": {
+      "validated": false,
+      "committed": false,
+      "notes": "No SBTi commitment",
+      "source": "SBTi Database"
+    },
+    "interim_targets": {
+      "capacity_2026_mw": 12000,
+      "capacity_2030_mw": 25000,
+      "capacity_2040_mw": 50000,
+      "annual_addition_target_mw": 3000,
+      "source": "SJVN corporate strategy"
+    },
+    "coal_policy": {
+      "no_new_coal": false,
+      "coal_exit_date": null,
+      "coal_exit_details": "1,320 MW Buxar TPP under construction - first thermal project",
+      "new_thermal_planned_mw": 1320,
+      "source": "SJVN project portfolio"
+    },
+    "re_targets": {
+      "current_re_share_pct": 100,
+      "target_re_share_pct": null,
+      "notes": "Currently 100% RE but adding 1,320 MW coal (Buxar TPP) will reduce RE share to ~70% when commissioned",
+      "source": "SJVN strategy"
+    },
+    "capex_allocation": {
+      "clean_capex_share_pct": 64,
+      "clean_capex_definition": "Hydro + Solar projects; Buxar TPP (coal) is sole non-clean allocation",
+      "capex_by_technology": {
+        "hydro_inr_crore": 10000,
+        "solar_inr_crore": 9000,
+        "thermal_inr_crore": 13756,
+        "total_inr_crore": 32756
+      },
+      "notes": "Clean CapEx 63-65% by project cost (Hydro ~27% + Solar ~35%); Buxar TPP 35-38%. By capacity: 71.3% clean (3,331 MW) vs 28.7% thermal (1,320 MW).",
+      "source": "Derived from SJVN project-level disclosures"
+    },
+    "international_expansion": {
+      "nepal_mw": 1569,
+      "bhutan_mw": 600,
+      "projects": ["Arun-3 HEP 900 MW (under construction)", "Lower Arun 669 MW (approved)", "Kholongchhu 600 MW (JV with DGPC)"],
+      "notes": "International hydro projects position SJVN for cross-border RE trade",
+      "source": "SJVN Annual Report"
+    },
+    "governance": {
+      "tcfd_aligned": null,
+      "brsr_disclosure": true,
+      "sustainability_report_standalone": true
+    }
+  },
+
+  "coal_plants": {
+    "status": "under_construction",
+    "notes": "Currently 0 MW coal operational; 1,320 MW Buxar TPP under construction",
+    "plants": [],
+    "under_construction": [
+      {
+        "name": "Buxar TPP",
+        "type": "coal",
+        "capacity_mw": 1320,
+        "configuration": "2x660 MW supercritical",
+        "location": "Bihar",
+        "unit1_expected_cod": "2025-11",
+        "unit2_status": "Erection in progress",
+        "subsidiary": "SJVN Thermal Private Limited (STPL)",
+        "notes": "First thermal project for SJVN"
+      }
+    ]
+  },
+
+  "esg_ratings": {
+    "sustainalytics_rating": "Average",
+    "sustainalytics_notes": "Low exposure due to hydro-dominated portfolio",
+    "awards": [],
+    "source": "ESG Rating Agencies"
+  },
+
+  "credit_metrics_b5": {
+    "reporting_year": "FY2024-25",
+    "metrics": {
+      "debt_to_ebitda": {
+        "value": 12.11,
+        "calculation": "269060 / 22210",
+        "threshold": 4.0,
+        "pass_if": "< 4.0x",
+        "pass": false,
+        "assessment": "weak",
+        "notes": "Debt 26,906 Cr / EBITDA 2,221 Cr = 12.11x - very elevated from massive 5 GW capex program"
+      },
+      "interest_coverage": {
+        "value": 2.99,
+        "calculation": "22210 / 7430",
+        "threshold": 2.5,
+        "pass_if": "> 2.5x",
+        "pass": true,
+        "assessment": "adequate",
+        "notes": "EBITDA 2,221 Cr / Interest 743 Cr = 2.99x - just above threshold; CRISIL reports 3.3-3.4x; down from 5.5x FY23"
+      },
+      "ffo_to_debt_pct": {
+        "value": 9.2,
+        "calculation": "24830 / 269060 * 100",
+        "threshold": 20,
+        "pass_if": "> 20%",
+        "pass": false,
+        "assessment": "weak",
+        "notes": "OCF 2,483 Cr / Debt 26,906 Cr = 9.2% - high leverage relative to cash generation"
+      },
+      "current_ratio": {
+        "value": 0.98,
+        "calculation": "44664 / 45358",
+        "threshold": 1.0,
+        "pass_if": "> 1.0x",
+        "pass": false,
+        "assessment": "weak",
+        "notes": "CA 4,466 Cr / CL 4,536 Cr = 0.98x - deteriorated from 1.19x FY24; liquidity tightening from capex"
+      },
+      "debt_to_capital_pct": {
+        "value": 65.5,
+        "calculation": "269060 / (269060 + 141790) * 100",
+        "threshold": 60,
+        "pass_if": "< 60%",
+        "pass": false,
+        "assessment": "weak",
+        "notes": "Debt 26,906 Cr / (Debt + Equity 41,085 Cr) = 65.5% - elevated from project financing; D/E 1.9x"
+      }
+    },
+    "b5_pass_count": 1,
+    "b5_metrics_available": 5,
+    "b5_overall_pass": false,
+    "notes": "1/5 metrics pass (only Interest Coverage 2.99x). B5 FAIL. All metrics now deteriorated from FY23: D/EBITDA increased from ~4x to 12.1x, Interest Coverage fell from 5.5x to 3.0x, Current Ratio from 1.19x to 0.98x. AA+ rating reflects government backing (81.85%), cost-plus tariffs with 16.5% ROE guarantee, and ₹3,000+ Cr liquidity - not standalone credit metrics.",
+    "source": "Calculated from SJVN FY25 Audited Financials, CRISIL/CARE Ratings Aug-Nov 2025"
+  },
+
+  "data_gaps": [
+    {
+      "field": "scope3_emissions",
+      "benchmark": "General",
+      "severity": "Medium",
+      "notes": "Scope 3 not reported - SJVN not submitted to CDP; outside BRSR Core top 250 threshold"
+    }
+  ],
+
+  "data_resolved": [
+    {
+      "field": "interest_expense",
+      "value": "INR 743 crore",
+      "resolved_date": "2026-01-15",
+      "source": "SJVN Annual Report FY25, CRISIL/CARE Rating Reports"
+    },
+    {
+      "field": "operating_cash_flow",
+      "value": "INR 2,483 crore",
+      "resolved_date": "2026-01-15",
+      "source": "SJVN Consolidated Cash Flow Statement FY25"
+    },
+    {
+      "field": "current_assets",
+      "value": "INR 4,466.36 crore",
+      "resolved_date": "2026-01-15",
+      "source": "SJVN Consolidated Balance Sheet FY25"
+    },
+    {
+      "field": "current_liabilities",
+      "value": "INR 4,535.76 crore",
+      "resolved_date": "2026-01-15",
+      "source": "SJVN Consolidated Balance Sheet FY25"
+    },
+    {
+      "field": "clean_capex_share_pct",
+      "value": "63-65%",
+      "resolved_date": "2026-01-15",
+      "source": "Derived from SJVN project-level disclosures"
+    },
+    {
+      "field": "solar_wind_generation",
+      "value": "Solar 210 MU, Wind 151 MU (FY24)",
+      "resolved_date": "2026-01-15",
+      "source": "SJVN Operational Highlights"
+    }
+  ],
+
+  "data_sources": {
+    "annual_report": "SJVN Annual Report FY2023-24",
+    "investor_presentation": "SJVN Investor Presentation",
+    "financial_data": "NSE India filings FY2024-25",
+    "rating_reports": "CRISIL/CARE/India Ratings Reports 2025",
+    "sustainability_report": "SJVN BRSR FY2024-25",
+    "other": ["Tracenable ESG Database"]
+  },
+
+  "verification_checklist": {
+    "coal_capacity_confirmed": true,
+    "coal_capacity_note": "0 MW coal operational; 1,320 MW Buxar TPP under construction (first thermal)",
+    "capacity_sums_verified": true,
+    "capacity_sums_note": "1972 + 1076 + 97.6 = 3,145.6 ≈ 3,146 MW (solar split slightly different in source)",
+    "financial_same_year": true,
+    "sources_documented": true,
+    "credit_metrics_calculated": true,
+    "credit_metrics_note": "All 5/5 B5 metrics now calculated from FY25 audited financials: D/EBITDA 12.11x, ICR 2.99x, FFO/Debt 9.2%, CR 0.98x, D/Cap 65.5%",
+    "sbti_status_verified": true,
+    "sbti_verification_note": "No SBTi commitment",
+    "net_zero_verified": true,
+    "net_zero_note": "No company-specific net-zero target",
+    "b5_data_complete": true,
+    "b5_data_note": "Complete: interest expense 743 Cr, OCF 2,483 Cr, CA 4,466 Cr, CL 4,536 Cr all sourced from audited FY25"
+  },
+
+  "analyst_notes": "SJVN is a Navratna PSU and currently a 100% RE company (hydro 63%, solar 34%, wind 3%). Key strengths: (1) Zero operational coal - passes B1/B2/B3; (2) Negligible emissions (3,594 tCO2e total); (3) Strong government backing (81.85% promoter); (4) International expansion (Nepal, Bhutan hydro). KEY CONCERN: 1,320 MW Buxar TPP (coal) under construction will reduce RE share to ~70% when commissioned in 2025-26. This represents SJVN's transition FROM pure RE to mixed portfolio. No net-zero or SBTi commitment despite current 100% RE status. B5 CREDIT ANALYSIS (FY25 complete): Very high leverage from massive 5 GW capex program - D/EBITDA 12.11x (threshold <4.0x), Interest Coverage 2.99x (PASSES, threshold >2.5x), FFO/Debt 9.2% (threshold >20%), Current Ratio 0.98x (threshold >1.0x), Debt/Capital 65.5% (threshold <60%). Only 1/5 metrics pass. AA+ rating reflects government support (81.85%), cost-plus tariffs with 16.5% ROE guarantee, and liquidity strength - NOT standalone credit metrics. ETCB outcomes: B1 PASS (0% coal operational), B2 PASS (near-zero emissions), B3 PASS (no thermal), B4 PASS (clean CapEx 64% > 50% threshold), B5 FAIL (1/5 metrics). Expected: 4/5 Medium-high tier. Note: Once Buxar TPP operational, B1 will FAIL (coal >20% of capacity) in future assessments."
+}

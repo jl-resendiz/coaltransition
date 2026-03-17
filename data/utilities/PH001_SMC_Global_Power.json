@@ -1,0 +1,659 @@
+{
+  "id": "PH001",
+  "name": "SMC Global Power",
+  "full_name": "San Miguel Global Power Holdings Corp",
+  "parent_company": "San Miguel Corporation",
+  "country_code": "PH",
+  "last_updated": "2026-01-15",
+  "utility_type": "generation",
+
+  "identification": {
+    "ownership": "Private (Diversified Conglomerate)",
+    "ownership_details": "SMC Group; Ramon Ang family controls ~38-39% effective economic interest via Top Frontier Investment Holdings (66% of SMC) and Privado Holdings (15.73% of SMC)",
+    "ownership_pct_government": 0,
+    "listed": true,
+    "listed_entity": "Parent company SMC listed; SMCGP is unlisted subsidiary",
+    "stock_exchange": "Philippine Stock Exchange (PSE)",
+    "stock_ticker": "SMC",
+    "isin": "PHY751061151",
+    "market_cap_usd_million": 3616,
+    "website": "https://www.smcglobalpower.com.ph",
+    "headquarters": "Manila, Philippines",
+    "ceo": "Ramon S. Ang",
+    "fiscal_year_end": "December 31",
+    "subsidiaries": [
+      {"name": "Masinloc Power Co. Ltd (MPCL)", "type": "Generation", "ownership_pct": 100, "capacity_mw": 1026},
+      {"name": "Sual Power Inc. (SPI)", "type": "Generation", "ownership_pct": 100, "capacity_mw": 1294},
+      {"name": "South Premiere Power Corp (SPPC)", "type": "Generation", "ownership_pct": 100, "capacity_mw": 1200},
+      {"name": "San Roque Hydropower Inc. (SRHI)", "type": "Generation", "ownership_pct": 100, "capacity_mw": 345},
+      {"name": "Angat Hydropower Corporation (AHC)", "type": "Generation", "ownership_pct": 60, "capacity_mw": 218},
+      {"name": "Limay Power Inc. (LPI)", "type": "Generation", "ownership_pct": 100, "capacity_mw": 536},
+      {"name": "Malita Power Inc. (MPI)", "type": "Generation", "ownership_pct": 100, "capacity_mw": 300},
+      {"name": "Mariveles Power Generation Corp (MPGC)", "type": "Generation", "ownership_pct": 92, "capacity_mw": 600}
+    ],
+    "credit_ratings": [
+      {
+        "agency": "PhilRatings",
+        "rating": "PRS Aaa",
+        "outlook": "Stable",
+        "notes": "Local rating only; deliberately unrated by international agencies"
+      }
+    ],
+    "market_share": {
+      "generation_pct": 22.4,
+      "notes": "Largest power producer in Philippines"
+    }
+  },
+
+  "capacity": {
+    "reporting_date": "2024-12-31",
+    "total_mw": 6080,
+    "total_mw_notes": "SMC Global Power total capacity",
+    "by_fuel": {
+      "coal": {
+        "value_mw": 3756,
+        "notes": "Operating coal capacity; 700 MW under construction (Masinloc 4-5)",
+        "source": "ERC March 2025"
+      },
+      "gas": {
+        "value_mw": 1200,
+        "notes": "Ilijan CCGT",
+        "source": "ERC March 2025"
+      },
+      "oil": {
+        "value_mw": 0,
+        "source": "ERC March 2025"
+      },
+      "hydro": {
+        "value_mw": 563,
+        "notes": "San Roque (345 MW) + Angat (218 MW, 60% owned)",
+        "source": "ERC March 2025"
+      },
+      "solar": {
+        "value_mw": 0,
+        "under_construction_mw": 154,
+        "notes": "Zero operational; 154 MW under construction",
+        "source": "ERC March 2025"
+      },
+      "wind": {
+        "value_mw": 0,
+        "source": "ERC March 2025"
+      },
+      "battery_storage": {
+        "value_mw": 1000,
+        "value_mwh": 1000,
+        "notes": "Largest BESS network in Philippines, completed April 2023",
+        "source": "SMC announcements"
+      },
+      "geothermal": {
+        "value_mw": 0,
+        "source": "ERC March 2025"
+      }
+    },
+    "re_share_pct": 9.3,
+    "re_share_notes": "Hydro only (563 MW of 6,080 MW). Zero solar/wind.",
+    "fossil_share_pct": 81.5,
+    "capacity_type": "gross",
+    "source": "Energy Regulatory Commission (ERC) March 2025"
+  },
+
+  "generation": {
+    "reporting_year": 2024,
+    "offtake_volume_gwh": 36600,
+    "by_fuel_gwh_2023": {
+      "coal_gwh": 16897,
+      "gas_gwh": 2512,
+      "hydro_gwh": 874
+    },
+    "by_fuel_pct": {
+      "coal_pct": 83,
+      "gas_pct": 12,
+      "hydro_pct": 4,
+      "other_pct": 1
+    },
+    "market_data": {
+      "bilateral_contracts_pct": 86,
+      "wesm_spot_sales_pct": 14,
+      "retail_market_share_pct": 11
+    },
+    "notes": "Coal dominates generation at 83% despite capacity mix",
+    "source": "SMC Annual Report FY2024"
+  },
+
+  "coal_plants": {
+    "status": "operating",
+    "notes": "SMC is the most aggressive coal developer in Philippines. 3,756 MW operating, 700 MW under construction. NO announced retirement dates for any plants.",
+    "retirement_methodology": "No retirement dates announced - using 40-year technical life estimates",
+    "plants": [
+      {
+        "name": "Sual Power Station Units 1-2",
+        "capacity_mw": 1294,
+        "owner": "Sual Power Inc. (SPI)",
+        "ownership_pct": 100,
+        "location": "Pangasinan, Luzon",
+        "commissioned": 1999,
+        "technology": "Subcritical",
+        "retirement_date": "2039",
+        "retirement_date_basis": "40-year technical life from 1999",
+        "retirement_date_type": "estimated",
+        "notes": "BOT scheme expired October 2024; now fully owned. 26 years old."
+      },
+      {
+        "name": "Masinloc Unit 1",
+        "capacity_mw": 330,
+        "owner": "Masinloc Power Co. Ltd (MPCL)",
+        "ownership_pct": 100,
+        "location": "Zambales, Luzon",
+        "commissioned": 1998,
+        "technology": "Subcritical",
+        "retirement_date": "2038",
+        "retirement_date_basis": "40-year technical life from 1998",
+        "retirement_date_type": "estimated",
+        "notes": "Acquired from AES/EGCO for $1.9B in March 2018. 28 years old."
+      },
+      {
+        "name": "Masinloc Unit 2",
+        "capacity_mw": 344,
+        "owner": "Masinloc Power Co. Ltd (MPCL)",
+        "ownership_pct": 100,
+        "location": "Zambales, Luzon",
+        "commissioned": 1999,
+        "technology": "Subcritical",
+        "retirement_date": "2039",
+        "retirement_date_basis": "40-year technical life from 1999",
+        "retirement_date_type": "estimated",
+        "notes": "27 years old."
+      },
+      {
+        "name": "Masinloc Unit 3",
+        "capacity_mw": 352,
+        "owner": "Masinloc Power Co. Ltd (MPCL)",
+        "ownership_pct": 100,
+        "location": "Zambales, Luzon",
+        "commissioned": 2020,
+        "technology": "Supercritical",
+        "retirement_date": "2060",
+        "retirement_date_basis": "40-year technical life from 2020",
+        "retirement_date_type": "estimated",
+        "notes": "New build expansion. Only 5 years old."
+      },
+      {
+        "name": "Limay CFB Units 1-4",
+        "capacity_mw": 536,
+        "owner": "Limay Power Inc. (LPI)",
+        "ownership_pct": 100,
+        "location": "Bataan, Luzon",
+        "commissioned": 2017,
+        "technology": "CFB",
+        "retirement_date": "2057",
+        "retirement_date_basis": "40-year technical life from 2017",
+        "retirement_date_type": "estimated",
+        "notes": "8 years old."
+      },
+      {
+        "name": "Malita/Davao Baseload Units 1-2",
+        "capacity_mw": 300,
+        "owner": "Malita Power Inc. (MPI)",
+        "ownership_pct": 100,
+        "location": "Davao Occidental, Mindanao",
+        "commissioned": 2017,
+        "technology": "CFB",
+        "retirement_date": "2057",
+        "retirement_date_basis": "40-year technical life from 2017",
+        "retirement_date_type": "estimated",
+        "notes": "8 years old."
+      },
+      {
+        "name": "SMC Mariveles Units 1-4",
+        "capacity_mw": 600,
+        "owner": "Mariveles Power Generation Corp (MPGC)",
+        "ownership_pct": 92,
+        "location": "Bataan, Luzon",
+        "commissioned": 2024,
+        "technology": "CFB",
+        "retirement_date": "2060",
+        "retirement_date_basis": "Philippines national coal phase-out 2060",
+        "retirement_date_type": "estimated",
+        "notes": "Newest plant - only 1 year old. Commissioned despite 2020 moratorium (exempted)."
+      }
+    ],
+    "under_construction": [
+      {
+        "name": "Masinloc Unit 4",
+        "capacity_mw": 350,
+        "status": "Under construction",
+        "completion_pct": 81,
+        "expected_cod": "2025",
+        "technology": "Supercritical"
+      },
+      {
+        "name": "Masinloc Unit 5",
+        "capacity_mw": 350,
+        "status": "Under construction",
+        "completion_pct": 69,
+        "expected_cod": "2026",
+        "technology": "Supercritical"
+      }
+    ],
+    "b1_calculation": {
+      "total_coal_mw": 3756,
+      "at_risk_mw": 1788,
+      "at_risk_definition": "Retirement date > 2040",
+      "at_risk_pct": 47.6,
+      "not_at_risk_mw": 1968,
+      "not_at_risk_plants": ["Sual (1294 MW, 2039)", "Masinloc 1 (330 MW, 2038)", "Masinloc 2 (344 MW, 2039)"],
+      "notes": "47.6% at-risk based on 40-year technical life. Older plants (Sual, Masinloc 1-2) retire by 2039. Newer plants (Masinloc 3, Limay, Malita, Mariveles) retire 2057-2060. Still FAILS <20% threshold."
+    },
+    "source": "SMC Annual Report FY2024; Global Energy Monitor"
+  },
+
+  "emissions": {
+    "reporting_year": 2024,
+    "disclosure_status": "Limited - power segment not separately disclosed",
+    "scope1": {
+      "value_tco2": 17000000,
+      "value_mtco2": 17.0,
+      "data_type": "estimated",
+      "estimation_methodology": "Estimated from generation mix: Coal (16,897 GWh × 0.95 tCO2/MWh) + Gas (2,512 GWh × 0.45 tCO2/MWh)",
+      "notes": "SMC Group total ~9 MtCO2e; power segment estimated at 61% = ~5.5 MtCO2e (appears underreported). Using generation-based estimate.",
+      "source": "Estimated from generation data"
+    },
+    "scope2": {
+      "value_tco2": null,
+      "notes": "Not disclosed"
+    },
+    "scope3": {
+      "value_tco2": null,
+      "notes": "Not disclosed for power segment"
+    },
+    "intensity": {
+      "value_tco2_mwh": null,
+      "estimated_coal_tco2_mwh": 0.95,
+      "estimated_gas_tco2_mwh": 0.43,
+      "notes": "Not disclosed by company"
+    },
+    "intensity_trend": {
+      "direction": null,
+      "notes": "Cannot determine - no historical emissions disclosure"
+    },
+    "emissions_targets": {
+      "2030_target": "30% reduction in GHG intensity vs 2021 baseline",
+      "2040_target": "70% reduction in GHG intensity vs 2021 baseline",
+      "2050_target": "Net zero"
+    },
+    "cdp_climate_score": null,
+    "cdp_climate_notes": "CDP questionnaire completed; score not publicly available",
+    "methodology": null,
+    "sustainability_reporting": {
+      "standalone_report": true,
+      "cdp_submission": true,
+      "gri_aligned": false,
+      "tcfd_aligned": false,
+      "notes": "GHG Protocol methodology used; not 'in accordance' with GRI"
+    },
+    "source": "SMC Sustainability Report; estimates"
+  },
+
+  "financial": {
+    "reporting_year": "FY2024",
+    "currency": "PHP",
+    "fx_to_usd": 56.0,
+    "fx_date": "2024-12-31",
+    "income_statement": {
+      "revenue": {
+        "value_local": 205100000,
+        "value_usd": 3663,
+        "unit": "millions",
+        "yoy_change_pct": 21,
+        "notes": "PHP 205.1 billion",
+        "source": "SMC Annual Report FY2024"
+      },
+      "ebitda": {
+        "value_local": 55500000,
+        "value_usd": 991,
+        "unit": "millions",
+        "data_type": "reported",
+        "notes": "PHP 55.5 billion. EBITDA margin 27%",
+        "source": "SMC Annual Report FY2024"
+      },
+      "ebit": {
+        "value_local": 40500000,
+        "value_usd": 723,
+        "unit": "millions",
+        "notes": "PHP 40.5 billion",
+        "source": "SMC Annual Report FY2024"
+      },
+      "interest_expense": {
+        "value_local": 18300000,
+        "value_usd": 327,
+        "unit": "millions",
+        "notes": "PHP 18.3 billion",
+        "source": "SMC Annual Report FY2024"
+      },
+      "net_income": {
+        "value_local": 12400000,
+        "value_usd": 221,
+        "unit": "millions",
+        "yoy_change_pct": 25,
+        "notes": "PHP 12.4 billion",
+        "source": "SMC Annual Report FY2024"
+      }
+    },
+    "balance_sheet": {
+      "total_assets": {
+        "value_local": 717500000,
+        "value_usd": 12813,
+        "unit": "millions",
+        "notes": "PHP 717.5 billion (2023 data)",
+        "source": "SMCGP SEC Form 17-A 2023"
+      },
+      "total_debt": {
+        "value_local": 293200000,
+        "value_usd": 5236,
+        "unit": "millions",
+        "notes": "PHP 293.2 billion (excluding perpetual securities)",
+        "source": "SMCGP SEC Form 17-A 2023"
+      },
+      "perpetual_securities": {
+        "value_local": 234000000,
+        "value_usd": 4179,
+        "unit": "millions",
+        "notes": "PHP 234 billion - if treated as debt, total leverage significantly higher",
+        "source": "SMCGP SEC Form 17-A 2023"
+      },
+      "total_liabilities": {
+        "value_local": 441500000,
+        "value_usd": 7884,
+        "unit": "millions",
+        "notes": "PHP 441.5 billion",
+        "source": "SMCGP SEC Form 17-A 2023"
+      },
+      "total_equity": {
+        "value_local": 316600000,
+        "value_usd": 5654,
+        "unit": "millions",
+        "notes": "PHP 316.6 billion",
+        "source": "SMCGP SEC Form 17-A 2023"
+      },
+      "current_assets": {
+        "value_local": 188800000,
+        "value_usd": 3371,
+        "unit": "millions",
+        "notes": "PHP 188.8 billion",
+        "source": "SMCGP SEC Form 17-A 2023"
+      },
+      "current_liabilities": {
+        "value_local": 188700000,
+        "value_usd": 3370,
+        "unit": "millions",
+        "notes": "PHP 188.7 billion",
+        "source": "SMCGP SEC Form 17-A 2023"
+      }
+    },
+    "cash_flow": {
+      "operating_cash_flow": {
+        "value_local": -22900000,
+        "value_usd": -409,
+        "unit": "millions",
+        "data_type": "reported",
+        "notes": "PHP (22.9) billion NEGATIVE (2022 data)",
+        "source": "SMCGP SEC Form 17-A 2022"
+      },
+      "capex": {
+        "value_local": 48500000,
+        "value_usd": 866,
+        "unit": "millions",
+        "notes": "PHP 48.5 billion (2022)",
+        "source": "SMCGP SEC Form 17-A 2022"
+      },
+      "free_cash_flow": {
+        "value_local": -71400000,
+        "value_usd": -1275,
+        "unit": "millions",
+        "notes": "PHP (71.4) billion NEGATIVE (2022)",
+        "source": "Calculated"
+      }
+    },
+    "credit_rating": {
+      "rating": "PRS Aaa",
+      "agency": "PhilRatings",
+      "outlook": "Stable",
+      "notes": "Local rating only. DELIBERATELY UNRATED by international agencies to avoid negative perception and restrictive covenants.",
+      "source": "PhilRatings"
+    },
+    "historical_context": {
+      "notes": "Balance sheet from 2023; cash flow from 2022. 2024 showed significant improvement but structural leverage concerns remain."
+    }
+  },
+
+  "transition": {
+    "net_zero": {
+      "target_year": 2050,
+      "scope": "Not clearly defined (likely Scope 1 & 2)",
+      "status": "Announced",
+      "announcement_date": "June 2023",
+      "detailed_roadmap": false,
+      "paris_aligned": false,
+      "notes": "2050 target is 10 years LATE vs SBTi Power Sector standard (2040). Implementation details sparse per IEEFA.",
+      "source": "SMC announcements"
+    },
+    "sbti": {
+      "validated": false,
+      "committed": false,
+      "validation_date": null,
+      "target_type": null,
+      "notes": "NO SBTi commitment. SBTi Power Sector standard requires net-zero by 2040 with coal phase-out 2030-2040.",
+      "source": "SBTi Companies Taking Action database"
+    },
+    "coal_policy": {
+      "no_new_coal": false,
+      "no_new_coal_date": null,
+      "no_new_coal_notes": "ACTIVELY EXPANDING coal capacity. 700 MW under construction (Masinloc 4-5). 60% of Philippines coal pipeline.",
+      "coal_exit_date": null,
+      "coal_exit_notes": "NO announced coal exit timeline. No retirement dates for ANY plants.",
+      "source": "SMC Annual Report; Global Energy Monitor"
+    },
+    "re_targets": {
+      "target_gw": 10.0,
+      "target_year": 2028,
+      "progress_gw": 0.05,
+      "progress_pct": 0.5,
+      "progress_date": "2024-12-31",
+      "current_re_mw": 563,
+      "notes": "10 GW RE target by 2028 (announced 2018) - only 0.5% progress. SIGNIFICANTLY BEHIND.",
+      "source": "SMC announcements"
+    },
+    "capex_allocation": {
+      "clean_capex_share_pct": 23.3,
+      "clean_capex_definition": "BESS (23.2%) + Solar (0.1%) from 2022 bond proceeds",
+      "fossil_capex_share_pct": 75.2,
+      "fossil_capex_breakdown": "LNG 49.1% + Coal 26.1%",
+      "data_type": "disclosed",
+      "notes": "76% of 2022 bond proceeds allocated to fossil fuels vs 0.1% to solar. Clean CAPEX below 50% threshold.",
+      "source": "SMC 2022 bond prospectus"
+    },
+    "emissions_targets": {
+      "2030_target": "30% reduction in GHG intensity vs 2021",
+      "2040_target": "70% reduction in GHG intensity vs 2021",
+      "target_type": "intensity",
+      "notes": "Intensity targets allow absolute emissions to increase with growth",
+      "source": "SMC Sustainability Report"
+    },
+    "green_finance": {
+      "green_bonds_issued": false,
+      "sustainability_linked_bonds": false,
+      "notes": "2024 perpetual securities exclude coal financing but not classified as green bond"
+    },
+    "bess_project": {
+      "capacity_mw": 1000,
+      "capacity_mwh": 1000,
+      "status": "Completed",
+      "completion_date": "April 2023",
+      "sites": 32,
+      "investment_usd_billion": 1.0,
+      "notes": "Most significant clean energy achievement. Largest BESS network in Philippines.",
+      "source": "SMC announcements; Fluence"
+    },
+    "governance": {
+      "tcfd_aligned": false,
+      "internal_carbon_price_usd": null
+    },
+    "divestment_actions": [
+      {
+        "investor": "DWS (German asset manager)",
+        "date": "April 2023",
+        "reason": "ESG concerns"
+      }
+    ]
+  },
+
+  "credit_metrics_b5": {
+    "reporting_year": "FY2022/2023",
+    "data_availability": "partial",
+    "metrics": {
+      "debt_to_ebitda": {
+        "value": 5.28,
+        "calculation": "293200000 / 55500000 (using 2024 EBITDA)",
+        "threshold": 4.0,
+        "pass_if": "< 4.0x",
+        "pass": false,
+        "data_type": "calculated",
+        "notes": "HIGH leverage at 5.3x. If perpetual securities (PHP 234B) treated as debt, ratio rises to ~9.5x."
+      },
+      "interest_coverage": {
+        "value": 3.03,
+        "calculation": "55500000 / 18300000 (EBITDA / Interest)",
+        "threshold": 2.5,
+        "pass_if": "> 2.5x",
+        "pass": true,
+        "data_type": "calculated",
+        "notes": "Improved to 3.0x with 2024 EBITDA"
+      },
+      "ffo_to_debt_pct": {
+        "value": -7.8,
+        "calculation": "-22900000 / 293200000 * 100 (using 2022 OCF)",
+        "threshold": 20,
+        "pass_if": "> 20%",
+        "pass": false,
+        "data_type": "calculated",
+        "notes": "NEGATIVE - 2022 OCF was negative. May have improved in 2024."
+      },
+      "current_ratio": {
+        "value": 1.00,
+        "calculation": "188800000 / 188700000",
+        "threshold": 1.0,
+        "pass_if": "> 1.0x",
+        "pass": false,
+        "data_type": "calculated",
+        "notes": "Borderline at exactly 1.0x"
+      },
+      "debt_to_capital_pct": {
+        "value": 48.1,
+        "calculation": "293200000 / (293200000 + 316600000) * 100",
+        "threshold": 60,
+        "pass_if": "< 60%",
+        "pass": true,
+        "data_type": "calculated",
+        "notes": "Below threshold at 48%. However, if perpetual securities included as debt, rises to 62%."
+      }
+    },
+    "b5_metrics_available": 5,
+    "b5_metrics_passed": 2,
+    "b5_overall_pass": false,
+    "notes": "Only 2 of 5 metrics pass (Interest Coverage, Debt/Capital). Debt/EBITDA at 5.3x is elevated. FFO/Debt is NEGATIVE due to 2022 cash burn. Current Ratio exactly at 1.0x threshold. B5 FAILS. Credit profile is weak - deliberately unrated by international agencies.",
+    "source": "SMCGP SEC Forms 17-A; SMC Annual Report"
+  },
+
+  "carbon_pricing_exposure": {
+    "ets_coverage": false,
+    "carbon_tax_coverage": false,
+    "current_price_usd_tco2": 0,
+    "current_price_note": "Philippines has NO carbon tax or ETS. HB 11375 passed House but not enacted.",
+    "b2_calculation": {
+      "scope1_tco2": 17000000,
+      "carbon_price_usd": 0,
+      "carbon_cost_usd": 0,
+      "ebitda_usd": 991000000,
+      "cce_pct": 0.0,
+      "threshold_pct": 20,
+      "pass": true,
+      "notes": "At $0 carbon price, CCE = 0%. B2 PASSES despite high coal exposure."
+    },
+    "sensitivity": {
+      "cce_at_5_usd": 8.6,
+      "cce_at_10_usd": 17.2,
+      "cce_at_15_usd": 25.7,
+      "cce_at_25_usd": 42.9,
+      "notes": "SMC would fail B2 at carbon price >$12/tCO2"
+    },
+    "notes": "No carbon price means B2 automatically passes despite being largest coal developer in Philippines."
+  },
+
+  "esg_ratings": {
+    "msci": null,
+    "sustainalytics": null,
+    "sp_global": {
+      "status": "Non-participating company",
+      "notes": "Profile exists but company does not participate"
+    },
+    "ftse4good": {
+      "included": false
+    }
+  },
+
+  "data_gaps": [
+    "Power segment emissions not separately disclosed from SMC Group",
+    "2024 full-year balance sheet pending",
+    "2024 cash flow statement not available",
+    "No international credit ratings (deliberate)"
+  ],
+
+  "benchmark_assessment": {
+    "b1_stranded_asset_risk": {
+      "result": "FAIL",
+      "score": 0.476,
+      "rationale": "47.6% of coal capacity (1,788 MW) retires after 2040. Newer plants (Masinloc 3, Limay, Malita, Mariveles) commissioned 2017-2024 with 30+ years remaining life. NO announced retirement dates.",
+      "data_quality": "medium - no company retirement dates; using 40-year technical life"
+    },
+    "b2_carbon_cost_exposure": {
+      "result": "PASS",
+      "score": 0.0,
+      "rationale": "CCE = (17M tCO2 × $0/tCO2) / $991M EBITDA = 0%. Philippines has no carbon pricing.",
+      "data_quality": "medium - emissions estimated from generation"
+    },
+    "b3_lcoe_crossover": {
+      "result": "PASS",
+      "score": 0.0,
+      "rationale": "At $0 carbon price, coal SRMC ($60/MWh) cheaper than solar+storage ($94/MWh). No thermal displaced.",
+      "data_quality": "high - uses country LCOE data"
+    },
+    "b4_transition_alignment": {
+      "result": "FAIL",
+      "score": 0.233,
+      "rationale": "Clean CAPEX 23.3% < 50% threshold. No SBTi commitment. Net-zero 2050 (10 years late). Actively expanding coal. 0.5% progress on RE targets.",
+      "data_quality": "high - disclosed CAPEX allocation"
+    },
+    "b5_balance_sheet_stress": {
+      "result": "FAIL",
+      "score": 0.4,
+      "rationale": "Only 2/5 metrics pass. Debt/EBITDA 5.3x (FAIL), FFO/Debt negative (FAIL), Current Ratio 1.0x (FAIL). Deliberately unrated by international agencies.",
+      "data_quality": "medium - uses 2022/2023 balance sheet data"
+    },
+    "final_score": "2/5",
+    "tier": "Low-medium",
+    "benchmarks_passed": ["B2", "B3"],
+    "benchmarks_failed": ["B1", "B4", "B5"],
+    "notes": "SMC is the TRANSITION LAGGARD in Philippines. Scores 2/5 (Low-medium tier). B2/B3 pass only due to absence of carbon pricing. Fails B1 (47.6% coal at-risk), B4 (23% clean CAPEX, no SBTi, actively expanding coal), B5 (weak credit metrics). DWS divested April 2023 due to ESG concerns. Most aggressive coal developer - 60% of Philippines coal pipeline."
+  },
+
+  "data_sources": [
+    {"source": "SMC Annual Report and Investor Briefing FY2024", "type": "Primary"},
+    {"source": "SMCGP SEC Form 17-A (2022, 2023)", "type": "Primary"},
+    {"source": "Energy Regulatory Commission (ERC) March 2025", "type": "Government"},
+    {"source": "Global Energy Monitor Coal Plant Tracker", "type": "Third-party"},
+    {"source": "IEEFA Report: San Miguel Global Power (September 2023)", "type": "Research"},
+    {"source": "SBTi Companies Taking Action Database", "type": "Third-party"}
+  ],
+
+  "analyst_notes": "SMC Global Power is the largest power producer in Philippines and the most aggressive coal developer - accounting for 60% of the country's coal pipeline. Key findings: (1) 3,756 MW operating coal + 700 MW under construction; (2) Zero operational solar/wind despite 10 GW RE target announced in 2018 (0.5% progress); (3) 76% of 2022 bond proceeds went to fossil fuels vs 0.1% to solar; (4) NO SBTi commitment; 2050 net-zero is 10 years late vs sector standard; (5) Deliberately unrated by international agencies; (6) DWS divested April 2023 citing ESG concerns. POSITIVE: 1 GW BESS network completed (largest in Philippines). BOTTOM LINE: SMC is a transition laggard with significant greenwashing risk - stated ambitions do not match investment reality."
+}
